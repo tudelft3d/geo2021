@@ -48,7 +48,7 @@ It contains:
 ## Thesis template
 
 Officially, there is no template.
-However, we have made a [LaTeX template](https://github.com/tudelft3d/msc_geomatics_thesis_template) containing all the parts that are required (eg title page, copyright, abstract, acknowledgements, table of contents, list of figures, appendices, etc.) and is structured in such a way that most/all supervisors expect.
+However, we have made a [LaTeX](https://github.com/tudelft3d/msc_geomatics_thesis_template) and [Typst](https://github.com/tudelft3d/msc_geomatics_thesis_typst) templates containing all the parts that are required (eg title page, copyright, abstract, acknowledgements, table of contents, list of figures, appendices, etc.) and is structured in such a way that most/all supervisors expect.
 It looks like this:
 
 [![](thesislatex.png)](https://github.com/tudelftgeomatics/thesis_template/raw/main/thesis.pdf)
