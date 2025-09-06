@@ -7,7 +7,7 @@ permalink: /potentialtopics/
 ---
 
 
-<article class="message is-warning">
+<article class="message">
   <div class="message-header">
     <p>Procedure to select an MSc topic</p>
   </div>

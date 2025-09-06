@@ -41,11 +41,11 @@
 	}
 
 	.has-background-primary-60 {
-		background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-30-l)) !important;
+		background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-10-l)) !important;
 	}
 
 	.has-text-primary-60-invert {
-		color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-30-invert-l)) !important;
+		color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
 	}
 
 	.has-background-white {
@@ -59,8 +59,4 @@
 	.has-background-link-60 {
 		background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-l)) !important;
 	}
-
-	/*.has-text-link-60-invert {
-		color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-invert-l)) !important;
-	}*/
 }
