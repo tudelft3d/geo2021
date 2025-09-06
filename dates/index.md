@@ -7,9 +7,7 @@ permalink: /dates/
 ---
 
 Current:
-- [start in Q2](2025-2026 q2.pdf)
-- [start in Q4](2025-2026 q4.pdf)
-- [old system (Ps)](2025-2026 old.pdf)
+- [2025-2026](2025-2026.pdf)
 
 Archive:
 - [2024-2025](2024-2025.pdf) 
