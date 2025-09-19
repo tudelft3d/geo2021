@@ -112,10 +112,12 @@ permalink: /potentialtopics/
 1. [Water (level) detection with ICESat-2 measurements](https://3d.bk.tudelft.nl/education/msctopics/#water-level-detection-with-icesat-2-measurements)
 
 ## [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
-1. [Urban energy simulations linking CitySim with the 3DCityDB](https://github.com/tudelft3d/website/blob/main/education/msctopics/index.md#urban-energy-simulations-linking-citysim-with-the-3dcitydb)
-2. [(Further) Development and Testing of the Energy Extension for CityJSON (v1.x)](https://3d.bk.tudelft.nl/education/msctopics/#further-development-and-testing-of-the-energy-extension-for-cityjson-v1x)
-3. [Accuracy assesment of in-house urban energy building simulation tool](https://3d.bk.tudelft.nl/education/msctopics/#accuracy-assesment-of-in-house-urban-energy-building-simulation-tool)
-4. [Development of a Graphical User Interface for Visualizing Building Energy Data](https://3d.bk.tudelft.nl/education/msctopics/#development-of-a-graphical-user-interface-for-visualizing-building-energy-data)
+1. [Accuracy assessment of EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#accuracy-assessment-of-energybag-in-house-urban-energy-building-simulation-tool)
+2. [Development of a Graphical User Interface for EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#development-of-a-graphical-user-interface-for-energybag-in-house-urban-energy-building-simulation-tool)
+3. [Integration of 3DcityDB + Energy ADE 2.0 into a Solar Potential Analysis Engine](https://3d.bk.tudelft.nl/education/msctopics/#integration-of-3dcitydb--energy-ade-20-into-a-solar-potential-analysis-engine)
+4. [Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam](https://3d.bk.tudelft.nl/education/msctopics/#too-cool-or-too-hot-cooling-and-heating-demand-scenarios-based-on-the-semantic-3d-city-model-of-rotterdam)
+5. [Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS](https://3d.bk.tudelft.nl/education/msctopics/#adding-support-for-citysim-to-the-3dcitydb-tools-plugin-for-qgis) (Co-supervisor)
+6. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas) (Co-supervisor)
 
 ## [Bastiaan van Loenen](https://www.tudelft.nl/en/staff/b.vanloenen/)
 1. [Governance of the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#IP)
@@ -129,7 +131,9 @@ permalink: /potentialtopics/
 4. [Comparing compression techniques for 2.5 and 3D point clouds](https://www.gdmc.nl/education/topics/topics.html#Comparing_compression_techniques_for_2.5_and_3D_point_clouds)
 5. [Compare solutions for bringing 3D subsurface data on the web - at Geological Survey of the Netherlands](https://www.gdmc.nl/education/topics/topics.html#Compare_solutions_for_bringing_3D_subsurface_data_on_the_web_45_at_Geological_Survey_of_the_Netherlands)
 
-
+## [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/)
+1. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas)
+ 
 ## [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang)
 1. [Holistic indoor scene understanding and reconstruction](https://3d.bk.tudelft.nl/education/msctopics/#holistic-indoor-scene-understanding-and-reconstruction)
 2. [Reconstructing permanent indoor structures from multi-view images](https://3d.bk.tudelft.nl/education/msctopics/#reconstructing-permanent-indoor-structures-from-multi-view-images)
