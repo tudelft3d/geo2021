@@ -18,7 +18,8 @@ redirect_from:
 
 ## Some useful links
 
-- Set the P date on supersass: [P2](https://www.supersaas.nl/schedule/OenS/Geomatics_P2), [P4](https://www.supersaas.nl/schedule/OenS/Geomatics_P4) and [P5](https://www.supersaas.nl/schedule/OenS/Geomatics_P5)
+<!-- - Set the P date on supersass: [P2](https://www.supersaas.nl/schedule/OenS/Geomatics_P2), [P4](https://www.supersaas.nl/schedule/OenS/Geomatics_P4) and [P5](https://www.supersaas.nl/schedule/OenS/Geomatics_P5) -->
+- No SuperSaaS: get a P4 or P5 date by sending an email with the date you want to `graduation-bk@tudelft.nl`. This should be done before the registration deadline and the date you propose should be in the correct days according to the graduation calendar.
 - [SharePoint system of BK for the progress and grades, aka "The System"](https://sharepoint.tudelft.nl/sites/BK/OS/graduationregistration/Lists/Polls/April%2020172018.aspx)
 - [Plagiarism Scan](https://brightspace.tudelft.nl/d2l/home/47493) 
 - [Rubric for marking](../rubric/)
