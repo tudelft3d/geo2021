@@ -17,6 +17,8 @@ permalink: /rules/
 </section>
 ## The official graduation material
 
+<i class="fas fa-exclamation-triangle"></i> For students who started in the 2025-2026 academic year (A system), see the <a href="https://geomatics.bk.tudelft.nl/geo2021/">GEO2021 website</a>.
+
 - [Official Graduation Manual 2024-2025](GraduationManualGeomatics2024-2025.pdf)
 - [Official Graduation Manual 2023-2024](GraduationManualGeomatics2023-2024.pdf)
 - [Official Graduation Manual 2022-2023](GraduationManualGeomatics2022-2023.pdf)
@@ -31,7 +33,7 @@ Even if it takes you 2 years to complete, the rules that applied when you starte
 ## P1
 
 <!-- <div data-tf-live="01JRAE19NS8QBE1VGW9C8GXWNS"></div><script src="//embed.typeform.com/next/embed.js"></script> -->
-- should be finished already, if not see [geo2021 website](https://geomatics.bk.tudelft.nl/geo2021/)
+- registration for P1 is closed now, see [geo2021](https://geomatics.bk.tudelft.nl/geo2021/) instead
 
 ## P2
 
