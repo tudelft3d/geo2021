@@ -20,11 +20,13 @@ permalink: /faq/
 
 #### Which Graduation Manual applies to me?
 
-The [Graduation Manual]({{ "/rules/" | prepend: site.baseurl }}), and thus the rules, change almost every year.
-The differences are usually small, but some are significant (eg submitting a reflection, role of co-reader, etc).
-
 You have to follow the rules of the year when you started your graducation work.
 Even if it takes you 2+ years to complete, the rules that applied when you started are the rules that apply during your whole graduation process.
+
+The [graduation guide]({{ "/rules/" | prepend: site.baseurl }}), and thus the rules, change almost every year.
+The differences are usually small, but some are significant (eg submitting a reflection, role of co-reader, etc).
+
+Note iIf you started before the 2025-2026 academic year, the differences are big and you should be looking at the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a> instead.
 
 - - -
 
@@ -39,7 +41,7 @@ Two options:
 
 #### Can I pick as First Mentor someone from another faculty?
 
-No. Your first mentor, who also acts as your daily supervisor, must be a staff involved in the Geomatics programme.
+No. Your first mentor, who also acts as your daily supervisor, must be a staff from one of the groups involved in Geomatics education.
 
 Your second mentor can however be any staff of the TU Delft.
 
@@ -147,25 +149,6 @@ The evaluation criteria that will be used by the committee to mark the final the
 
 [Download the rubric](../rubric/)
 
-
-- - -
-
-#### What is a complete draft at A3?
-
-
-The deliverable at A3 is "complete draft thesis", and many of you asked their supervisor: "what does that mean?".
-The answer to this is very subjective, and thus varies from supervisors to supervisors, so discuss this with them.
-The main point is that the committee needs to assess whether what has been done so far (and submitted) is at least a 6.0, if this is so then a GO is given. 
-You then have about 1 month to improve your thesis for the P5, where a mark is given.
-
-Some guidelines:
-
-   - the draft thesis should contain all the main results, ie there shouldn't be essential work left
-   - there should be conclusions drawn based on the work done
-   - if not all the sentences are perfect it's fine, but if your text is filled with typos and reading it is difficult then it'll be more complex for the committee too assess whether the work done deserves a 6
-   - a tip: figures/tables/workflows can be drawn by hand on paper, and simply scanned. Between P4 and P5 you'll have time to make nice figures.
-   - acknowledgements, abstract, title page, future work, tables of figures, etc. can be left for after P4
-
 - - -
 
 #### What is the structure of a good thesis?
@@ -214,7 +197,13 @@ _7. Appendices_
 
 - - -
 
+#### Withdrawing from A1
+
+- Ask your responsible supervisor to withdraw your A1 registration in MyCase.
+
+- - -
+
 #### Withdrawing from A3
 
 - inform your supervisors, the co-reader and the delegate
-- send an email to afstuderen-bk@tudelft.nl stating your name and student number, and declare that you withdraw from A3.
+- send an email to graduation-bk@tudelft.nl stating your name and student number, and declare that you withdraw from A3.
