@@ -58,8 +58,7 @@ Note that you have to follow the rules of the academic year when you started you
 
 1. At least one week before your A3, you must register that you have completed the required parts of your study, check the personal information for your diploma, fill in the final title of your thesis and upload your final graduation report (thesis) in [MyCase](https://mycase.tudelft.nl) and to the [Brightspace Plagiarism Scan](https://brightspace.tudelft.nl/d2l/home/47493) page. You should also send your thesis to the co-reader if they don't have access to it through MyCase. <i class="fa-solid fa-triangle-exclamation"></i>  Make sure you do the "Ready for green light" task in MyCase so that your supervisors can read your thesis and enter your result in the system.
 2. Your supervisors and co-reader will read your submission. The first supervisor will check the Plagiarism Scan results. At the green light meeting, you will give a 20-minute technical presentation about your thesis and your supervisors and co-reader will ask questions about it and decide if it's approved.
-  - If you pass (continue to Finalisation), you must do your A4 in the following period (~2 weeks).
-  <!-- a preliminary mark will also be assigned to your thesis but not communicated . Your final mark at the A4 might only be within 0.5 points of the preliminary one. -->
+  - If you pass (continue to Finalisation), you must do your A4 in the following period (~2 weeks). 
   - If you don't (retake), together with your supervisors you should schedule new A3 and A4 dates before the [registration deadline](../dates/).
 
 
@@ -67,5 +66,5 @@ Note that you have to follow the rules of the academic year when you started you
 
 1. At least one day before your A4, you must upload your graduation report and A4 presentation in [MyCase](https://mycase.tudelft.nl). <i class="fa-solid fa-triangle-exclamation"></i>  Make sure you do the "Ready for assessment" task in MyCase so that your supervisors can look at your presentation and enter your result in the system.
 2. At the finalisation meeting, you will give a 15-minute presentation for a lay audience to your supervisors and everyone else that you've invited. Your supervisors will ask questions about it and decide your final mark according to the [rubric](../rubric/).
-3. Maximum 1 day after the A4, you have to upload your final thesis to the TU Delft repository, and please [follow these rules](../faq/#how-to-upload-your-final-thesis-to-the-tud-repository).
-4. Terminate your enrolment using Studielink and fill out the exit survey.
+3. Maximum 1 day after the A4, you have to upload your final thesis to the TU Delft repository, and please [follow these rules](../faq/#how-to-upload-your-final-thesis-to-the-tud-repository).  <i class="fa-solid fa-triangle-exclamation"></i> If you don't do it, you won't receive your diploma supplement.
+4. Terminate your enrolment using [Studielink](http://www.studielink.nl/) and fill out the exit survey that was sent to your email by the Education Advice team (`educationadvice-bk@tudelft.nl`).
