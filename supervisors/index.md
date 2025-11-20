@@ -43,8 +43,9 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 ### A0 (Preparation)
 
-- Approve the supervisory team of your students before week 4 of every quarter.
-- Schedule the A1 date in SuperSaaS before the [registration deadline](../dates/).
+- Make sure your students submit their case before the [registration deadline](../dates/), which should be at the end of week 2.
+- Approve the supervisory team of your students before the end of week 4.
+- Schedule the A1 date in SuperSaaS before the before the end of week 4.
 
 ### A1 (Kick-off)
 
