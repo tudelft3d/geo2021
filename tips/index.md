@@ -13,6 +13,14 @@ permalink: /tips/
 
 - - -
 
+#### Thesis Boost Days
+
+The university is offering regular sessions where you can join other students writing their thesis with the support of writing coaches.
+
+More information [here](https://www.tudelft.nl/en/tpm/itav/writing-centre/writing-coaching-for-bachelor-and-master-students/thesis-boost-day).
+
+- - -
+
 #### Start writing early in the process
 
 Writing 80 pages takes more than 2 weeks. 
@@ -28,7 +36,6 @@ Once your supervisors agree that the structure is logical and complete, then you
 Another reason to start write early is that often we think we have covered all aspects of a topic, and we're convinced that we understand it.
 However, writing almost always highlights weaknesses and missing experiments.
 Thus, start write early.
-
 
 - - -
 
