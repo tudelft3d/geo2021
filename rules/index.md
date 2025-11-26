@@ -37,7 +37,8 @@ Even if it takes you 2 years to complete, the rules that applied when you starte
 
 ## P2
 
-- you do not need to register for P2 yourself, the coordinator (Clara) did this for all students who submitted topics
+- talk to your supervisors to agree on a date and time within the correct weeks of the [graduation calendar](../dates/)
+- register by sending an email to `graduation-bk@tudelft.nl` before the [registration deadline](../dates/)
 - [template P2](../templates/#p2)
 - one week before your P2, you need to email your final P2 proposal to: (1) your first supervisor; (2) your second supervisor; (3) the delegate of the board of examiners assigned to you (you can see that in the calendar entry for your P2); (4)  'BoardofExaminers-BK@tudelft.nl'.
 The email must state as subject: "P2 graduation plan + [your student number]". 
@@ -52,9 +53,9 @@ The email must state as subject: "P2 graduation plan + [your student number]".
 
 ## P4
 
-- during the P2 session, you are registered for P4 (and a date is chosen). If this was done, you do **not** need to register for P4 
+- talk to your supervisors to agree on a date and time within the correct weeks of the [graduation calendar](../dates/)
+- register by sending an email to `graduation-bk@tudelft.nl` before the [application deadline](../dates/)
 - however, you do need to cancel your P4 if you don't go to the planned date. You do this by sending an email to your 2 supervisors, the delegate, and to `graduation-bk@tudelft.nl`
-- if you are not registered for P4, then [this form](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms) must be used
 - for the P4, you need to pick a co-reader, this person will read and send feedback/questions to your supervisors. This person is chosen by your supervisors and you. It's the best person at TUDelft for the topic, and outsiders from other universities are allowed (and can attend online).
 - what needs to be submitted is between your supervisors and you, speak to them. Usually, a *draft* of your thesis needs to be handed in. A draft means what your supervisors say it should be, there are no strict rules (but [this](https://3d.bk.tudelft.nl/courses/geo2020/faq/#what-is-a-complete-draft-at-p4) can help)
 - you need to upload the draft to the Brightspace Plagiarism Scan page. It's complex, so follow the [steps on this page](../plagiarism)
@@ -64,7 +65,8 @@ The email must state as subject: "P2 graduation plan + [your student number]".
 
 ## P5
 
-- there is no forms to register for P5, your 1st supervisor does that for you at P4
+- talk to your supervisors to agree on a date and time within the correct weeks of the [graduation calendar](../dates/)
+- register by sending an email to `graduation-bk@tudelft.nl` before the [application deadline](../dates/)
 - [template P5](../templates/#p4p5)
 - [rubric for marking the final thesis](../rubric/)
 - [submit a rebuttal/corrections document with your thesis](https://3d.bk.tudelft.nl/courses/geo2020/tips/#with-the-p5-thesis-submit-a-rebuttalcorrections-document)
