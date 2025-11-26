@@ -24,18 +24,7 @@ You have to follow the rules of the year when you started your graducation work.
 Even if it takes you 2+ years to complete, the rules that applied when you started are the rules that apply during your whole graduation process.
 
 The [graduation guide]({{ "/rules/" | prepend: site.baseurl }}), and thus the rules, change almost every year.
-The differences are usually small, but some are significant (eg submitting a reflection, role of co-reader, etc).
-
-Note iIf you started before the 2025-2026 academic year, the differences are big and you should be looking at the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a> instead.
-
-- - -
-
-#### How do I pick a topic?
-
-Two options:
-
-  1. you like one MSc Geomatics staff and like their area of research? Contact directly that person to discuss a topic. The same applies if you already have your own ideas for what you want to do.
-  2. have a look at the [potential topics]({{ "/potentialtopics/" | prepend: site.baseurl }}) offered and contact directly the person(s) listed.
+The differences are usually small, but if you started before the 2025-2026 academic year, the differences are big and you should be looking at the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a> instead.
 
 - - -
 
@@ -59,7 +48,7 @@ But we provide a [LaTeX one]({{ "/templates/" | prepend: site.baseurl }}) to hel
 #### How to upload your final thesis to the TUD repository
 
 You must upload your final thesis + presentation slides maximum 1 day after your A4.
-This is important, if you forget you might not get your diploma!
+This is important, if you forget you will not get your diploma supplement!
 
 [=> Instructions to upload your thesis](https://repository.tudelft.nl/content/education-upload-tips)
 
