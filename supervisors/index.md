@@ -18,10 +18,10 @@ redirect_from:
 
 ## Some useful links
 
-<!-- - Set the P date on supersass: [P2](https://www.supersaas.nl/schedule/OenS/Geomatics_P2), [P4](https://www.supersaas.nl/schedule/OenS/Geomatics_P4) and [P5](https://www.supersaas.nl/schedule/OenS/Geomatics_P5) -->
 - Set the graduation dates on SuperSaaS using the links for As: [P2 (A1)](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual). P4 (A3) and P5 (A4) links are not available yet. If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
 - No SuperSaaS: get a P4 or P5 date by sending an email with the date you want to `graduation-bk@tudelft.nl`. This should be done before the registration deadline and the date you propose should be in the correct days according to the graduation calendar.
-- [SharePoint system of BK for the progress and grades, aka "The System"](https://sharepoint.tudelft.nl/sites/BK/OS/graduationregistration/Lists/Polls/April%2020172018.aspx)
+- [MyCase (new system)](https://mycase.tudelft.nl)
+- [SharePoint (old system)](https://sharepoint.tudelft.nl/sites/BK/OS/graduationregistration/Lists/Polls/April%2020172018.aspx)
 - [Plagiarism Scan](https://brightspace.tudelft.nl/d2l/home/47493) 
 - [Rubric for marking](../rubric/)
 - [Change of supervisor form](https://d1rkab7tlqy5f1.cloudfront.net/Studentenportal/Faculteitspecifiek/Bouwkunde/Onderwijs/Formulieren/Change%20mentor%20team.pdf)
