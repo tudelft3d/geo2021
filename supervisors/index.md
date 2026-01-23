@@ -21,7 +21,7 @@ redirect_from:
 ## Some useful links
 
 - [MyCase](https://mycase.tudelft.nl)
-- Set the graduation dates on SuperSaaS: [A1](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual). A3 and A4 links are not available yet. If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
+- Set the graduation dates on SuperSaaS: [A1](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual), [A3](https://www.supersaas.nl/schedule/OenS/Graduation_A3_individual) and [A4](https://www.supersaas.nl/schedule/OenS/Graduation_A4_individual). If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
 - [Rubric for marking](../rubric/)
 - [MyTimetable](https://mytimetable.tudelft.nl/schedule) to check scheduled A1s, A3s and A4s. Add timetable > Student group > BK-Graduation.
 - [Many useful forms related to the MSc (URLs change all the time...)](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms)
