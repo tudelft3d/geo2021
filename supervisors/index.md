@@ -58,7 +58,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 - Between A1 and A3, there should one meeting with both supervisors to discuss the progress of the student.
 - Feedback must be given with tips to improve.
-- After the student has uploaded a document in MyCase (eg thesis as it stands or the slides used for a A2 presentation), the 1st supervisor must mark the A2 as done in the system by selecting Continue to Green Light phase. <i class="fa-solid fa-triangle-exclamation"></i> If this is not done, BK admin won't schedule the A3. If you feel the work is not sufficient for the midterm yet, you can select the Continue in Midterm option, but this also means that the A3 meeting might not be scheduled.
+- After the student has uploaded a document in MyCase (eg updated proposal, thesis as it stands or the slides used for a A2 presentation), the 1st supervisor must mark the A2 as done in the system by selecting Continue to Green Light phase. <i class="fa-solid fa-triangle-exclamation"></i> If this is not done, BK admin won't schedule the A3. If you feel the work is not sufficient for the midterm yet, you can select the Continue in Midterm option, but this also means that the A3 meeting might not be scheduled.
 - If not done already, together with the student choose a co-reader.
 
 ### A3 (Green light)

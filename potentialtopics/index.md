@@ -13,10 +13,10 @@ permalink: /potentialtopics/
   </div>
   <div class="message-body">
     <ul>
-      <li>You can submit a topic from June until September 19th the latest. By then, you need to have a topic and at least one supervisor selected.</li>
-      <li>Be warned that if you wait until September, then it is possible that your topic is already gone and your favourite supervisor is full.</li>
-      <li>A topic can be changed a bit until the A1 registration date (mid-November).</li>
-      <li>There are three groups involved in Geomatics education: <a href="https://3d.bk.tudelft.nl">3D geoinformation</a>, <a href="https://www.gdmc.nl">GIS technology (GDMC)</a> and the <a href="https://kcopendata.eu/">Knowledge center open data</a>. Your 1st supervisor must be a staff from one of these groups, PhD candidates included.</li>
+      <li>You should submit a topic by the end of week 3 of the quarter before your official thesis start. By then, you need to have a topic and at least one supervisor selected.</li>
+      <li>Be warned that if you wait until the end, then it is possible that your topic is already gone and your favourite supervisor is full.</li>
+      <li>A topic can be changed a bit until the A1 registration date.</li>
+      <li>There are three groups involved in Geomatics education: <a href="https://3d.bk.tudelft.nl">3D geoinformation</a>, <a href="https://www.gdmc.nl">GIS technology (GDMC)</a> and the <a href="https://kcopendata.eu/">Knowledge center open data</a>. Your 1st supervisor must be a staff from one of these groups and have completed the UTQ (teaching qualification for staff), which includes all teachers but generally not PhDs.</li>
       <li>The lists of potential MSc thesis topics from the groups and a list of recommended topics are below. Click on the links for more info, which will take you to the different pages in the websites of the groups.</li>
       <li>You can:
         <ol>

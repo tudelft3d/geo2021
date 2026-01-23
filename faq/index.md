@@ -30,11 +30,11 @@ The differences are usually small, but if you started before the 2025-2026 acade
 
 #### Can I pick as First Mentor someone from another faculty?
 
-No. Your first mentor, who also acts as your daily supervisor, must be a staff from one of the groups involved in Geomatics education.
+No. Your first mentor, who also acts as your daily supervisor, must be a staff from one of the groups involved in Geomatics education. They also need to have completed the UTQ (teaching qualification for staff).
 
 Your second mentor can however be any staff of the TU Delft.
 
-Notice that at least one of the two mentors should hold a PhD degree.
+Also, note that at least one of the two mentors should hold a PhD degree.
 
 - - -
 
@@ -47,8 +47,8 @@ But we provide a [LaTeX one]({{ "/templates/" | prepend: site.baseurl }}) to hel
 
 #### How to upload your final thesis to the TUD repository
 
-You must upload your final thesis + presentation slides maximum 1 day after your A4.
-This is important, if you forget you will not get your diploma supplement!
+You must upload your final thesis + presentation slides after your A4.
+This is important. If you forget, you will not get your diploma supplement (transcript)!
 
 [=> Instructions to upload your thesis](https://repository.tudelft.nl/content/education-upload-tips)
 
@@ -63,7 +63,7 @@ To ensure that all theses from the MSc Geomatics can be easily found and that th
 
 Yes. As long as you make it crystal clear that this is *not* your own figure and that you put a clear reference in the caption.
 Notice that if all your figures are taken from other sources, that gives the impression that you didn't develop your own solution.
-Even if you redraw one figure from another paper, it is polite and good practice to cite the original source.
+Even if you redraw or modify one figure from another paper, it is polite and good practice to cite the original source and explain the relationship to the original figure.
 
 ![](img/citefig.png)
 
@@ -134,7 +134,7 @@ No, it must be in English. And your presentations (A1, A3 and A4) must also all 
 #### How is the final thesis evaluated by the committee?
 
 
-The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in the Appendix 1 of the Graduation Manual.
+The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in the Appendix IV of the Graduation Guide.
 
 [Download the rubric](../rubric/)
 
