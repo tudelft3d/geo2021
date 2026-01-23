@@ -19,12 +19,10 @@ redirect_from:
 ## Some useful links
 
 - Set the graduation dates on SuperSaaS using the links for As: [P2 (A1)](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual), [P4 (A3)](https://www.supersaas.nl/schedule/OenS/Graduation_A3_individual) and [P5 (A4)](https://www.supersaas.nl/schedule/OenS/Graduation_A4_individual). If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
-- No SuperSaaS: get a P4 or P5 date by sending an email with the date you want to `graduation-bk@tudelft.nl`. This should be done before the registration deadline and the date you propose should be in the correct days according to the graduation calendar.
 - [MyCase (new system)](https://mycase.tudelft.nl)
 - [SharePoint (old system)](https://sharepoint.tudelft.nl/sites/BK/OS/graduationregistration/Lists/Polls/April%2020172018.aspx)
 - [Plagiarism Scan](https://brightspace.tudelft.nl/d2l/home/47493) 
 - [Rubric for marking](../rubric/)
-- [Change of supervisor form](https://d1rkab7tlqy5f1.cloudfront.net/Studentenportal/Faculteitspecifiek/Bouwkunde/Onderwijs/Formulieren/Change%20mentor%20team.pdf)
 - [Many useful forms related to the MSc (URLs change all the time...)](https://www.tudelft.nl/en/student/faculties/a-be-student-portal/education/forms/)
 
 
