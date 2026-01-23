@@ -21,6 +21,7 @@ redirect_from:
 ## Some useful links
 
 - [MyCase](https://mycase.tudelft.nl)
+- [Brightspace course](https://brightspace.tudelft.nl/d2l/le/content/44601/Home) with tables of date/time/room for A1, A3 and A4 presentations. Note: the most up to date info is in MyCase, not in Brightspace.
 - Set the graduation dates on SuperSaaS: [A1](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual), [A3](https://www.supersaas.nl/schedule/OenS/Graduation_A3_individual) and [A4](https://www.supersaas.nl/schedule/OenS/Graduation_A4_individual). If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
 - [Rubric for marking](../rubric/)
 - [Many useful forms related to the MSc (URLs change all the time...)](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms)
