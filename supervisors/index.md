@@ -23,9 +23,7 @@ redirect_from:
 - [MyCase](https://mycase.tudelft.nl)
 - Set the graduation dates on SuperSaaS: [A1](https://www.supersaas.nl/schedule/OenS/Graduation_A1_individual), [A3](https://www.supersaas.nl/schedule/OenS/Graduation_A3_individual) and [A4](https://www.supersaas.nl/schedule/OenS/Graduation_A4_individual). If SuperSaaS is not available, email `graduation-bk@tudelft.nl` and request a date/time using the [graduation calendar](../dates/). Every A is available in every quarter, so if you can't find dates for it in the calendar, extrapolate from other quarters.
 - [Rubric for marking](../rubric/)
-- [MyTimetable](https://mytimetable.tudelft.nl/schedule) to check scheduled A1s, A3s and A4s. Add timetable > Student group > BK-Graduation.
 - [Many useful forms related to the MSc (URLs change all the time...)](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms)
-<!-- - [SharePoint](https://sharepoint.tudelft.nl/sites/BK/OS/graduationregistration/Lists/Polls/April%2020172018.aspx) (for students who started their thesis before the 2025-2026 academic year). -->
 
 ## Graduation manuals
 
@@ -52,7 +50,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 - Both supervisors must read the proposal, attend the A1 meeting and ask questions.
 - Both supervisors jointly decide if it's a go (continue to Midterm) or no-go (retake).
 - The 1st supervisor must put in the system the final result of the A1.
-  - If it's a go (continue to Midterm), both supervisors, student, co-reader (if known) and delegate should decide on A3 and A4 dates from the slots available in SuperSaaS and enter it in the system.
+  - If it's a go (continue to Midterm), both supervisors, student, co-reader (if known) and delegate should decide on A3 and A4 dates from the slots available in SuperSaaS and enter them in the system.
   - If it's a no/go (retake), the same but for a new A1 date in the next period.
 
 ### A2 (Midterm)
@@ -60,7 +58,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 - Between A1 and A3, there should one meeting with both supervisors to discuss the progress of the student.
 - Feedback must be given with tips to improve.
 - After the student has uploaded a document in MyCase (eg thesis as it stands or the slides used for a A2 presentation), the 1st supervisor must mark the A2 as done in the system by selecting Continue to Green Light phase. <i class="fa-solid fa-triangle-exclamation"></i> If this is not done, BK admin won't schedule the A3. If you feel the work is not sufficient for the midterm yet, you can select the Continue in Midterm option, but this also means that the A3 meeting might not be scheduled.
-- Together with the student choose a co-reader.
+- If not done already, together with the student choose a co-reader.
 
 ### A3 (Green light)
 
