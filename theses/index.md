@@ -6,6 +6,7 @@ logo: fa-book
 permalink: /theses/
 ---
 
+- [September 2025]({{ "/theses/2025sep/" | prepend: site.baseurl }})
 - [April 2025]({{ "/theses/2025april/" | prepend: site.baseurl }})
 - [September 2024]({{ "/theses/2024sep/" | prepend: site.baseurl }})
 - [April 2024]({{ "/theses/2024april/" | prepend: site.baseurl }})
