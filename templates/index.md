@@ -98,6 +98,8 @@ The goal is not to give a general textbook exposition, rather, focus the backgro
 
 **Part 4:** A closing discussion that expands on the discussion of the article. You are asked to _reflect_ on the link between your work and the programme MSc Geomatics for the Built Environment, add more specific material for future work, etc. 
 
+All other standard parts of an MSc thesis should be present: cover page with committee, abstract, acknowledgements, appendices for AI-declaration and reproducibility, references, etc.
+
 ⚠️ WARNING: While this version of the MSc thesis will likely produce a shorter document, it is neither simpler nor faster. 
 We find it's quite the opposite, actually. Being able to summarise in 8000 words a complex topic is more difficult and more time-consuming than not being restricted by a specific word-count (as Blaise Pascal wrote: "[I would have written a shorter letter, but I did not have the time](https://en.wikiquote.org/wiki/Blaise_Pascal)). And deciding what is core and important and what can be left out is also a challenging task.
 
