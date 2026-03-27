@@ -63,4 +63,43 @@ You are of course allowed to use Word (or others), if you want.
 But we do not offer a template, although the TU Delft (kinda) does, you can follow the steps here: [download here](https://www.tudelft.nl/en/tu-delft-corporate-design/media/word-templates)
 
 
+<section id="paper-thesis">
+</section>
+## Thesis template when a scientific paper is the core
 
+We offer the possibility that a scientific article forms the core of your MSc thesis report.
+**Watch out: this has to be decided after careful discussion with your responsible supervisor.**
+
+This scientific article will be a summary of the work you have done in about 8000 words (instead of a standard thesis having no real maximum).
+It will allow you to 
+  1. learn how to write a scientific article (especially useful if you plan to do a PhD or work in a research centre)
+  2. learn to separate the core of what you've done from the details (because of the 8000-word limit)
+  3. eventually submit this article to a scientific journal (if the topic is suitable and the quality of the work is sufficient); this would be done in collaboration with your supervisor(s)
+
+Unlike a standard MSc thesis whose audience is your fellow MSc students, a scientific article is aimed at experts and scientists working in the field.
+Most of the related work and explanation of concept can therefore be shortened or omitted from the scientific article, as it is assumed that it is already known.
+
+We therefore require you to add to the article a section/part about "Related work" and/or "State-of-the-art" so that your fellow MSc students (or knowledgeable non-experts) can learn the fundamentals issues related to your topic, and can afterwards read and understand your scientific article, see below for details.
+
+In summary, we expect your MSc thesis to have 4 chapters/parts (sligthly modified from [Jan van Gemert's MSc thesis guide](https://jvgemert.github.io/MSCthesis.html))
+
+**Part 1:** General introduction chapter to the topics for non-experts (but nonetheless knowledgeable scientists in geomatics). 
+The goal of this chapter is to gently introduce the research and make the full report readable for a non-expert. 
+Thus, you explain the structure (thesis = scientific article+background) and briefly explain the "high-level story line", in such a way that a non-expert can understand it. 
+Mention that Part 3 is a scientific article, and mention which technical background sections are found in Part 2, and how the background sections in Part 2 relate to the article in Part 3.
+
+**Part 2:** Preliminary materials: Technical explanations of core concepts used in the scientific article of Part 3. 
+These background explanations should make it possible for a non-expert to understand the technical side of the scientific article in Part 3. 
+Rule of thumb: target your MSc student peers; ie what background knowledge should a non-expert MSc student from your program need to understand the scientific article. 
+Please make sure that this preliminary material aligns well between the introduction and the scientific article. 
+The goal is not to give a general textbook exposition, rather, focus the background so that it explains the terms/concepts/methods that are used in the following scientific article.
+
+**Part 3:** Scientific article, which itself will contain: an abstract, an introduction, related work, methodology, results/discussion, and conclusions. This is written in the same style as a publication in the field, and the same template used by the MSc thesis can be used. This part should be a maximum of 8000 words. No need to use a LaTeX template from a specific journal.
+
+**Part 4:** A closing discussion that expands on the discussion of the article. You are asked to _reflect_ on the link between your work and the programme msc geomatics for the built environment, add more specific material for future work, etc. 
+
+⚠️ WARNING: While this version of the MSc thesis is most likely yielding a shorter document, it is not simpler and faster. The staff is of the opinion that it's quite the contrary actually! Being able to summarise in 8000 words a complex topic is more difficult and more time-consuming than not being restricted by a specific word-count (as Blaise Pascal wrote: "[I would have written a shorter letter, but I did not have the time](https://en.wikiquote.org/wiki/Blaise_Pascal)). And deciding what is core and important and what can be left out is also a challenging task.
+
+<!--For the writing: follow my writing guidelines. Here are some example MSc theses done in this format (some have the background as part 3; but it’s clearer to have the background as part 2 and the article as part 3): Example, Example, Example, Example.-->
+
+<!--Make sure that your thesis answers the questions that are typically asked in a thesis defense (see below).-->
