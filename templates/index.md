@@ -77,11 +77,11 @@ It will allow you to
   3. eventually submit this article to a scientific journal (if the topic is suitable and the quality of the work is sufficient); this would be done in collaboration with your supervisor(s)
 
 Unlike a standard MSc thesis whose audience is your fellow MSc students, a scientific article is aimed at experts and scientists working in the field.
-Most of the related work and explanation of concept can therefore be shortened or omitted from the scientific article, as it is assumed that it is already known.
+Most of the related work and explanation of concepts can therefore be shortened or omitted from the scientific article, as it is assumed that it is already known.
 
-We therefore require you to add to the article a section/part about "Related work" and/or "State-of-the-art" so that your fellow MSc students (or knowledgeable non-experts) can learn the fundamentals issues related to your topic, and can afterwards read and understand your scientific article, see below for details.
+We therefore require you to add to the article a section/part about "Related work" and/or "State-of-the-art" so that your fellow MSc students (or knowledgeable non-experts) can learn the fundamental issues related to your topic, and can afterwards read and understand your scientific article, see below for details.
 
-In summary, we expect your MSc thesis to have 4 chapters/parts (sligthly modified from [Jan van Gemert's MSc thesis guide](https://jvgemert.github.io/MSCthesis.html))
+In summary, we expect your MSc thesis to have 4 chapters/parts (slightly modified from [Jan van Gemert's MSc thesis guide](https://jvgemert.github.io/MSCthesis.html))
 
 **Part 1:** General introduction chapter to the topics for non-experts (but nonetheless knowledgeable scientists in geomatics). 
 The goal of this chapter is to gently introduce the research and make the full report readable for a non-expert. 
@@ -96,10 +96,13 @@ The goal is not to give a general textbook exposition, rather, focus the backgro
 
 **Part 3:** Scientific article, which itself will contain: an abstract, an introduction, related work, methodology, results/discussion, and conclusions. This is written in the same style as a publication in the field, and the same template used by the MSc thesis can be used. This part should be a maximum of 8000 words. No need to use a LaTeX template from a specific journal.
 
-**Part 4:** A closing discussion that expands on the discussion of the article. You are asked to _reflect_ on the link between your work and the programme msc geomatics for the built environment, add more specific material for future work, etc. 
+**Part 4:** A closing discussion that expands on the discussion of the article. You are asked to _reflect_ on the link between your work and the programme MSc Geomatics for the Built Environment, add more specific material for future work, etc. 
 
 ⚠️ WARNING: While this version of the MSc thesis is most likely yielding a shorter document, it is not simpler and faster. The staff is of the opinion that it's quite the contrary actually! Being able to summarise in 8000 words a complex topic is more difficult and more time-consuming than not being restricted by a specific word-count (as Blaise Pascal wrote: "[I would have written a shorter letter, but I did not have the time](https://en.wikiquote.org/wiki/Blaise_Pascal)). And deciding what is core and important and what can be left out is also a challenging task.
 
-<!--For the writing: follow my writing guidelines. Here are some example MSc theses done in this format (some have the background as part 3; but it’s clearer to have the background as part 2 and the article as part 3): Example, Example, Example, Example.-->
 
-<!--Make sure that your thesis answers the questions that are typically asked in a thesis defense (see below).-->
+Examples of MSc thesis at TUDelft (none in geomatics since we are testing this for the time time in 2026):
+
+1. <https://repository.tudelft.nl/record/uuid:5abed208-efab-41dc-8462-9149c9c797ed>
+2. <https://repository.tudelft.nl/record/uuid:bdabb91d-6a43-4aac-bed7-6a4f4194310d> (notice that Part 2 is significantly longer and can be several chapters)
+3. <https://repository.tudelft.nl/record/uuid:68d3f999-c6f6-45ca-8209-d70a1fa00ef5>
