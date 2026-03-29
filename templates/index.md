@@ -68,13 +68,13 @@ But we do not offer a template, although the TU Delft (kinda) does, you can foll
 ## Thesis template when a scientific paper is the core
 
 We offer the possibility that a scientific article forms the core of your MSc thesis report.
-**Watch out: this has to be decided after careful discussion with your responsible supervisor.**
+**Watch out: this has to be decided after careful discussion with your responsible supervisor during A2 (or before).**
 
 This scientific article summarises your work in about 8000 words (instead of a standard thesis, which has no real maximum).
 It will allow you to 
   1. learn how to write a scientific article (especially useful if you plan to do a PhD or work in a research centre)
   2. learn to separate the core of what you've done from the details (because of the 8000-word limit)
-  3. eventually submit this article to a scientific journal (if the topic is suitable and the quality of the work is sufficient); this would be done in collaboration with your supervisor(s)
+  3. eventually submit this article to a scientific journal or conference (if the topic is suitable and the quality of the work is sufficient); this would be done in collaboration with your supervisor(s)
 
 Unlike a standard MSc thesis, which is written for your fellow MSc students, a scientific article is aimed at experts and scientists working in the field.
 Most of the related work and explanation of concepts can therefore be shortened or omitted from the scientific article, as readers are assumed to be familiar with it.
