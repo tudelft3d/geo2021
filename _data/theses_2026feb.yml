@@ -1,0 +1,5 @@
+- name: "Josephine Winterdal"
+  title: "Assessing Coastal Change and Vulnerability Using Remote Sensing: A Comparative Study of Aruba and Bonaire"
+  supervisors: "Azarakhsh Rafiee and Roderik Lindenbergh"
+  summary: "This thesis proposal explores methods for generating accurate building rooftints and footprints from Airborne Laser Scanning (ALS) point clouds, with application to France’s LiDAR HD data. The research investigates how point cloud characteristics influence the extraction of both rooftop and facade boundaries, combining deep learning for semantic segmentation of roof and facade points with geometric processing to reconstruct outlines. The work aims to improve upon existing datasets like BD TOPO, which lacks harmonization and precise georeferencing, and supports France’s initiative to develop a nationwide digital twin with detailed 3D building models."
+  image: "josephine.jpg"
