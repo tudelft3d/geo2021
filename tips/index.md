@@ -26,7 +26,7 @@ More information [here](https://www.tudelft.nl/en/tpm/itav/writing-centre/writin
 #### Start writing early in the process
 
 Writing 80 pages takes more than 2 weeks. 
-If you manage to write your whole thesis in 2 weeks, then you're surely a super-hero, or the quality of what you wrote is probably poor.
+If you manage to write your whole thesis in 2 weeks, then you're surely a superhero, or the quality of what you wrote is probably poor.
 Start to write *early* in the graduation process, ideally by P3 you should have written most of your "Related work" section, and parts of some sections.
 
 Start early, but do so with a plan.
