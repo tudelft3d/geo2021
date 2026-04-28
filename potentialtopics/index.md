@@ -31,6 +31,10 @@ permalink: /potentialtopics/
   </div>
 </article>
 
+## Registration form
+
+Use the form below to register your selected MSc thesis topic with the thesis coordinator.
+
 <div data-tf-live="01JVYR7EZE44W3YHFMM1DED3Y3"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 ---

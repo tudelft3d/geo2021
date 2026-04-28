@@ -34,6 +34,10 @@ Note that you have to follow the rules of the academic year when you started you
 3. Before the [A1 registration deadline](../dates/), which is at the end of week 2, you should register your graduation project by submitting a case in [MyCase](https://mycase.tudelft.nl). This includes submitting some details about you, a working title for the graduation project, the names of both of your supervisors, possibly the name of your co-reader (if you already have one), and the weeks in which you'll reach the different As (use the [graduation calendar](../dates/)).
 4. Together with your supervisors, schedule your A1 before the end of week 4. They will enter the date in the system (SuperSaaS) if it's available, or through email if it's not.
 
+## Registration form
+
+Use the form below to register your MSc thesis topic with the thesis coordinator.
+
 <div data-tf-live="01JVYR7EZE44W3YHFMM1DED3Y3"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 ## A1 (Kick-off)
