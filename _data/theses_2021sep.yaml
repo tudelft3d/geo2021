@@ -106,23 +106,6 @@
     of information and perform energy simulations in CitySim. More specifically, the thesis will focus on (further) developing
     a Python-based bidirectional interface to feed/retrieve data between the 3DCityDB and CitySim.
   image: 29903cd5a24a-3dcdb_citysim_mini.jpg
-- name: Lisa Keurentjes
-  title: Automatic repair of 3D city models
-  supervisors: Hugo Ledoux and Ivan Pađen
-  summary: "To tackle our complex world, we tend to make cities “smarter”, by using simulations from various disciplines,\
-    \ like for example wind field or flood simulations. These simulations and analysis have become essential tools for decision\
-    \ making in urban planning and analytics.\n \nHigh data quality 3D city models serve as reliable representation of the\
-    \ real world objects, seeing the high-quality information and solid spatial visibility they offer. To validate the quality\
-    \ of the date and achieve interoperability, the ISO 19100 series standards were created. But there are just too many different\
-    \ fields where 3D data can be exploited to conclude all validation rules for every field. For example typical extra requirements\
-    \ for wind simulation software include: no small features, edges, and gaps between buildings.  Sadly a significant amount\
-    \ of 3D city models is not considered valid to the standards above. This hinders the further analyzing or processing of\
-    \ these models. Since manual repair of 3D City models is very time consuming and prone to errors, automatic repair methods\
-    \ are highly desirable. Therefore the objective of this thesis will be to develop a software framework as proof-of-concept\
-    \ for automatic repair of 3D city models. The software will repair errors that users choose, so that the models fulfill\
-    \ basic requirements and requirements for specific use cases. Also the Software will be designed in such a way that it\
-    \ could be extended with more repair options."
-  image: 9ba90df526de-repair.gif
 - name: Pratyush Kumar
   title: Developing an OGC 3D tiling technique based scenario analysis platform for digital twins
   supervisors: Dr. Azarakhsh Rafiee and Dr. Martijn Meijers
