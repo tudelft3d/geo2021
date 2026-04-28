@@ -118,7 +118,9 @@ Geomatics is not in the list, but the average is clearly under 100, and in many 
 
 #### Why do I need to write and submit a reflection?
 
-__You do not need to write a separate reflection__, this does not apply to the MSc Geomatics thesis, but to other programmes at BK.
+__You do not need to write a separate reflection section__, this does not apply to the MSc Geomatics thesis, but to other programmes at BK.
+
+However, you are asked to integrate reflection throughout your thesis — for example, in the discussion and conclusion chapters, reflect on how your work relates to the MSc Geomatics programme and what you learned. This is different from a standalone reflection report.
 
 If you get (threatening) emails from the administration at BK asking for it: reply that it's not required for your study and CC the coordinator of the thesis (Ken Arroyo Ohori).
 

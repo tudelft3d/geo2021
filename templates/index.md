@@ -96,7 +96,7 @@ The goal is not to give a general textbook exposition, rather, focus the backgro
 
 **Part 3:** Scientific article, which itself will contain: an abstract, an introduction, related work, methodology, results/discussion, and conclusions. This is written in the same style as a publication in the field, using the same template as for the MSc thesis. This part should be a maximum of 8000 words. No need to use a LaTeX template from a specific journal.
 
-**Part 4:** A closing discussion that expands on the discussion of the article. You are asked to _reflect_ on the link between your work and the programme MSc Geomatics for the Built Environment, add more specific material for future work, etc. 
+**Part 4:** A closing discussion that expands on the discussion of the article. This is where you _reflect_ on the link between your work and the programme MSc Geomatics for the Built Environment, add more specific material for future work, etc. (Note: this is not a separate reflection report — reflection should be integrated into the thesis discussion/conclusion.) 
 
 All other standard parts of an MSc thesis should be present: cover page with committee, abstract, acknowledgements, appendices for AI-declaration and reproducibility, references, etc.
 
