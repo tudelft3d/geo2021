@@ -6,11 +6,13 @@ color: warning-60
 logo: fa-table
 ---
 
+_This is a formatted version from the rubric in the graduation guide. For feedback to put in MyCase, you can [download](feedback.xlsx) the spreadsheet, highlight the appropriate columns, put additional comments and upload._
+
 ## Research (50%)
 
-<table>
+<table class="table is-striped is-narrow is-fullwidth">
 	<thead>
-		<tr><th></th><th>< 5.75</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr>
+		<tr><th></th><th class="has-text-centered">< 5.75</th><th class="has-text-centered">6</th><th class="has-text-centered">7</th><th class="has-text-centered">8</th><th class="has-text-centered">9</th><th class="has-text-centered">10</th></tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -72,9 +74,9 @@ logo: fa-table
 
 ## Process (20%)
 
-<table>
+<table class="table is-striped is-narrow is-fullwidth">
 	<thead>
-		<tr><th></th><th>< 5.75</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr>
+		<tr><th></th><th class="has-text-centered">< 5.75</th><th class="has-text-centered">6</th><th class="has-text-centered">7</th><th class="has-text-centered">8</th><th class="has-text-centered">9</th><th class="has-text-centered">10</th></tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -98,11 +100,11 @@ logo: fa-table
 		<tr>
 			<th>Use of resources</th>
 			<td>Misuse of resources (data, computational time, people time)</td>
-			<td>Makes inefficient but passable use of resources (e.g. tools, data, own/supervisor’s time)</td>
-			<td>Use of resources is appropriate (e.g., tools, data, own/supervisor’s time)</td>
-			<td>Makes good use of resources (e.g. tools, data, own/supervisor’s time)</td>
-			<td>Makes very good use of resources (e.g. tools, data, own/supervisor’s time)</td>
-			<td>Makes highly efficient use of resources (e.g. tools, data, own/supervisor’s time)</td>
+			<td>Makes inefficient but passable use of resources (e.g. tools, data, own/supervisor's time)</td>
+			<td>Use of resources is appropriate (e.g., tools, data, own/supervisor's time)</td>
+			<td>Makes good use of resources (e.g. tools, data, own/supervisor's time)</td>
+			<td>Makes very good use of resources (e.g. tools, data, own/supervisor's time)</td>
+			<td>Makes highly efficient use of resources (e.g. tools, data, own/supervisor's time)</td>
 		</tr>
 		<tr>
 			<th>Originality / creativity</th>
@@ -127,9 +129,9 @@ logo: fa-table
 
 ## Communication - Report (18%)
 
-<table>
+<table class="table is-striped is-narrow is-fullwidth">
 	<thead>
-		<tr><th></th><th>< 5.75</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr>
+		<tr><th></th><th class="has-text-centered">< 5.75</th><th class="has-text-centered">6</th><th class="has-text-centered">7</th><th class="has-text-centered">8</th><th class="has-text-centered">9</th><th class="has-text-centered">10</th></tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -191,9 +193,9 @@ logo: fa-table
 
 ## Communication - Presentation (12%)
 
-<table>
+<table class="table is-striped is-narrow is-fullwidth">
 	<thead>
-		<tr><th></th><th>< 5.75</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr>
+		<tr><th></th><th class="has-text-centered">< 5.75</th><th class="has-text-centered">6</th><th class="has-text-centered">7</th><th class="has-text-centered">8</th><th class="has-text-centered">9</th><th class="has-text-centered">10</th></tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -252,9 +254,3 @@ logo: fa-table
 		</tr>
 	</tbody>
 </table>
-
-Note: this is a formatted version from the rubric in the graduation guide
-
-For feedback to put in MyCase, you can [download](feedback.xlsx) the spreadsheet, highlight the appropriate columns, put additional comments and upload.
-
-
