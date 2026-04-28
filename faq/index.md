@@ -99,7 +99,7 @@ So you don't need to explain at length what a GIS is, but all the more advanced 
 
 #### How long should my thesis be?
 
-*As short as possible*, but it needs to cover all the criteria in the Appendix 1 of the [Graduation Manual]({{ "/rules/" | prepend: site.baseurl }})
+*As short as possible*, but it needs to cover all the criteria in the Section 3.3 of the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }})
 
 Writing concisely is difficult and time-consuming.
 Actually, it takes more time than writing long pieces.

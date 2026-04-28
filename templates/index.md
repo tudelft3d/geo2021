@@ -20,7 +20,7 @@ permalink: /templates/
 </section>
 ## Proposal template
 
-The document for A1 is a project proposal that must contain all the elements listed in the template available in the [graduation manual]({{ "/rules/" | prepend: site.baseurl }}) (Appendix 2).
+The document for A1 is a project proposal that must contain all the elements listed in the template available in the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }}) (Section 3.2).
 
 *Ignore* any other template you might get from the central BK system if different, they send these emails without realising that Geomatics doesn't have the same criteria.
 
