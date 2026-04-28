@@ -23,7 +23,7 @@ for index, row in df.iterrows():
     f.close()
     d[row['Family name']] = [row['Given names'], row['Tentative title'], row['1st supervisor'], row['2nd supervisor'],row['Summary of the project'],row['If company involved, name it with contact person'], fn]
 
-    with open('theses_2024september.yaml', 'w') as filey:
+    with open('theses_2024sep.yaml', 'w') as filey:
         yaml.dump(d, filey)
 
 # in ./img/ : mogrify -resize 400x400^ -gravity center -extent 400x400 *.JPG
