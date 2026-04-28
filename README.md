@@ -1,5 +1,5 @@
 # thesis
 
-All material and information for the TU Delft MSc graduation thesis (GEO2010+GEO2020).
+All material and information for the TU Delft MSc Geomatics graduation thesis (GEO2021).
 
-Hosted at https://3d.bk.tudelft.nl/courses/geo2020/
+Hosted at https://geomatics.bk.tudelft.nl/geo2021/
