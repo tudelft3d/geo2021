@@ -2,6 +2,8 @@
 layout: page
 title: "Rubric"
 permalink: /rubric/
+color: warning-60
+logo: fa-table
 ---
 
 ## Research (50%)

@@ -2,6 +2,8 @@
 layout: page
 title: Requirements for open science
 permalink: /openscience/
+color: success-60
+logo: fa-lock-open
 ---
 
 
