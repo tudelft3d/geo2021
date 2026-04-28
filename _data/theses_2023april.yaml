@@ -1,87 +1,59 @@
-Chontos:
-- Christos
-- Clara Garcia-Sanchez
-- "Ivan Pa\u0111en"
-- "While reconstructing urban environments, the accuracy of our model is strongly\
-  \ related with the quality of the input data. Their initial type for this process\
-  \ is the footprints of the buildings, which are typically used to raise them, either\
-  \ through manual or automated methods. However, these data could be biased and when\
-  \ we perform a Computational Fluid Dynamic simulation (CFD), could have impact on\
-  \ our results. In our case, real-world building footprints will be used to define\
-  \ these biases with the uncertainty of raw data. Additionally, the probability approach\
-  \ for representing and quantifying this uncertainty will be examined. The CEDVAL database\
-  \ is an example of a canonical case for the simulations, in which the building footprints\
-  \ could be perturbed based on mean from point cloud data, in a deterministic way (rotation\
-  \ and displacement). A CFD simulation on such a canonical case would typically involve\
-  \ the following steps: 1) Preparation of our\
-  \ geometry, 2)Generation of the mesh, 3) Boundary conditions (fluid properties, inlet\
-  \ velocity and other relevant parameters), 4) Numerical solution by solving a system\
-  \ of algebraic equations and 5) Post-processing, like visualization of the flow patterns\
-  \ and comparing the simulation results with the experimental data from the CEDVAL\
-  \ database. The data that will be compared are flow velocity, pressure, turbulent\
-  \ kinetic energy, dissipation rate and turbulent viscosity. The effects will be examined\
-  \ across multiple wind directions."
-- 595416e6de9-P1_image.png
-Gheorghiu:
-- Andra Irina
-- Edward Verbree
-- Martijn Meijers
-- "Global Navigation Satellite Systems is a spatial data acquisition technique, mostly\
-  \ used in fields such as land surveying. One of the main components of this techniques\
-  \ is the satellite visibility, which refers to the connection between the satellite\
-  \ and the ground receiver. It is well known that the results GNSS positioning systems\
-  \ are often unreliable in urban areas due to the dense coverage of obstacles. Such\
-  \ obstacles can include buildings, trees, topographic details etc. These obstacles\
-  \ can obstruct and reflect the signals coming from the satellites to the ground\
-  \ receivers, such as smartphones, which affect the quality of the performance of\
-  \ the GNSS service. \nThe results of the analysis of the behavior of these signals\
-  \ in the urban environment can help simple users of GNSS positioning systems understand\
-  \ why and in which areas of the cities the satellite signals are the weakest or\
-  \ non-existent at all. This research can also be used in the future to point out\
-  \ the weak aspects of the satellite constellations and then improve them.\nThis\
-  \ research will be focused on implementing a strategy, similar to that of ray tracing\
-  \ or shadow matching, to analyze the obstruction of the lines of sight from satellites,\
-  \ using different locations in the point cloud sample. For this study, the ANH4\
-  \ set of point clouds will be used. The GNSS study part will consist of the constellation\
-  \ of satellites, taking into consideration details such as the study of their orbits,\
-  \ and a ground receiver."
-- 84704be058-P1_image.jpg
-Sterkman:
-- Pam
-- Edward Verbree
-- Martijn Meijers
-- "Point clouds are widely used in a variety of fields nowadays. This rich data resource\
-  \ has multiple functions for different disciplines. The company Van Oord uses Light\
-  \ Detection and Ranging (LIDAR) data of drones to generate point clouds for several\
-  \ purposes within their projects, such as volumetric calculations, anomaly detection,\
-  \ and distance measurements.\n\nDespite the fact that point clouds are used for\
-  \ a variety of applications, the data is often underused. A point cloud can namely\
-  \ function as an extensive data resource with potential use cases that are not explored\
-  \ yet. This comes together in the concept of smart point clouds (SPC) (Poux et al.,\
-  \ 2016). It sees the explorative value of point clouds through the addition of semantics,\
-  \ and integration of information flows from different directions. The inclusion\
-  \ of human observation can thus be integrated into the semantics of the point cloud.\n\
-  \ \nThis research will therefore explore the possibilities of SPC by integrating\
-  \ the knowledge of present disciplines within Van Oord. Van Oord has engineers operating\
-  \ in the fields of dredging, offshore (wind), and infrastructure. This means that\
-  \ a variety of expertise is available within the company, which integration can\
-  \ be beneficial for identifying new insights into the current use of point cloud\
-  \ data. The aim of this thesis is to optimize the usage of point clouds acquired\
-  \ through LIDAR data via drones."
-- 19692579b880.jpg
-van Capel:
-- Michaja Andrea
-- Azarakhsh Rafiee
-- Not yet decided
-- "Land Surface Temperature (LST) of a specific location is affected by different\
-  \ parameters, such as the urban design, along with land cover and sub-surface parameters.\
-  \ Therefore LST can be a proper indicator for understanding the thermal behavior\
-  \ of different urban climate zones. This thesis aims to classify urban Local Climate\
-  \ Zones (LCZ\u2019s) using deep learning and spatio-temporal thermal imagery. The\
-  \ use of an integrated RNN-CNN deep learning methodology is proposed to identify\
-  \ both the spatial and temporal characteristics of the thermal behavior of LCZ\u2019\
-  s in an urban environment. By using high frequency temporal LST data, this research\
-  \ can provide a more comprehensive understanding of the thermal behavior of different\
-  \ LCZ\u2019s over time. Training data of different urban environments will be taken\
-  \ into consideration, to ensure that the deep learning methodology is versatile."
-- 430b25fb3f7f-P1.jpg
+- name: Christos Chontos
+  supervisors: Clara Garcia-Sanchez and Ivan Pađen
+  summary: 'While reconstructing urban environments, the accuracy of our model is strongly related with the quality of the
+    input data. Their initial type for this process is the footprints of the buildings, which are typically used to raise
+    them, either through manual or automated methods. However, these data could be biased and when we perform a Computational
+    Fluid Dynamic simulation (CFD), could have impact on our results. In our case, real-world building footprints will be
+    used to define these biases with the uncertainty of raw data. Additionally, the probability approach for representing
+    and quantifying this uncertainty will be examined. The CEDVAL database is an example of a canonical case for the simulations,
+    in which the building footprints could be perturbed based on mean from point cloud data, in a deterministic way (rotation
+    and displacement). A CFD simulation on such a canonical case would typically involve the following steps: 1) Preparation
+    of our geometry, 2)Generation of the mesh, 3) Boundary conditions (fluid properties, inlet velocity and other relevant
+    parameters), 4) Numerical solution by solving a system of algebraic equations and 5) Post-processing, like visualization
+    of the flow patterns and comparing the simulation results with the experimental data from the CEDVAL database. The data
+    that will be compared are flow velocity, pressure, turbulent kinetic energy, dissipation rate and turbulent viscosity.
+    The effects will be examined across multiple wind directions.'
+  image: 595416e6de9-P1_image.png
+- name: Andra Irina Gheorghiu
+  supervisors: Edward Verbree and Martijn Meijers
+  summary: "Global Navigation Satellite Systems is a spatial data acquisition technique, mostly used in fields such as land\
+    \ surveying. One of the main components of this techniques is the satellite visibility, which refers to the connection\
+    \ between the satellite and the ground receiver. It is well known that the results GNSS positioning systems are often\
+    \ unreliable in urban areas due to the dense coverage of obstacles. Such obstacles can include buildings, trees, topographic\
+    \ details etc. These obstacles can obstruct and reflect the signals coming from the satellites to the ground receivers,\
+    \ such as smartphones, which affect the quality of the performance of the GNSS service. \nThe results of the analysis\
+    \ of the behavior of these signals in the urban environment can help simple users of GNSS positioning systems understand\
+    \ why and in which areas of the cities the satellite signals are the weakest or non-existent at all. This research can\
+    \ also be used in the future to point out the weak aspects of the satellite constellations and then improve them.\nThis\
+    \ research will be focused on implementing a strategy, similar to that of ray tracing or shadow matching, to analyze the\
+    \ obstruction of the lines of sight from satellites, using different locations in the point cloud sample. For this study,\
+    \ the ANH4 set of point clouds will be used. The GNSS study part will consist of the constellation of satellites, taking\
+    \ into consideration details such as the study of their orbits, and a ground receiver."
+  image: 84704be058-P1_image.jpg
+- name: Pam Sterkman
+  supervisors: Edward Verbree and Martijn Meijers
+  summary: "Point clouds are widely used in a variety of fields nowadays. This rich data resource has multiple functions for\
+    \ different disciplines. The company Van Oord uses Light Detection and Ranging (LIDAR) data of drones to generate point\
+    \ clouds for several purposes within their projects, such as volumetric calculations, anomaly detection, and distance\
+    \ measurements.\n\nDespite the fact that point clouds are used for a variety of applications, the data is often underused.\
+    \ A point cloud can namely function as an extensive data resource with potential use cases that are not explored yet.\
+    \ This comes together in the concept of smart point clouds (SPC) (Poux et al., 2016). It sees the explorative value of\
+    \ point clouds through the addition of semantics, and integration of information flows from different directions. The\
+    \ inclusion of human observation can thus be integrated into the semantics of the point cloud.\n \nThis research will\
+    \ therefore explore the possibilities of SPC by integrating the knowledge of present disciplines within Van Oord. Van\
+    \ Oord has engineers operating in the fields of dredging, offshore (wind), and infrastructure. This means that a variety\
+    \ of expertise is available within the company, which integration can be beneficial for identifying new insights into\
+    \ the current use of point cloud data. The aim of this thesis is to optimize the usage of point clouds acquired through\
+    \ LIDAR data via drones."
+  image: 19692579b880.jpg
+- name: Michaja Andrea van Capel
+  supervisors: Azarakhsh Rafiee and Not yet decided
+  summary: Land Surface Temperature (LST) of a specific location is affected by different parameters, such as the urban design,
+    along with land cover and sub-surface parameters. Therefore LST can be a proper indicator for understanding the thermal
+    behavior of different urban climate zones. This thesis aims to classify urban Local Climate Zones (LCZ’s) using deep learning
+    and spatio-temporal thermal imagery. The use of an integrated RNN-CNN deep learning methodology is proposed to identify
+    both the spatial and temporal characteristics of the thermal behavior of LCZ’s in an urban environment. By using high
+    frequency temporal LST data, this research can provide a more comprehensive understanding of the thermal behavior of different
+    LCZ’s over time. Training data of different urban environments will be taken into consideration, to ensure that the deep
+    learning methodology is versatile.
+  image: 430b25fb3f7f-P1.jpg

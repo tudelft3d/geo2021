@@ -1,623 +1,440 @@
-Aalders:
-- Rianne
-- "Exploring the design of a \u2018coordinating\u2019 data governance model for the\
-  \ green village at the TU Delft"
-- Stefano Calzati
-- Hendrik Ploeger
-- "The primary thought behind this research is: How can data be used for good in a\
-  \ tech driven urban environment? Richard Sennett speaks in his book \u2018Ethics\
-  \ for the City\u2019 of a \u2018coordinating smart city\u2019 a framework for a\
-  \ preferable relationship between citizens, technology, and the city. In contrast\
-  \ to a \u2018prescriptive smart city\u2019 that limits the agency of its citizens.\
-  \ \n\nIn my thesis I will apply this framework to The Green Village (TGV), a living\
-  \ lab for sustainable innovations located on the TU Delft campus to answer the questions:\
-  \ 1. What is a coordinating smart city according to Sennett and other literature?\
-  \ 2. To what degree are TGV and living labs smart cities? 3. To what degree is TGV\
-  \ a  smart city? 4. How can the framework of the coordinating smart city be applied\
-  \ to a real life urban environment? 5.  And How can the framework of the coordinating\
-  \ smart city be expanded upon, based on its application to TGV? \n\nFor this exploratory\
-  \ research, Sennett\u2019s writing and other literature will be further studied\
-  \ to unpack the coordinating smart city. Then, in a case study of TGV, including\
-  \ interviews with the parties involved both the people managing TGV and its inhabitants,\
-  \ the framework will be applied and tested."
-- .nan
-- ./img/Aalders.png
-Batum:
-- Simay
-- "Comparing CityGML and IFC encodings of LADM Part 5 Spatial Plan Information to\
-  \ support Permit checking \u2013 Case Study Estonia"
-- Peter van Oosterom
-- Eftychia Kalogianni
-- The thesis primarily investigates the integration of the Land Administration Domain
-  Model (LADM) into 3D building models encoded in CityGML and IFC. It focuses on enhancing
-  semantic interoperability and efficiency by incorporating LADM, using automated
-  permit checks in Estonia as a case study. The research aims to assess the feasibility
-  and benefits of integrating LADM into existing 3D building models, with permit checking
-  efficiency as another focus under the case study. With this research, broader implications
-  for improving the accuracy and effectiveness of land administration systems and
-  3D modeling for urban development are envisioned.
-- Future Insight, Rick Klooster
-- ./img/Batum.png
-Brouwer:
-- "Gees Dani\xEBl"
-- 'Analyzing Coral Reef Complexity: Geoinformation Tools in Assessing Biodiversity
-  and Health'
-- Akshay Patil
-- Hugo Ledoux
-- "This MSc thesis focuses on spatially characterizing coral reef communities using\
-  \ urban geoinformation tools. The primary aim is to understand the relationship\
-  \ between coral reef health and their spatial characteristics.\nTo enhance the accuracy\
-  \ of fluid dynamics simulations for assessing coral reef health, a deeper understanding\
-  \ of the spatial characteristics of coral reefs is essential, especially in the\
-  \ context of simulated reef environments. \nThis research is crucial due to the\
-  \ declining global health of coral reefs, largely attributed to ocean acidification!"
-- .nan
-- ./img/Brouwer.png
-Chen:
-- Mengying
-- Assessing the Impact of 3D Land Administration Systems Based on ISO 19152 LADM in
-  Achieving Sustainable Development Goals
-- Eftychia Kalogianni
-- Peter van Oosterom
-- 'The 2030 Agenda for Sustainable Development is a global initiative endorsed by
-  UN member States to address various aspects of sustainability, including people,
-  the planet, prosperity, peace, and partnership. It includes the implementation of
-  the Sustainable Development Goals (SDGs), which consist of 17 Global Goals to be
-  achieved over a 15-year period. Within this agenda, there are land-related targets
-  and indicators aimed at promoting responsible land governance.
+- name: Rianne Aalders
+  title: Exploring the design of a ‘coordinating’ data governance model for the green village at the TU Delft
+  supervisors: Stefano Calzati and Hendrik Ploeger
+  summary: "The primary thought behind this research is: How can data be used for good in a tech driven urban environment?\
+    \ Richard Sennett speaks in his book ‘Ethics for the City’ of a ‘coordinating smart city’ a framework for a preferable\
+    \ relationship between citizens, technology, and the city. In contrast to a ‘prescriptive smart city’ that limits the\
+    \ agency of its citizens. \n\nIn my thesis I will apply this framework to The Green Village (TGV), a living lab for sustainable\
+    \ innovations located on the TU Delft campus to answer the questions: 1. What is a coordinating smart city according to\
+    \ Sennett and other literature? 2. To what degree are TGV and living labs smart cities? 3. To what degree is TGV a  smart\
+    \ city? 4. How can the framework of the coordinating smart city be applied to a real life urban environment? 5.  And How\
+    \ can the framework of the coordinating smart city be expanded upon, based on its application to TGV? \n\nFor this exploratory\
+    \ research, Sennett’s writing and other literature will be further studied to unpack the coordinating smart city. Then,\
+    \ in a case study of TGV, including interviews with the parties involved both the people managing TGV and its inhabitants,\
+    \ the framework will be applied and tested."
+  image: Aalders.png
+- name: Simay Batum
+  title: Comparing CityGML and IFC encodings of LADM Part 5 Spatial Plan Information to support Permit checking – Case Study
+    Estonia
+  supervisors: Peter van Oosterom and Eftychia Kalogianni
+  summary: The thesis primarily investigates the integration of the Land Administration Domain Model (LADM) into 3D building
+    models encoded in CityGML and IFC. It focuses on enhancing semantic interoperability and efficiency by incorporating LADM,
+    using automated permit checks in Estonia as a case study. The research aims to assess the feasibility and benefits of
+    integrating LADM into existing 3D building models, with permit checking efficiency as another focus under the case study.
+    With this research, broader implications for improving the accuracy and effectiveness of land administration systems and
+    3D modeling for urban development are envisioned.
+  image: Batum.png
+  company: Future Insight, Rick Klooster
+- name: Gees Daniël Brouwer
+  title: 'Analyzing Coral Reef Complexity: Geoinformation Tools in Assessing Biodiversity and Health'
+  supervisors: Akshay Patil and Hugo Ledoux
+  summary: "This MSc thesis focuses on spatially characterizing coral reef communities using urban geoinformation tools. The\
+    \ primary aim is to understand the relationship between coral reef health and their spatial characteristics.\nTo enhance\
+    \ the accuracy of fluid dynamics simulations for assessing coral reef health, a deeper understanding of the spatial characteristics\
+    \ of coral reefs is essential, especially in the context of simulated reef environments. \nThis research is crucial due\
+    \ to the declining global health of coral reefs, largely attributed to ocean acidification!"
+  image: Brouwer.png
+- name: Mengying Chen
+  title: Assessing the Impact of 3D Land Administration Systems Based on ISO 19152 LADM in Achieving Sustainable Development
+    Goals
+  supervisors: Eftychia Kalogianni and Peter van Oosterom
+  summary: 'The 2030 Agenda for Sustainable Development is a global initiative endorsed by UN member States to address various
+    aspects of sustainability, including people, the planet, prosperity, peace, and partnership. It includes the implementation
+    of the Sustainable Development Goals (SDGs), which consist of 17 Global Goals to be achieved over a 15-year period. Within
+    this agenda, there are land-related targets and indicators aimed at promoting responsible land governance.
 
 
-  Land administration plays a crucial role in connecting individuals to land and providing
-  information on land tenure, land use, land value, and land development. Land Administration
-  Systems (LAS) based on the ISO 19152 Land Administration Domain Model (LADM) serve
-  as the foundation for recording a complex range of rights, restrictions, and responsibilities
-  related to people, policies, and places. LAS, especially those based on ISO 19152
-  LADM, are essential drivers toward a sustainable economy and society.
+    Land administration plays a crucial role in connecting individuals to land and providing information on land tenure, land
+    use, land value, and land development. Land Administration Systems (LAS) based on the ISO 19152 Land Administration Domain
+    Model (LADM) serve as the foundation for recording a complex range of rights, restrictions, and responsibilities related
+    to people, policies, and places. LAS, especially those based on ISO 19152 LADM, are essential drivers toward a sustainable
+    economy and society.
 
 
-  The objective of this MSc thesis is to delve into SDGs targets and indicators that
-  can be used to assess the added value of 3D Land Administration Systems based on
-  LADM. The possibility of using Madaster or forest Rights, Restrictions, and Responsibilities
-  (RRRs) as case studies will also be considered.'
-- .nan
-- ./img/Chen.png
-Epema:
-- Susanne
-- 'The technology-user interaction: Exploring the discrepancy between intended and
-  actual use of a geo-data collecting application, data practices and user control.
-  (Strava case study)'
-- Hendrik Ploeger
-- Stefano Calzati
-- "Strava is an exercise self-tracking app initially designed for running and biking\
-  \ routes, and boasts a social component encouraging users to engage with communities,\
-  \ connect to other exercise-enjoyers, and share their activities. Strava therefore\
-  \ collects geoinformation from its users, tracking its routes for distance covering\
-  \ and comparison to other users on specific segments. \nThis thesis aims to investigate\
-  \ the difference between the use of the app envisaged by the developers and the\
-  \ actual use. It researches what data is being collected and how this data is being\
-  \ utilized, and how the user tries to regulate the data they contribute to this\
-  \ application. It investigated how representative the image of the user based on\
-  \ the data of this app is.\nThe methodology includes a literary review, employs\
-  \ autoethnography to gain firsthand experience into the user experience, and interviews\
-  \ with users of the app. \nThe results describe evidence in the two-way technology-user\
-  \ interaction and would have findings on the representation of the user within the\
-  \ app."
-- .nan
-- ./img/Epema.jpg
-Feng:
-- Yingxin
-- User-guided geometrical editing of high-quality 3D models
-- Nail Ibrahimli
-- Ken Arroyo Ohori
-- "Editing 3D models\u2019 geometry is an important but time-consuming task for architectural\
-  \ designers. The emergence of generative AI methods that enable user-guided model\
-  \ editing brings about new possibilities. However, the current methods still perform\
-  \ unsatisfactorily when dealing with high-quality details and strong changes, which\
-  \ hinders its further appliance. Therefore, the thesis will focus on developing\
-  \ a generative tool that allows users to make significant changes to complex 3D\
-  \ models with easy instructions and obtain geometric-aligned results. Experiments\
-  \ will be made with multiple model architectures and different tricks based on the\
-  \ literature review to find a relatively precise and efficient solution. The major\
-  \ elements of the tool include 3D representation, generative models, and datasets.\
-  \ Implicit signed distance function and explicit mesh-based or point cloud representation\
-  \ are possible options for details preservation. To fully leverage the existing\
-  \ research, pre-trained open-source 2D diffusion models will be chosen for loss\
-  \ calculation. For other steps, models will be obtained from open 3D datasets like\
-  \ DTU. Additionally, tricks like latent space extraction, camera pose and positional\
-  \ encoding, loss functions\u2019 combination, etc. will be tested."
-- .nan
-- ./img/Feng.png
-Gong:
-- Sicong
-- Integrating the trajectories of moving objects into OLAP systems
-- Dr.Ir. Martijn Meijers
-- Drs. Wilko Quak
-- 'With the popularization of mobile Internet of Things (IoT) applications, massive
-  amounts of various spatiotemporal data are emerging, collected and stored. Among
-  them, trajectory data, such as Global Positioning System (GPS) data and mobile phone
-  data, is uniquely valuable because of the large amount of information it contains.
-  Currently, the utilization and reproduction (added-value extraction) of trajectory
-  data is still limited by its huge size and complex structure.
+    The objective of this MSc thesis is to delve into SDGs targets and indicators that can be used to assess the added value
+    of 3D Land Administration Systems based on LADM. The possibility of using Madaster or forest Rights, Restrictions, and
+    Responsibilities (RRRs) as case studies will also be considered.'
+  image: Chen.png
+- name: Susanne Epema
+  title: 'The technology-user interaction: Exploring the discrepancy between intended and actual use of a geo-data collecting
+    application, data practices and user control. (Strava case study)'
+  supervisors: Hendrik Ploeger and Stefano Calzati
+  summary: "Strava is an exercise self-tracking app initially designed for running and biking routes, and boasts a social\
+    \ component encouraging users to engage with communities, connect to other exercise-enjoyers, and share their activities.\
+    \ Strava therefore collects geoinformation from its users, tracking its routes for distance covering and comparison to\
+    \ other users on specific segments. \nThis thesis aims to investigate the difference between the use of the app envisaged\
+    \ by the developers and the actual use. It researches what data is being collected and how this data is being utilized,\
+    \ and how the user tries to regulate the data they contribute to this application. It investigated how representative\
+    \ the image of the user based on the data of this app is.\nThe methodology includes a literary review, employs autoethnography\
+    \ to gain firsthand experience into the user experience, and interviews with users of the app. \nThe results describe\
+    \ evidence in the two-way technology-user interaction and would have findings on the representation of the user within\
+    \ the app."
+  image: Epema.jpg
+- name: Yingxin Feng
+  title: User-guided geometrical editing of high-quality 3D models
+  supervisors: Nail Ibrahimli and Ken Arroyo Ohori
+  summary: Editing 3D models’ geometry is an important but time-consuming task for architectural designers. The emergence
+    of generative AI methods that enable user-guided model editing brings about new possibilities. However, the current methods
+    still perform unsatisfactorily when dealing with high-quality details and strong changes, which hinders its further appliance.
+    Therefore, the thesis will focus on developing a generative tool that allows users to make significant changes to complex
+    3D models with easy instructions and obtain geometric-aligned results. Experiments will be made with multiple model architectures
+    and different tricks based on the literature review to find a relatively precise and efficient solution. The major elements
+    of the tool include 3D representation, generative models, and datasets. Implicit signed distance function and explicit
+    mesh-based or point cloud representation are possible options for details preservation. To fully leverage the existing
+    research, pre-trained open-source 2D diffusion models will be chosen for loss calculation. For other steps, models will
+    be obtained from open 3D datasets like DTU. Additionally, tricks like latent space extraction, camera pose and positional
+    encoding, loss functions’ combination, etc. will be tested.
+  image: Feng.png
+- name: Sicong Gong
+  title: Integrating the trajectories of moving objects into OLAP systems
+  supervisors: Dr.Ir. Martijn Meijers and Drs. Wilko Quak
+  summary: 'With the popularization of mobile Internet of Things (IoT) applications, massive amounts of various spatiotemporal
+    data are emerging, collected and stored. Among them, trajectory data, such as Global Positioning System (GPS) data and
+    mobile phone data, is uniquely valuable because of the large amount of information it contains. Currently, the utilization
+    and reproduction (added-value extraction) of trajectory data is still limited by its huge size and complex structure.
 
 
-  Data Warehouse (DW), compared with traditional Database Management System (DBMS),
-  is tuned for Online analytical processing (OLAP) answering multi-dimensional analytical
-  queries swiftly in computing. Trajectory data inherently contains multiple dimensions,
-  including time, space, semantics, and more making it possible for Data Cube-based
-  OLAP technology to optimize query performance. However, traditional OLAP systems
-  support only numeric measurements and do not accommodate spatial data types like
-  Simple Feature Specification (SFS).
+    Data Warehouse (DW), compared with traditional Database Management System (DBMS), is tuned for Online analytical processing
+    (OLAP) answering multi-dimensional analytical queries swiftly in computing. Trajectory data inherently contains multiple
+    dimensions, including time, space, semantics, and more making it possible for Data Cube-based OLAP technology to optimize
+    query performance. However, traditional OLAP systems support only numeric measurements and do not accommodate spatial
+    data types like Simple Feature Specification (SFS).
 
 
-  This project aims to abstract, organize, and integrate various dimensions of trajectory
-  data into OLAP systems.'
-- .nan
-- ./img/Gong.png
-Kaal:
-- Tessel Elisabeth
-- Optimization of Buildings Energy Demand-Supply for Local Energy Source Design with
-  Minimum Burden on the Grid
-- Azarakhsh Rafiee
-- Martijn Meijers
-- "The overarching theme of this thesis, under the umbrella of DATALES, is the optimization\
-  \ of energy demand and supply in buildings with an emphasis on local energy sources\
-  \ to minimize the burden on the central grid. \n\nThe essence of the DATALES lies\
-  \ in its focus on integrating numerous distributed energy resources (DERs). The\
-  \ project aims to unlock the potential of local energy systems (LESs) and green\
-  \ buildings in urban areas by developing a data-driven operational paradigm. The\
-  \ DATALESs comprises six Work Packages. The faculty Architecture is involved in\
-  \ Work Package 3: Data-driven green building modelling and energy management. \n\
-  \nThis thesis addresses the data-driven modelling, by researching the complex balance\
-  \ between energy consumption and production in urban structures. By utilizing optimization\
-  \ techniques, the study aims to develop strategies for efficiently managing and\
-  \ using energy resources at a local level, and to minimize the burden on the centralized\
-  \ power grid. Within the research  innovative solutions are explored to enhance\
-  \ the energy efficiency of buildings, incorporating elements of renewable energy\
-  \ sources, smart grid technologies, and demand-side management. \n\nPrevious practices,\
-  \ in collaboration with Geodan, inform the study and are visualized through a digital\
-  \ twin. Accenture's involvement during this thesis allows access to more data, facilitating\
-  \ testing of the optimization approach on real-life data."
-- Accenture, Sanne Veringa
-- ./img/Kaalwebp
-Koster:
-- Gabriela
-- Designing a Dutch building energy simulation tool in a GIS environment
-- "C. Le\xF3n-S\xE1nchez"
-- Dr. G. Agugiaro
-- There is a current emphasis on reducing residential energy consumption in the Netherlands,
-  with household thermal energy accounting for a significant portion. Building energy
-  simulations play a crucial role in informed decision-making for design, payback
-  calculations, and identifying cost-effective renovation measures. However, existing
-  tools are either too detailed for municipal-level modeling or oversimplified on
-  a national scale. The aim of this research is to look at creating a framework for
-  constructing a theoretical thermal energy model based on existing NTA 8800 principles,
-  compatible with semantic 3D city models.
-- .nan
-- ./img/Koster.png
-"K\xF6bben":
-- Stein
-- Integrating 3D into a 2D OpenLayers based online GIS
-- Martijn Meijers
-- Eftychia Kalogianni
-- "The thesis will be about integrating 3D functionalities into an existing Openlayers\
-  \ based web application, specifically Tailormap which is made by B3Partners. This\
-  \ means allowing users to publish their 3D datasets alongside the existing 2D maps\
-  \ and using the functionalities in the application. The research will be about how\
-  \ to make it useful for the users: What kind of data sets do they need to be able\
-  \ to publish, what options do they need, and how can it be easy to use without too\
-  \ much expert knowledge. The research question could be something like: \u2018How\
-  \ can 3D functionalities be integrated into an existing GIS web application in a\
-  \ useful and easy to use way?\u2019. There will a technical aspect to this: What\
-  \ will the data workflow look like, and how can 3D be integrated into the existing\
-  \ functionalities. There will also be an aspect of research into what the current\
-  \ needs of GIS users are for publishing 3D data."
-- Erik Meerburg
-- "./img/K\xF6bben.png"
-Li:
-- Sitong
-- Enhancing 3D City Models with Neural Representations
-- Nail Ibrahimli
-- Ken Arroyo Ohori
-- 'The traditional 3D space representation methods like mesh, voxel and point cloud
-  are explicit and discrete. They suffer from early, heuristic reduction of the triangulated
-  3D point cloud to an explicit height field or surface mesh. In this thesis, student
-  will explore the generative possibility of implicit nueral representation to create
-  enhanced 3D city model from a continuous occupancy field, driven by learned embeddings
-  of the point cloud and a stereo pair of ortho-photos.
+    This project aims to abstract, organize, and integrate various dimensions of trajectory data into OLAP systems.'
+  image: Gong.png
+- name: Tessel Elisabeth Kaal
+  title: Optimization of Buildings Energy Demand-Supply for Local Energy Source Design with Minimum Burden on the Grid
+  supervisors: Azarakhsh Rafiee and Martijn Meijers
+  summary: "The overarching theme of this thesis, under the umbrella of DATALES, is the optimization of energy demand and\
+    \ supply in buildings with an emphasis on local energy sources to minimize the burden on the central grid. \n\nThe essence\
+    \ of the DATALES lies in its focus on integrating numerous distributed energy resources (DERs). The project aims to unlock\
+    \ the potential of local energy systems (LESs) and green buildings in urban areas by developing a data-driven operational\
+    \ paradigm. The DATALESs comprises six Work Packages. The faculty Architecture is involved in Work Package 3: Data-driven\
+    \ green building modelling and energy management. \n\nThis thesis addresses the data-driven modelling, by researching\
+    \ the complex balance between energy consumption and production in urban structures. By utilizing optimization techniques,\
+    \ the study aims to develop strategies for efficiently managing and using energy resources at a local level, and to minimize\
+    \ the burden on the centralized power grid. Within the research  innovative solutions are explored to enhance the energy\
+    \ efficiency of buildings, incorporating elements of renewable energy sources, smart grid technologies, and demand-side\
+    \ management. \n\nPrevious practices, in collaboration with Geodan, inform the study and are visualized through a digital\
+    \ twin. Accenture's involvement during this thesis allows access to more data, facilitating testing of the optimization\
+    \ approach on real-life data."
+  image: Kaalwebp
+  company: Accenture, Sanne Veringa
+- name: Gabriela Koster
+  title: Designing a Dutch building energy simulation tool in a GIS environment
+  supervisors: C. León-Sánchez and Dr. G. Agugiaro
+  summary: There is a current emphasis on reducing residential energy consumption in the Netherlands, with household thermal
+    energy accounting for a significant portion. Building energy simulations play a crucial role in informed decision-making
+    for design, payback calculations, and identifying cost-effective renovation measures. However, existing tools are either
+    too detailed for municipal-level modeling or oversimplified on a national scale. The aim of this research is to look at
+    creating a framework for constructing a theoretical thermal energy model based on existing NTA 8800 principles, compatible
+    with semantic 3D city models.
+  image: Koster.png
+- name: Stein Köbben
+  title: Integrating 3D into a 2D OpenLayers based online GIS
+  supervisors: Martijn Meijers and Eftychia Kalogianni
+  summary: 'The thesis will be about integrating 3D functionalities into an existing Openlayers based web application, specifically
+    Tailormap which is made by B3Partners. This means allowing users to publish their 3D datasets alongside the existing 2D
+    maps and using the functionalities in the application. The research will be about how to make it useful for the users:
+    What kind of data sets do they need to be able to publish, what options do they need, and how can it be easy to use without
+    too much expert knowledge. The research question could be something like: ‘How can 3D functionalities be integrated into
+    an existing GIS web application in a useful and easy to use way?’. There will a technical aspect to this: What will the
+    data workflow look like, and how can 3D be integrated into the existing functionalities. There will also be an aspect
+    of research into what the current needs of GIS users are for publishing 3D data.'
+  image: Köbben.png
+  company: Erik Meerburg
+- name: Sitong Li
+  title: Enhancing 3D City Models with Neural Representations
+  supervisors: Nail Ibrahimli and Ken Arroyo Ohori
+  summary: 'The traditional 3D space representation methods like mesh, voxel and point cloud are explicit and discrete. They
+    suffer from early, heuristic reduction of the triangulated 3D point cloud to an explicit height field or surface mesh.
+    In this thesis, student will explore the generative possibility of implicit nueral representation to create enhanced 3D
+    city model from a continuous occupancy field, driven by learned embeddings of the point cloud and a stereo pair of ortho-photos.
 
-  The methodology entails a comprehensive approach beginning with data collection
-  by extracting points from 3D BAG and Zurich city models for training, utilizing
-  AHN3 point clouds as test data, and evaluating accuracy against AHN4 while visually
-  inspecting discrepancies. Subsequently, data processing involves segmentation algorithms
-  to isolate building points for higher performance, raising questions about learning
-  a continuous occupancy field versus converting it into a CityGML 3D city model for
-  practicality. Further exploration includes studying various Signed Distance Functions
-  (SDFs) and Occupancy Networks, assessing their applicability in the project context,
-  and initiating model development using the Convolutional Occupancy Network by Peng.'
-- .nan
-- ./img/Li.jpg
-Liu:
-- Na
-- Using deep learning to simulate wind in building area
-- Azarakhsh Rafiee
-- Frits de Prenter
-- 'Wind simulation plays a crucial role across various fields and is applied under
-  different context, as well as in building environment. The traditional method involves
-  solving the computationally expensive Navier-Stokes equation, particularly challenging
-  for detailed simulations in large areas like cities. Urban wind patterns depend
-  heavily on city geometry, a critical factor in understanding airflow dynamics. While
-  Computational Fluid Dynamics (CFD) simulations are considered the best practice,
-  this study explores the potential of using deep learning as a surrogate model for
-  faster and cost-effective wind simulations in building areas.
+    The methodology entails a comprehensive approach beginning with data collection by extracting points from 3D BAG and Zurich
+    city models for training, utilizing AHN3 point clouds as test data, and evaluating accuracy against AHN4 while visually
+    inspecting discrepancies. Subsequently, data processing involves segmentation algorithms to isolate building points for
+    higher performance, raising questions about learning a continuous occupancy field versus converting it into a CityGML
+    3D city model for practicality. Further exploration includes studying various Signed Distance Functions (SDFs) and Occupancy
+    Networks, assessing their applicability in the project context, and initiating model development using the Convolutional
+    Occupancy Network by Peng.'
+  image: Li.jpg
+- name: Na Liu
+  title: Using deep learning to simulate wind in building area
+  supervisors: Azarakhsh Rafiee and Frits de Prenter
+  summary: 'Wind simulation plays a crucial role across various fields and is applied under different context, as well as
+    in building environment. The traditional method involves solving the computationally expensive Navier-Stokes equation,
+    particularly challenging for detailed simulations in large areas like cities. Urban wind patterns depend heavily on city
+    geometry, a critical factor in understanding airflow dynamics. While Computational Fluid Dynamics (CFD) simulations are
+    considered the best practice, this study explores the potential of using deep learning as a surrogate model for faster
+    and cost-effective wind simulations in building areas.
 
-  The study''s central focus revolves around how effectively deep learning can simulate
-  wind patterns in building areas using 3DBAG dataset. Objectives include applying
-  deep learning models to simulate wind around buildings, assessing accuracy and computational
-  efficiency compared to traditional methods, and examining factors like mesh settings
-  and geometry types for optimization.
+    The study''s central focus revolves around how effectively deep learning can simulate wind patterns in building areas
+    using 3DBAG dataset. Objectives include applying deep learning models to simulate wind around buildings, assessing accuracy
+    and computational efficiency compared to traditional methods, and examining factors like mesh settings and geometry types
+    for optimization.
 
-  The research may contribute insights into broader applications of deep learning
-  in environmental modeling, aiming for faster and resource-efficient wind simulations
-  in urban planning. The study seeks a comprehensive understanding of wind dynamics
-  in building areas, further exploring the fusion of deep learning and environmental
-  modelling.'
-- .nan
-- ./img/Liu.png
-Madanu:
-- Sharath Chandra
-- Identifying misclassifications in AHN using deep learning
-- Shenglan Du
-- Jantien Stoter
-- 'Semantic classification of point clouds in 3D urban scenes is crucial for applications
-  like urban planning and infrastructure management. Despite its importance, successful
-  semantic classification of point clouds remains a challenging task. Currently, there
-  exist many semantic errors in the existing classification (e.g., classification
-  in AHN4 and AHN5). The major errors come from small-scale  inconsistencies like
-  outliers, ground points on top and middle of the building, etc. To remove such errors,
-  in industry practice, separate algorithms have been developed to identify each specific
-  error type. To this end, we see scope for automation using artificial intelligence,
-  deep learning in particular.
+    The research may contribute insights into broader applications of deep learning in environmental modeling, aiming for
+    faster and resource-efficient wind simulations in urban planning. The study seeks a comprehensive understanding of wind
+    dynamics in building areas, further exploring the fusion of deep learning and environmental modelling.'
+  image: Liu.png
+- name: Sharath Chandra Madanu
+  title: Identifying misclassifications in AHN using deep learning
+  supervisors: Shenglan Du and Jantien Stoter
+  summary: 'Semantic classification of point clouds in 3D urban scenes is crucial for applications like urban planning and
+    infrastructure management. Despite its importance, successful semantic classification of point clouds remains a challenging
+    task. Currently, there exist many semantic errors in the existing classification (e.g., classification in AHN4 and AHN5).
+    The major errors come from small-scale  inconsistencies like outliers, ground points on top and middle of the building,
+    etc. To remove such errors, in industry practice, separate algorithms have been developed to identify each specific error
+    type. To this end, we see scope for automation using artificial intelligence, deep learning in particular.
 
 
-  In this project, we aim to refine the classification and remove errors using deep
-  learning, to help automate the process by detecting and quantifying misclassifications.
-  We will use AHN point cloud data, which is the current height model of the Netherlands.
-  We will also use the point cloud data from  Rijkswaterstaat and multi-spectral aerial
-  imagery.
+    In this project, we aim to refine the classification and remove errors using deep learning, to help automate the process
+    by detecting and quantifying misclassifications. We will use AHN point cloud data, which is the current height model of
+    the Netherlands. We will also use the point cloud data from  Rijkswaterstaat and multi-spectral aerial imagery.
 
 
-  This thesis involves two key stages: data preprocessing, where AHN4 tiles undergo
-  confidence scoring based on aerial imagery, NDVI, and BAG/BGT datasets; and online
-  deep learning, where a model is trained on high-confidence samples to rectify errors
-  and enhance predictions, with subsequent validation and testing for performance
-  assessment. The emphasis is on simplicity for broad applicability to diverse projects.'
-- .nan
-- ./img/Madanu.png
-Mantas:
-- Dimitrios
-- Enriching the 3DBAG with Roofing Material Types
-- Hugo Ledoux
-- Weixiao Gao
-- 'The 3DBAG is an open building model dataset covering the entirety of the Netherlands.
-  It is comprised of automatically generated, three-dimensional geometry at three
-  levels of detail, namely 1.2, 1.3, and 2.2. Common use cases of the 3DBAG include
-  energy demand, performance, and retrofitting applications; noise pollution studies;
-  and wind flow and scalar dispersion simulations.
+    This thesis involves two key stages: data preprocessing, where AHN4 tiles undergo confidence scoring based on aerial imagery,
+    NDVI, and BAG/BGT datasets; and online deep learning, where a model is trained on high-confidence samples to rectify errors
+    and enhance predictions, with subsequent validation and testing for performance assessment. The emphasis is on simplicity
+    for broad applicability to diverse projects.'
+  image: Madanu.png
+- name: Dimitrios Mantas
+  title: Enriching the 3DBAG with Roofing Material Types
+  supervisors: Hugo Ledoux and Weixiao Gao
+  summary: 'The 3DBAG is an open building model dataset covering the entirety of the Netherlands. It is comprised of automatically
+    generated, three-dimensional geometry at three levels of detail, namely 1.2, 1.3, and 2.2. Common use cases of the 3DBAG
+    include energy demand, performance, and retrofitting applications; noise pollution studies; and wind flow and scalar dispersion
+    simulations.
 
 
-  Geometric primitives in 3DBAG are documented with various semantic attributes including
-  the roof type and elevation percentiles of the corresponding buildings. In this
-  context, this thesis aims to enrich the dataset with a new label: the roofing material
-  type, such as gravel, membranes, metal, sheets, slates, solar panels, tiles, and
-  vegetation. This is expected to increase the overall value of 3DBAG by enabling
-  more extensive and accurate architectural, engineering, and urban planning studies
-  (e.g., neighbourhood uniformity, energy labelling, and urban heat island effect
-  intensity assessments).
+    Geometric primitives in 3DBAG are documented with various semantic attributes including the roof type and elevation percentiles
+    of the corresponding buildings. In this context, this thesis aims to enrich the dataset with a new label: the roofing
+    material type, such as gravel, membranes, metal, sheets, slates, solar panels, tiles, and vegetation. This is expected
+    to increase the overall value of 3DBAG by enabling more extensive and accurate architectural, engineering, and urban planning
+    studies (e.g., neighbourhood uniformity, energy labelling, and urban heat island effect intensity assessments).
 
 
-  As such, roof surfaces in 3DBAG will be assigned a material type by employing state-of-the-art
-  deep learning methods for supervised classification. This task will be carried out
-  using a convolutional neural network architecture such as a residual network or
-  its extensions. The novelty of this thesis lies in the choice of classification
-  technique in combination with the fusion of true-colour or near infrared aerial
-  orthophotos and the AHN4 point cloud for feature engineering.'
-- .nan
-- ./img/Mantas.png
-Mao:
-- Ping
-- A digital twin based on Land Administration
-- Peter van Oosterom
-- Azarakhsh Rafiee
-- "We work like an update of the physical building, the digital twin. But also, there\
-  \ is a need to update the legal space.\n\nphysical and legal representation\nPotential\
-  \ Expected Result 1\uFF1Aright inside a new building(private space, common space)\n\
-  show 3d objects + legal space(visualization example)\n\nPotential Expected Result\
-  \ 2\uFF1ASpatial Plan & Actual building\nLaws on the height of buildings\uFF08buildings\
-  \ fit in the plan or not fit in the plan\uFF09\nspatial plan is also a legal space\n\
-  Colored buildings are spatial plans, different colors are given to the buildings,\
-  \ different colors are for different functions, and different heights are set for\
-  \ different functions; grey buildings are buildings that already exist. It is possible\
-  \ to see which existing buildings are taller than the height set by the spatial\
-  \ plan."
-- .nan
-- ./img/Mao.png
-"Mont\xE9":
-- "S\xE9r\xE9nic"
-- Centralized benchmark for MVS (Multi-View Stereo), neural mesh reconstruction, and
-  NeRF-based novel-view synthesis
-- Nail Ibrahimli
-- Hugo Ledoux
-- In my thesis I will focus on creating a benchmark that allows researches in the
-  fields of Multiview Stereo (MvS), Novel View Synthesis (NVS), and Neural Surface
-  Reconstruction (NSR) to compare their results with each other algorithms in their
-  respective fields. These three fields require comparable input data, enabling us
-  to create a benchmark for these three fields. The dataset we will use is a textured
-  3d building model, from this model we will create a set of images from different
-  angles. Since we have a ground truth model we are able to evaluate the output of
-  the different algorithms. By creating a standardized data set and evaluation metrics,
-  it is easier to compare new algorithms to existing ones, the result should also
-  become more fair, since the benchmark is the same for everyone. This could provide
-  a better overview of the performance of different methods and making it easier to
-  find possibilities for improvements in the field of novel images rendering even
-  faster.
-- .nan
-- "./img/Mont\xE9.jpg"
-Nestoras:
-- Georgios Konstantinos
-- '5G Positioning: Current State, Future Prospects, and Experimental Analysis of Accuracy
-  and Latency'
-- Edward Verbree
-- Martijn Meijers
-- '5G technology signifies a leap in connectivity with high-speed data, minimal latency,
-  and transformative features. The main focus of this project is positioning for location-based
-  services. 5G positioning provides real-time, accurate location data using advanced
-  techniques.
-
-  Led by Robert Voute (CGI) and supervised by Edward Verbree and Martijn Meijers (TU
-  Delft), the project explores 5G positioning''s current state and future advancements.
-  An Ericsson-facilitated experiment assesses 5G positioning accuracy and latency
-  in real-world scenarios.
-
-  Early 5G versions excel in position pinpointing using GPS and networks, enabling
-  precise spatial info for applications. The project examines existing 5G positioning
-  technology through literature review and system analysis. Anticipated developments
-  in future 5G releases will be explored through a real-world experiment, aiming to
-  bridge theory with practice and reveal insights into advantages and constraints.
-  Acknowledging challenges like signal interference and network congestion, the project
-  aims to refine and optimize 5G positioning. In conclusion, it aspires to contribute
-  significantly to understanding and applying 5G positioning technology, serving as
-  a resource in navigating the evolving landscape of location-based services in the
-  5G era.'
-- Robert Voute
-- ./img/Nestoras.jpg
-Post:
-- Oliver
-- Developing a Framework for Parametric City Generation
-- Hugo Ledoux
-- Akshay Patil
-- "The objective of this thesis is to design a framework for analysing real-world\
-  \ cities, with the goal of applying this analysis to stochastically and/or parametrically\
-  \ create computer-generated models of new cities. \n\nThis research will touch on\
-  \ the following areas:\n- Literature review into existing methods of urban landscape\
-  \ analysis  and stochastic and parametric generation of city structure, road networks,\
-  \ points of interest distribution, building plot division and building generation\
-  \ with the aim to select a range of computable indicators. \n- Development of the\
-  \ analytical framework, incorporating automated techniques for extracting the specified\
-  \ indicators from real-world urban data. \n- Constructing an algorithmic pipeline\
-  \ to generate digital city models based on the framework analysis results. \n\n\
-  The challenge of this topic lies in the complex nature of the urban environment,\
-  \ and the many factors that influence the shape and structure of cities. \n\nThe\
-  \ expected outcome of the thesis is a thorough analysis of the framework applied\
-  \ to various global cities and a software tool that can be used to generate digital\
-  \ city models based on a limited set of user inputs.\n\nThe generated city models\
-  \ can serve as inputs for built environment research such as wind and traffic simulations,\
-  \ aid in urban and architectural design, function as test data for digital formats,\
-  \ algorithms, and applications, provide training material for AI systems, and be\
-  \ used for virtual reality and video games."
-- .nan
-- ./img/Post.png
-Rao:
-- Chengzhi
-- Visualizing and rendering tiled 3D data on the Web
-- Ken Arroyo Ohori
-- Stelios Vitalis
-- 'Vector-based maps, like the open-source Maplibre, have ben established s the de-facto
-  standard in the industry for world-wide map data visualization.There is a robust
-  tool chain for creating, styling and visualizing 2D data (through vector tiles)
-  but no standardized way to do so in 3D. In this MSc thesis, it will investigate
-  the possibity of interating (true) 3D Data in Maplibre, by potentially integrating
-  an existing onen standard like 3D tiles to MapLibre GL JS. The topic will focused
-  on the visualization part, by using WebGL to implement the 3D web mapping pipeline
-  from the data creation all the way to the map rendering, extending MapLibre GL JS
-  to incorporate some existing format, like 3D tiles.
+    As such, roof surfaces in 3DBAG will be assigned a material type by employing state-of-the-art deep learning methods for
+    supervised classification. This task will be carried out using a convolutional neural network architecture such as a residual
+    network or its extensions. The novelty of this thesis lies in the choice of classification technique in combination with
+    the fusion of true-colour or near infrared aerial orthophotos and the AHN4 point cloud for feature engineering.'
+  image: Mantas.png
+- name: Ping Mao
+  title: A digital twin based on Land Administration
+  supervisors: Peter van Oosterom and Azarakhsh Rafiee
+  summary: 'We work like an update of the physical building, the digital twin. But also, there is a need to update the legal
+    space.
 
 
-  This thesis is in collaboration with TomTom.'
-- TomTom, Stelios Vitalis
-- ./img/Rao.png
-Riyadi:
-- Puti Nabila
-- Using 3D BAG to develop finite element models of buildings at regional scale
-- Giorgia Giardina
-- Jantien Stoter
-- "Enhancing the resilience of the built environment to disasters involves evaluating\
-  \ how buildings respond to external forces like earthquakes, subsidence, and landslides.\
-  \ Two key factors to be considered are the method of assessing the behaviour of\
-  \ the buildings and the availability of sufficient data about building geometries.\
-  \ Given the complexity of the interaction between structures, the ground, and external\
-  \ loading, a robust computational modelling using Finite Element Model is essential\
-  \ for predicting and simulating building behaviour. Hence, the simulation's accuracy\
-  \ relies on obtaining comprehensive information about the physical characteristics\
-  \ of buildings, such as their structural elements. This data is vital for creating\
-  \ realistic models that can accurately represent the behaviour of structures under\
-  \ various external forces. This research will utilise the building geometries information\
-  \ from 3D BAG data. \n\nThe entire process of developing a model of a large number\
-  \ of buildings would be time-consuming, as developing one is challenging enough.\
-  \ Thus, the challenge lies in how to develop an algorithm for automated creation\
-  \ of building Finite Element models in regional scale. This research will assess\
-  \ to what extent the data provided in the 3D BAG data can assist in defining the\
-  \ geometry and generating meshes for a diverse range of buildings in large quantities."
-- .nan
-- ./img/Riyadi.png
-Shen:
-- Qiwei
-- Automatic segmentation of plant organs from point clouds
-- Liangliang Nan
-- Jantien Stoter
-- "A deep understanding of plant traits is essential to predict crop growth, yields,\
-  \ understand how plants interact with the environment Plant phenotyping, involves\
-  \ the quantitative measurement and analysis of plant traits, is a key tool in that\
-  \ process. By gauging various plant traits, plant phenotyping helps unravel the\
-  \ complex relationship between plants and their surroundings, thereby contributing\
-  \ to the field of crop improvement. \n\nTraditional methods for plant phenotyping\
-  \ typically require field work and manual measurements, which are laborious, subjective,\
-  \ and often destructive. Besides, another limitation is that current methods are\
-  \ often tailored to specific plant species or varieties, lacking generalizability.\
-  \ \n\nThese limitations have spurred recent research into developing high-throughput\
-  \ and efficient approaches. As a critical aspect of plant phenotyping, the segmentation\
-  \ of plant organs is now being integrated with 3D computer vision and deep learning\
-  \ methods. These advancements in 3D plant organ segmentation could enhance plant\
-  \ phenotyping processes. \n\nThis thesis aims to fill this gap by developing a deep\
-  \ learning-based method for segmenting plant organs from point clouds. The proposed\
-  \ method is applicable across multiple plant species. This research will provide\
-  \ a more generalized and efficient approach to segmenting plant organs. It has the\
-  \ potential to eventually impact diverse applications, such as plant phenotype extraction\
-  \ and precision agriculture."
-- .nan
-- ./img/Shen.png
-Spit:
-- Josephine Louise
-- Investigating the influence of user involvement in different stages of the geo-data
-  chain on accessibility for diverse demographic groups
-- Bastiaan van Loenen
-- Stefano Calzati
-- This thesis explores user involvement across the geo-data chain to understand disparities
-  in engagement. The research aims to reveal the specific points within the geo-data
-  chain where people currently shape data visualization. It delves into why some demographics
-  engage less with maps, focusing on readability and usability. The investigation
-  questions if altering map visuals could enhance usage. Additionally, it investigates
-  the impact of standardized practices on user adoption. An innovative approach involves
-  user-generated maps to analyze visualization patterns and find out if active involvement
-  increases map usage likelihood. Emphasis lies on inclusivity and accessibility,
-  aiming to pinpoint areas within the data chain where user engagement could amplify
-  map usability for diverse users.
-- nvt
-- ./img/Spit.JPG
-Tarozzo Kawasaki:
-- Maria Luisa
-- 'The Common Point: 3D Subsurface Data Models Bridging Geo-Informatics and Urban
-  Design'
-- Peter van Oosterom
-- Alexander Wandl (Urbanism)
-- Research suggests that integrating 3D GIS into urban design and planning enhances
-  realism by closely mirroring human interactions with city elements. Conversely,
-  urban design practices can guide improvements in visualization and analysis methods
-  within 3D GIS. However, existing literature predominantly focuses on above-surface
-  data, neglecting 3D subsurface models crucial for addressing underground challenges
-  like energy transition and water infiltration. This double-degree Master's thesis
-  in Geomatics and Urbanism explores the potential of 3D subsurface data models to
-  aid sustainable urban design, bridging the gap between Urbanism and Geomatics. The
-  study investigates the compatibility of 3D subsurface data models and their respective
-  standards and interfaces with design requirements, aiming to enhance the integration
-  of Urbanism and Geomatics. The research includes a practical urban design exercise
-  using the Utrecht BARCODE methodology, integrating 3D sustainable design interventions
-  proposed by the BARCODE with a 3D subsurface data model to assess the benefits of
-  this combination.
-- Rob Van Der Krogt (TNO)
-- ./img/Tarozzo Kawasaki.jpg
-Tsai:
-- Bing-Shiuan
-- Extending the 3D City Database 5.0 to support CityGML application in QGIS
-- Giorgio Agugiaro
-- "Camilo Le\xF3n-S\xE1nchez"
-- "Semantic 3D city models data management can be achieved in CityGML with database\
-  \ encoding to handle large amounts of data. \nFor CityGML, there is an open source\
-  \ database encoding called the 3DCityDB. The version in use is 4.X, which is derived\
-  \ from the CityGML v.2.0. Except for data storage, it enables users to convert object\
-  \ associations to relations between predefined feature tables based on a mapping\
-  \ rules set consistent to the standard. \nAlthough the 3DCityDB was developed to\
-  \ simplify CityGML complexity, it still remains complex for users with basic SQL\
-  \ skills. However, a plugin for QGIS, called \u201C3DCityDB-Tools for QGIS\u201D\
-  , is developed to facilitate the interaction with the 3DCityDB for a wider group\
-  \ of practitioners, narrowing the gap between them and the geodata experts via a\
-  \ GUI in QGIS.\nThe OGC has recently published the CityGML v.3.0 in Sep. 2021, and\
-  \ the 3DCityDB is being updated to version 5.0 in order to add full support for\
-  \ CityGML v.3.0. The goal of this research is to investigate how the new database\
-  \ structure of the 3DCityDB v.5.0 can be coupled with the existing 3DCityDB-Tools\
-  \ plugin, in order to enable support not only for the existing version 4.x, but\
-  \ also for the upcoming version 5.0. The research will start from familiarising\
-  \ the mapping structure of the data in both CityGML v.2.0 and v.3.0 to the new schema,\
-  \ performing experiments on the database modification on the server-side, and eventually\
-  \ improving the user experience with the existing QGIS plugin."
-- Claus Nagel, Zhihang Yao
-- ./img/Tsai.png
-Wei:
-- Qiuxian
-- Simplification for 3D city models
-- Ken Arroyo Ohori
-- Stelios Vitalis
-- '3D Tile is one of the approaches to disseminating 3D models on a large scale,  which
-  is an open community standard established by the Open Geospatial Consortium (OGC).
-  Given that large-scale 3D models typically demand significant storage space, the
-  effectiveness of these dissemination methods is a pivotal consideration. Utilizing
-  generalization and compression techniques can greatly improve its efficiency.
+    physical and legal representation
+
+    Potential Expected Result 1：right inside a new building(private space, common space)
+
+    show 3d objects + legal space(visualization example)
 
 
-  This study aims to explore a widely applicable method for generalization of 3D models,
-  with an emphasis on reusability. Furthermore, the collaborative integration of compression
-  techniques, such as Draco, Gzip, MeshOpt, etc., with simplification methods will
-  be explored to optimize the overall performance of disseminating 3D models.
+    Potential Expected Result 2：Spatial Plan & Actual building
+
+    Laws on the height of buildings（buildings fit in the plan or not fit in the plan）
+
+    spatial plan is also a legal space
+
+    Colored buildings are spatial plans, different colors are given to the buildings, different colors are for different functions,
+    and different heights are set for different functions; grey buildings are buildings that already exist. It is possible
+    to see which existing buildings are taller than the height set by the spatial plan.'
+  image: Mao.png
+- name: Sérénic Monté
+  title: Centralized benchmark for MVS (Multi-View Stereo), neural mesh reconstruction, and NeRF-based novel-view synthesis
+  supervisors: Nail Ibrahimli and Hugo Ledoux
+  summary: In my thesis I will focus on creating a benchmark that allows researches in the fields of Multiview Stereo (MvS),
+    Novel View Synthesis (NVS), and Neural Surface Reconstruction (NSR) to compare their results with each other algorithms
+    in their respective fields. These three fields require comparable input data, enabling us to create a benchmark for these
+    three fields. The dataset we will use is a textured 3d building model, from this model we will create a set of images
+    from different angles. Since we have a ground truth model we are able to evaluate the output of the different algorithms.
+    By creating a standardized data set and evaluation metrics, it is easier to compare new algorithms to existing ones, the
+    result should also become more fair, since the benchmark is the same for everyone. This could provide a better overview
+    of the performance of different methods and making it easier to find possibilities for improvements in the field of novel
+    images rendering even faster.
+  image: Monté.jpg
+- name: Georgios Konstantinos Nestoras
+  title: '5G Positioning: Current State, Future Prospects, and Experimental Analysis of Accuracy and Latency'
+  supervisors: Edward Verbree and Martijn Meijers
+  summary: '5G technology signifies a leap in connectivity with high-speed data, minimal latency, and transformative features.
+    The main focus of this project is positioning for location-based services. 5G positioning provides real-time, accurate
+    location data using advanced techniques.
+
+    Led by Robert Voute (CGI) and supervised by Edward Verbree and Martijn Meijers (TU Delft), the project explores 5G positioning''s
+    current state and future advancements. An Ericsson-facilitated experiment assesses 5G positioning accuracy and latency
+    in real-world scenarios.
+
+    Early 5G versions excel in position pinpointing using GPS and networks, enabling precise spatial info for applications.
+    The project examines existing 5G positioning technology through literature review and system analysis. Anticipated developments
+    in future 5G releases will be explored through a real-world experiment, aiming to bridge theory with practice and reveal
+    insights into advantages and constraints. Acknowledging challenges like signal interference and network congestion, the
+    project aims to refine and optimize 5G positioning. In conclusion, it aspires to contribute significantly to understanding
+    and applying 5G positioning technology, serving as a resource in navigating the evolving landscape of location-based services
+    in the 5G era.'
+  image: Nestoras.jpg
+  company: Robert Voute
+- name: Oliver Post
+  title: Developing a Framework for Parametric City Generation
+  supervisors: Hugo Ledoux and Akshay Patil
+  summary: "The objective of this thesis is to design a framework for analysing real-world cities, with the goal of applying\
+    \ this analysis to stochastically and/or parametrically create computer-generated models of new cities. \n\nThis research\
+    \ will touch on the following areas:\n- Literature review into existing methods of urban landscape analysis  and stochastic\
+    \ and parametric generation of city structure, road networks, points of interest distribution, building plot division\
+    \ and building generation with the aim to select a range of computable indicators. \n- Development of the analytical framework,\
+    \ incorporating automated techniques for extracting the specified indicators from real-world urban data. \n- Constructing\
+    \ an algorithmic pipeline to generate digital city models based on the framework analysis results. \n\nThe challenge of\
+    \ this topic lies in the complex nature of the urban environment, and the many factors that influence the shape and structure\
+    \ of cities. \n\nThe expected outcome of the thesis is a thorough analysis of the framework applied to various global\
+    \ cities and a software tool that can be used to generate digital city models based on a limited set of user inputs.\n\
+    \nThe generated city models can serve as inputs for built environment research such as wind and traffic simulations, aid\
+    \ in urban and architectural design, function as test data for digital formats, algorithms, and applications, provide\
+    \ training material for AI systems, and be used for virtual reality and video games."
+  image: Post.png
+- name: Chengzhi Rao
+  title: Visualizing and rendering tiled 3D data on the Web
+  supervisors: Ken Arroyo Ohori and Stelios Vitalis
+  summary: 'Vector-based maps, like the open-source Maplibre, have ben established s the de-facto standard in the industry
+    for world-wide map data visualization.There is a robust tool chain for creating, styling and visualizing 2D data (through
+    vector tiles) but no standardized way to do so in 3D. In this MSc thesis, it will investigate the possibity of interating
+    (true) 3D Data in Maplibre, by potentially integrating an existing onen standard like 3D tiles to MapLibre GL JS. The
+    topic will focused on the visualization part, by using WebGL to implement the 3D web mapping pipeline from the data creation
+    all the way to the map rendering, extending MapLibre GL JS to incorporate some existing format, like 3D tiles.
 
 
-  To ensure the widespread applicability of this study, open data will serve as the
-  primary data source.'
-- Tom Tom -- Stelios Vitalis
-- ./img/Wei.JPG
-Xu:
-- Longxiang
-- Multi-view consistent line segment detection
-- Liangliang Nan
-- To be determined
-- Wireframe parsing in images is focused on extracting the structured layout of a
-  scene, a critical step in creating detailed yet compact building models. Despite
-  its importance, wireframe parsing remains a challenging aspect in the fields of
-  computer vision and 3D reconstruction. Multi-view images, on the other hand, can
-  potentially help decrease the ambiguity of the detection result with the complementary
-  information provided by other images. The thesis aims at proposing a method that
-  leverages the complementary information of multiple views, by enforcing/encouraging
-  multi-view consistency, to improve wireframe parsing outcomes. The potential applications
-  of wireframe parsing, including piecewise segmentation of images and 3D wireframe
-  reconstruction, will also be showcased in this work.
-- .nan
-- ./img/Xu.png
-zhang:
-- chi
-- Applying Generative Model for Better 3D Reconstruction
-- Nail Ibrahimli
-- Liangliang Nan
-- 'Multi-view 2D images serve as crucial inputs or intermediate products for various
-  cutting-edge 3D reconstruction techniques, including MVSnet, Nerf, Gaussian Splatting,
-  and Neus, which aim to recover 3D representations such as point clouds, neural radiance
-  fields, and signed distance functions (SDFs) from multiple perspectives. The quality
-  of these input images significantly influences the performance of downstream 3D
-  reconstruction tasks. Challenges such as textureless surfaces, adverse lighting
-  conditions, and shading effects often lead to a degradation in the accuracy and
-  fidelity of reconstructed 3D models.
+    This thesis is in collaboration with TomTom.'
+  image: Rao.png
+  company: TomTom, Stelios Vitalis
+- name: Puti Nabila Riyadi
+  title: Using 3D BAG to develop finite element models of buildings at regional scale
+  supervisors: Giorgia Giardina and Jantien Stoter
+  summary: "Enhancing the resilience of the built environment to disasters involves evaluating how buildings respond to external\
+    \ forces like earthquakes, subsidence, and landslides. Two key factors to be considered are the method of assessing the\
+    \ behaviour of the buildings and the availability of sufficient data about building geometries. Given the complexity of\
+    \ the interaction between structures, the ground, and external loading, a robust computational modelling using Finite\
+    \ Element Model is essential for predicting and simulating building behaviour. Hence, the simulation's accuracy relies\
+    \ on obtaining comprehensive information about the physical characteristics of buildings, such as their structural elements.\
+    \ This data is vital for creating realistic models that can accurately represent the behaviour of structures under various\
+    \ external forces. This research will utilise the building geometries information from 3D BAG data. \n\nThe entire process\
+    \ of developing a model of a large number of buildings would be time-consuming, as developing one is challenging enough.\
+    \ Thus, the challenge lies in how to develop an algorithm for automated creation of building Finite Element models in\
+    \ regional scale. This research will assess to what extent the data provided in the 3D BAG data can assist in defining\
+    \ the geometry and generating meshes for a diverse range of buildings in large quantities."
+  image: Riyadi.png
+- name: Qiwei Shen
+  title: Automatic segmentation of plant organs from point clouds
+  supervisors: Liangliang Nan and Jantien Stoter
+  summary: "A deep understanding of plant traits is essential to predict crop growth, yields, understand how plants interact\
+    \ with the environment Plant phenotyping, involves the quantitative measurement and analysis of plant traits, is a key\
+    \ tool in that process. By gauging various plant traits, plant phenotyping helps unravel the complex relationship between\
+    \ plants and their surroundings, thereby contributing to the field of crop improvement. \n\nTraditional methods for plant\
+    \ phenotyping typically require field work and manual measurements, which are laborious, subjective, and often destructive.\
+    \ Besides, another limitation is that current methods are often tailored to specific plant species or varieties, lacking\
+    \ generalizability. \n\nThese limitations have spurred recent research into developing high-throughput and efficient approaches.\
+    \ As a critical aspect of plant phenotyping, the segmentation of plant organs is now being integrated with 3D computer\
+    \ vision and deep learning methods. These advancements in 3D plant organ segmentation could enhance plant phenotyping\
+    \ processes. \n\nThis thesis aims to fill this gap by developing a deep learning-based method for segmenting plant organs\
+    \ from point clouds. The proposed method is applicable across multiple plant species. This research will provide a more\
+    \ generalized and efficient approach to segmenting plant organs. It has the potential to eventually impact diverse applications,\
+    \ such as plant phenotype extraction and precision agriculture."
+  image: Shen.png
+- name: Josephine Louise Spit
+  title: Investigating the influence of user involvement in different stages of the geo-data chain on accessibility for diverse
+    demographic groups
+  supervisors: Bastiaan van Loenen and Stefano Calzati
+  summary: This thesis explores user involvement across the geo-data chain to understand disparities in engagement. The research
+    aims to reveal the specific points within the geo-data chain where people currently shape data visualization. It delves
+    into why some demographics engage less with maps, focusing on readability and usability. The investigation questions if
+    altering map visuals could enhance usage. Additionally, it investigates the impact of standardized practices on user adoption.
+    An innovative approach involves user-generated maps to analyze visualization patterns and find out if active involvement
+    increases map usage likelihood. Emphasis lies on inclusivity and accessibility, aiming to pinpoint areas within the data
+    chain where user engagement could amplify map usability for diverse users.
+  image: Spit.JPG
+  company: nvt
+- name: Maria Luisa Tarozzo Kawasaki
+  title: 'The Common Point: 3D Subsurface Data Models Bridging Geo-Informatics and Urban Design'
+  supervisors: Peter van Oosterom and Alexander Wandl (Urbanism)
+  summary: Research suggests that integrating 3D GIS into urban design and planning enhances realism by closely mirroring
+    human interactions with city elements. Conversely, urban design practices can guide improvements in visualization and
+    analysis methods within 3D GIS. However, existing literature predominantly focuses on above-surface data, neglecting 3D
+    subsurface models crucial for addressing underground challenges like energy transition and water infiltration. This double-degree
+    Master's thesis in Geomatics and Urbanism explores the potential of 3D subsurface data models to aid sustainable urban
+    design, bridging the gap between Urbanism and Geomatics. The study investigates the compatibility of 3D subsurface data
+    models and their respective standards and interfaces with design requirements, aiming to enhance the integration of Urbanism
+    and Geomatics. The research includes a practical urban design exercise using the Utrecht BARCODE methodology, integrating
+    3D sustainable design interventions proposed by the BARCODE with a 3D subsurface data model to assess the benefits of
+    this combination.
+  image: Tarozzo Kawasaki.jpg
+  company: Rob Van Der Krogt (TNO)
+- name: Bing-Shiuan Tsai
+  title: Extending the 3D City Database 5.0 to support CityGML application in QGIS
+  supervisors: Giorgio Agugiaro and Camilo León-Sánchez
+  summary: "Semantic 3D city models data management can be achieved in CityGML with database encoding to handle large amounts\
+    \ of data. \nFor CityGML, there is an open source database encoding called the 3DCityDB. The version in use is 4.X, which\
+    \ is derived from the CityGML v.2.0. Except for data storage, it enables users to convert object associations to relations\
+    \ between predefined feature tables based on a mapping rules set consistent to the standard. \nAlthough the 3DCityDB was\
+    \ developed to simplify CityGML complexity, it still remains complex for users with basic SQL skills. However, a plugin\
+    \ for QGIS, called “3DCityDB-Tools for QGIS”, is developed to facilitate the interaction with the 3DCityDB for a wider\
+    \ group of practitioners, narrowing the gap between them and the geodata experts via a GUI in QGIS.\nThe OGC has recently\
+    \ published the CityGML v.3.0 in Sep. 2021, and the 3DCityDB is being updated to version 5.0 in order to add full support\
+    \ for CityGML v.3.0. The goal of this research is to investigate how the new database structure of the 3DCityDB v.5.0\
+    \ can be coupled with the existing 3DCityDB-Tools plugin, in order to enable support not only for the existing version\
+    \ 4.x, but also for the upcoming version 5.0. The research will start from familiarising the mapping structure of the\
+    \ data in both CityGML v.2.0 and v.3.0 to the new schema, performing experiments on the database modification on the server-side,\
+    \ and eventually improving the user experience with the existing QGIS plugin."
+  image: Tsai.png
+  company: Claus Nagel, Zhihang Yao
+- name: Qiuxian Wei
+  title: Simplification for 3D city models
+  supervisors: Ken Arroyo Ohori and Stelios Vitalis
+  summary: '3D Tile is one of the approaches to disseminating 3D models on a large scale,  which is an open community standard
+    established by the Open Geospatial Consortium (OGC). Given that large-scale 3D models typically demand significant storage
+    space, the effectiveness of these dissemination methods is a pivotal consideration. Utilizing generalization and compression
+    techniques can greatly improve its efficiency.
 
 
-  In recent years, the stable Diffusion model has demonstrated considerable success
-  and found widespread application in 3D editing and personalized tasks, exemplified
-  by applications like Magic3D, Dreamfusion, and Dream3D. In this work, we propose
-  leveraging a generative model to enhance 3D reconstruction tasks. Specifically,
-  we employ a stable Diffusion model for image inpainting tasks on input images. Additionally,
-  we introduce our techniques to generate multi-view consistent images from the original
-  input, addressing and mitigating imperfections present in the original images. This
-  includes tasks such as adding texture to texture-less images or introducing shading
-  to poorly illuminated areas.
+    This study aims to explore a widely applicable method for generalization of 3D models, with an emphasis on reusability.
+    Furthermore, the collaborative integration of compression techniques, such as Draco, Gzip, MeshOpt, etc., with simplification
+    methods will be explored to optimize the overall performance of disseminating 3D models.
 
 
-  Our approach aims to demonstrate the effectiveness of employing a stable Diffusion
-  model and 3D cross-attention layers in enhancing the quality of input images for
-  3D reconstru'
-- .nan
-- ./img/zhang.png
+    To ensure the widespread applicability of this study, open data will serve as the primary data source.'
+  image: Wei.JPG
+  company: Tom Tom -- Stelios Vitalis
+- name: Longxiang Xu
+  title: Multi-view consistent line segment detection
+  supervisors: Liangliang Nan and To be determined
+  summary: Wireframe parsing in images is focused on extracting the structured layout of a scene, a critical step in creating
+    detailed yet compact building models. Despite its importance, wireframe parsing remains a challenging aspect in the fields
+    of computer vision and 3D reconstruction. Multi-view images, on the other hand, can potentially help decrease the ambiguity
+    of the detection result with the complementary information provided by other images. The thesis aims at proposing a method
+    that leverages the complementary information of multiple views, by enforcing/encouraging multi-view consistency, to improve
+    wireframe parsing outcomes. The potential applications of wireframe parsing, including piecewise segmentation of images
+    and 3D wireframe reconstruction, will also be showcased in this work.
+  image: Xu.png
+- name: chi zhang
+  title: Applying Generative Model for Better 3D Reconstruction
+  supervisors: Nail Ibrahimli and Liangliang Nan
+  summary: 'Multi-view 2D images serve as crucial inputs or intermediate products for various cutting-edge 3D reconstruction
+    techniques, including MVSnet, Nerf, Gaussian Splatting, and Neus, which aim to recover 3D representations such as point
+    clouds, neural radiance fields, and signed distance functions (SDFs) from multiple perspectives. The quality of these
+    input images significantly influences the performance of downstream 3D reconstruction tasks. Challenges such as textureless
+    surfaces, adverse lighting conditions, and shading effects often lead to a degradation in the accuracy and fidelity of
+    reconstructed 3D models.
+
+
+    In recent years, the stable Diffusion model has demonstrated considerable success and found widespread application in
+    3D editing and personalized tasks, exemplified by applications like Magic3D, Dreamfusion, and Dream3D. In this work, we
+    propose leveraging a generative model to enhance 3D reconstruction tasks. Specifically, we employ a stable Diffusion model
+    for image inpainting tasks on input images. Additionally, we introduce our techniques to generate multi-view consistent
+    images from the original input, addressing and mitigating imperfections present in the original images. This includes
+    tasks such as adding texture to texture-less images or introducing shading to poorly illuminated areas.
+
+
+    Our approach aims to demonstrate the effectiveness of employing a stable Diffusion model and 3D cross-attention layers
+    in enhancing the quality of input images for 3D reconstru'
+  image: zhang.png

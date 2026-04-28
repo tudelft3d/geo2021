@@ -1,220 +1,148 @@
-Bachert: 
-- Carolin
-- Giorgio Agugiaro
-- "Camilo Le\xF3n S\xE1nchez"
-- "The new CityGML\
-    \ 3.0 standard was officially released as a conceptual model in 2021. Among other\
-    \ changes, it includes a revised space concept with the distinction in AbstractSpace,\
-    \ AbstractSpaceBoundary, OccupiedSpace and UnoccupiedSpace. Furthermore, it offers\
-    \ new possibilities to store time-dependent attributes through the Dynamizer and\
-    \ Versioning modules. In the existing Energy Application Domain Extension for\
-    \ CityGML 2.0 similar concepts have to be additionally modelled, for example to\
-    \ describe ThermalZones and ThermalBoundaries. Therefore, I am going to explore\
-    \ how the Energy ADE can be mapped to the new standard, i.e. which classes, attributes,\
-    \ and relations became redundant and which of them are still needed. The conceptual\
-    \ mapping will then be implemented by creating an updated UML diagram for the\
-    \ Energy ADE together with its according XML Schema file. CityGML 3.0\u2019s new\
-    \ ADE Hook mechanism will play an important role here; for me to find a way to\
-    \ incorporate the additional information to the core model. The updated ADE will\
-    \ finally be tested through generated sample data, with the aim to convert CityGML\
-    \ 2.0 + Energy ADE data to CityGML 3.0 + (updated) Energy ADE."
-- 33b0880fb0b1-P1.png
-- Adaption of the EnergyADE to the new CityGML 3.0 standard
-Dobson: 
-- "Dani\xEBl James"
-- Ken Arroyo Ohori
-- Nail Ibrahimli
-- 'Accurately knowing
-    the number of floors of a building is an important factor when assessing the built
-    environment. Building floor count can help with a wide range of subjects such
-    as building energy demand models, flood response plans, housing market studies
-    and so on. The problem is that there is no global (open) dataset containing this
-    information. Examples of datasets that could contain building floor count information
-    (implicitly), are point clouds or cadastral data. These are expensive, infrequently
-    updated, and/or closed. Instead, pictures are a relatively inexpensive, easily
-    updateable and available data source, existing already at large scale (eg Google
-    Street View, Mapillary).
+- name: Carolin Bachert
+  title: Adaption of the EnergyADE to the new CityGML 3.0 standard
+  supervisors: Giorgio Agugiaro and Camilo León Sánchez
+  summary: The new CityGML 3.0 standard was officially released as a conceptual model in 2021. Among other changes, it includes
+    a revised space concept with the distinction in AbstractSpace, AbstractSpaceBoundary, OccupiedSpace and UnoccupiedSpace.
+    Furthermore, it offers new possibilities to store time-dependent attributes through the Dynamizer and Versioning modules.
+    In the existing Energy Application Domain Extension for CityGML 2.0 similar concepts have to be additionally modelled,
+    for example to describe ThermalZones and ThermalBoundaries. Therefore, I am going to explore how the Energy ADE can be
+    mapped to the new standard, i.e. which classes, attributes, and relations became redundant and which of them are still
+    needed. The conceptual mapping will then be implemented by creating an updated UML diagram for the Energy ADE together
+    with its according XML Schema file. CityGML 3.0’s new ADE Hook mechanism will play an important role here; for me to find
+    a way to incorporate the additional information to the core model. The updated ADE will finally be tested through generated
+    sample data, with the aim to convert CityGML 2.0 + Energy ADE data to CityGML 3.0 + (updated) Energy ADE.
+  image: 33b0880fb0b1-P1.png
+- name: Daniël James Dobson
+  title:
+    Building floor count determination with images: A Deep Learning approach.
+  supervisors: Ken Arroyo Ohori and Nail Ibrahimli
+  summary: 'Accurately knowing the number of floors of a building is an important factor when assessing the built environment.
+    Building floor count can help with a wide range of subjects such as building energy demand models, flood response plans,
+    housing market studies and so on. The problem is that there is no global (open) dataset containing this information. Examples
+    of datasets that could contain building floor count information (implicitly), are point clouds or cadastral data. These
+    are expensive, infrequently updated, and/or closed. Instead, pictures are a relatively inexpensive, easily updateable
+    and available data source, existing already at large scale (eg Google Street View, Mapillary).
 
-    However, although inferring higher lever semantics (eg building floor count) from
-    images is trivial for a human, for a machine it is not. Prior work has been done
-    on successfully extracting lower level building semantics (eg doors, windows,
-    balconies) from images with a deep convolutional neural network. The objective
-    is to extend this research and develop an end-to-end pipeline to accurately determine
-    the building floor count from lower level semantics. How should the semantics
-    (eg windows) be processed further? What type of spatial clustering is most effective
-    in building floor count? What (pre)processing techniques increase the performance
-    of the proposed method? These are initial questions that arise in solving accurate
+    However, although inferring higher lever semantics (eg building floor count) from images is trivial for a human, for a
+    machine it is not. Prior work has been done on successfully extracting lower level building semantics (eg doors, windows,
+    balconies) from images with a deep convolutional neural network. The objective is to extend this research and develop
+    an end-to-end pipeline to accurately determine the building floor count from lower level semantics. How should the semantics
+    (eg windows) be processed further? What type of spatial clustering is most effective in building floor count? What (pre)processing
+    techniques increase the performance of the proposed method? These are initial questions that arise in solving accurate
     building floor count determination with deep learning.'
--  b575ce82525b-thesis_p1.jpg
-- Building floor count determination with images:  A Deep Learning approach.
-Dong:
-- Haoyang
-- Maarten Pronk
-- Hugo Ledoux
-- "Accurate elevation data are essential\
-    \ for many applications in geoscience. Unfortunately, most digital elevation models\
-    \ (DEMs) are Digital Surface Models (DSMs) rather than Digital Terrain Models\
-    \ (DTMs), in which the data of vegetation and buildings will cause systematical\
-    \ errors. Current methods of converting DSMs to (pseudo)DTMs such as MERIT DEM,\
-    \ FABDEM, and CoastalDEM are either uncompleted or vague about the exact methods\
-    \ used and with results that contain artifacts. \n\nThis project aims to produce\
-    \ a (pseudo)DTM from a DSM. The main two steps of the methodology:\n1. Surface\
-    \ classification and removing non-ground pixels using machine learning\n2. Interpolating\
-    \ the removed pixels from ground surroundings using traditional methods\n\nBoth\
-    \ the AHN4 datasets (resolution at 0.5m and 5m) and global DEMs (resolution at\
-    \ 30m) are considered to be used. The evaluation of classification in this method\
-    \ can be done with a proper train-test split on AHN4 datasets. Furthermore, the\
-    \ comparison of the results between this method and other models mentioned above\
-    \ will be made on global DEMs. Resampling and discussion on the effects of the\
-    \ resolution are also parts of this project.\n\nApplications that need the correct\
-    \ representation of the terrain like flood simulation and further research on\
-    \ correcting DEMs with machine learning will benefit from the project."
-- 2e414a2d84e7-p1_registration.png
-- Correcting global elevation models for canopy and infrastructure using Machine Learning
-Geers: 
-- Lisa
-- Martijn Meijers
-- Azarakhsh Rafiee
-- "Natura 2000 is a European network\
-    \ of protected areas with the purpose to protect the habitat of numerous species.\
-    \ For this reason fishing is constrained in marine protected areas. Monitoring\
-    \ the  compliance of fisher boats to these rules is done by the Dutch NVWA and\
-    \ is very labour intensive, as surveyors need to sail around in boats to check\
-    \ fishers. The NVWA wants to change this method by using drones to monitor these\
-    \ fishing boats. This is still a challenge, because fishing boats as well as fishing\
-    \ activity need to be automatically detected on the drone footage. Moreover, the\
-    \ exact location of the boats needs to be determined to see if they are fishing\
-    \ in restricted areas. In addition, these objectives need to be carried out in\
-    \ real time for the surveyor to be able to catch law-breaking fishers in the act.\
-    \ \nThis thesis aims to find a method to detect and localise active fishing boats\
-    \ in real time. This will be done with the use of Esri\u2019s GeoAI software,\
-    \ collected drone footage from the Dutch NVWA and other open spatial data. The\
-    \ following objectives will be researched:\n-How to detect fishing boats on drone\
-    \ footage and determine if they are fishing.\n-How to derive the exact location\
-    \ of boats from drone footage.\n-How to carry out these objectives in real time."
--  4d02f7585e53-p1.jpg
-- Automatic real time detection of fisher boats in Natura 2000 areas with the use of drones
-Keurentjes:
-- Lisa
-- Hugo Ledoux
-- "Ivan Pa\u0111en"
-- "To tackle\
-    \ our complex world, we tend to make cities \u201Csmarter\u201D, by using simulations\
-    \ from various disciplines, like for example wind field or flood simulations.\
-    \ These simulations and analysis have become essential tools for decision making\
-    \ in urban planning and analytics.\n\nHigh data quality 3D city models serve as\
-    \ reliable representation of the real world objects, seeing the high-quality information\
-    \ and solid spatial visibility they offer. To validate the quality of the date\
-    \ and achieve interoperability, the ISO 19100 series standards were created. But\
-    \ there are just too many different fields where 3D data can be exploited to conclude\
-    \ all validation rules for every field. For example typical extra requirements\
-    \ for wind simulation software include: no small features, edges, and gaps between\
-    \ buildings. Sadly a significant amount of 3D city models is not considered valid\
-    \ to the standards above. This hinders the further analyzing or processing of\
-    \ these models. Since manual repair of 3D City models is very time consuming and\
-    \ prone to errors, automatic repair methods are highly desirable. Therefore the\
-    \ objective of this thesis will be to develop a software framework as proof-of-concept\
-    \ for automatic repair of 3D city models. The software will repair errors that\
-    \ users choose, so that the models fulfill basic requirements and requirements\
-    \ for specific use cases. Also the Software will be designed in such a way that\
-    \ it could be extended with more repair options."
-- 1a8a2ff49f94-repair.gif
-- Automatic repair of 3D city models
-Kountouri:
-- Pinelopi Eirini
-- "Clara Garc\xEDa-S\xE1nchez"
-- "Ivan Pa\u0111en"
-- "With\
-    \ the increase of urbanization process, more than 50% of the world population\
-    \ live in urban \nenvironments, where traffic, industry and domestic pollution\
-    \ pose a high health risk for people.\nThe level of pollution in urban canyons\
-    \ is strongly affected by the building\u2019s layout and city\u2019s \norganization.\
-    \ Thus, the investigation of wind around buildings and passive scalar distributions\
-    \ is\ncrucial for improving the urban environment, by addressing air pollutant\
-    \ diffusion, natural \nventilation and pedestrian comfort. To achieve this, wind\
-    \ flow analysis is required, based on \nadvanced techniques. One of the most common\
-    \ methods used concerning fluid flow is \nComputational Fluid Dynamics (CFD).\
-    \ CFD simulations of fluid flow and mass transfer require\nnumerical solution\
-    \ of Navier-Stokes equation together with continuity equation. Finally, in the\
-    \ \ncurrent thesis we will study the Stanford test case to investigate the impact\
-    \ of the level-of-details \nof real urban environment in results of CFD simulations.\
-    \ Specifically, this research will be focused on testing and applying a wind analysis\
-    \ simulation implementing in different LoDs as well as to build a dispersion model\
-    \ within this work flow. The final outcome will be compared in the end \nwith\
-    \ real-world measurements. Having this goal, the current thesis will answer the\
-    \ following \nmain research question: \nWhat\u2019s the impact of different LoDs\
-    \ of the buildings for the pollutant dispersion from different \nsources around\
-    \ an urban environment?"
-- 088508ea1eb2-p1.png
-- Analyzing the effects of level-of-details on the pollutant dispersion in real urban environments
-Meschin:
-- Katrin
-- Maarten Pronk
-- Hugo Ledoux
-- "Forests play a crucial role in Earth\u2019\
-    s carbon cycle and the global climate. Therefore, understanding forest structure\
-    \ on a global scale is important in environmental research. Ice, Cloud, and land\
-    \ Elevation Satellite (ICESat-2) uses photon counting and is tuned for studying\
-    \ polar regions. However, it also has potential to be used for measuring the structural\
-    \ characteristics of forests at large scales. By using radiometry, the number\
-    \ of signal photons detected per outgoing laser shots, the change in the returns\
-    \ has been shown to vary for different forest types. Neuenschwander et al. (2022)\
-    \ developed an ICESat-2 radiometric profiles for three general forest types which\
-    \ can be used for calculating vegetation structure. However, research for using\
-    \ such radiometric profiles for extracting forest structural information and canopy\
-    \ cover is still in under development.\nThis thesis aims to undertake exploratory\
-    \ analysis on using ICESat-2 data and the radiometric profiles derived to extract\
-    \ forest structural information. The study area is Estonia \u2013 a country in\
-    \ Northern Europe with both boreal-type coniferous forest as well as temperate\
-    \ mixed forest. \nThe main research question raised is:\nTo what extent can forest\
-    \ structural information, including the canopy cover, of Estonian boreal and mixed\
-    \ forest be determined from the ICESat-2 radiometry?\nThe results will be validated\
-    \ against an aerial full waveform lidar point cloud by Estonian Land Board which\
-    \ covers the entire Estonian territory"
-- 2afd917b7780-lidar_400_400.png
-- Forest structure estimation of boreal and mixed forest from ICESat-2 radiometric profile
-Pena Pereira: 
-- Simon
-- Azarakhsh Rafiee
-- Stef Lhermitte
-- "As one of the main drivers\
-    \ of the greenhouse effect, the energy sector is increasingly shifting towards\
-    \ more renewable and sustainable energy sources to face climate change by reaching\
-    \ policy-made climate targets. A popular option to contribute to this energy transition\
-    \ is the installation of photovoltaic (PV) systems on rooftops. That allows a\
-    \ renewable energy supply by solar PV systems in a decentralized manner. Depending\
-    \ on the country, there exist well to poorly documented registries of active PV\
-    \ systems, which are a hurdle for planning and achieving an efficient energy transition.\
-    \ \nAn approach for providing up-to-date information on installed systems is the\
-    \ automated detection of rooftop solar panels through Convolutional Neural Networks\
-    \ (CNN). The objective is to train and run a CNN model for object detection on\
-    \ aerial images to determine the location and distribution as well as the approximate\
-    \ size of rooftop solar panels for estimations of their electrical power."
-- 7e180e8882e2-p1img.jpg
-- Automated rooftop solar panel detection through Convolutional Neural Networks
-Spinoza Andreo:
-- Guilherme
-- Frederika Welle Donker
-- Stefano Calzatti
-- 'An open
-    data ecosystem can be defined as a circular, inclusive, sustainable network, in
-    which data is accessible, re-useable, and oriented for the cooperation of its
-    interdependent environment with its users. A well-performing user driven open
-    geodata ecosystem could potentially stimulate citizen participation, innovation,
-    use and re-use of data between users and data suppliers. To understand the status
-    of geoinformation in these ecosystems and to identify the socio-economic benefits
-    of a well-performing one, further research is required into how they can be assessed
-    properly. Using an assessment framework can be a strong instrument to further
-    develop open geodata ecosystems, especially for cities in the early stages of
-    development. Measuring and evaluating the value and success of open geoinformation
-    in relation to user participation in the private, public and educational sectors
-    is still a challenge. What aspects can be used to define the most effective strategy
-    to transition to an open geodata? What are the crucial factors that promote user
-    participation? This thesis aims to develop an assessment framework to provide
-    guidelines for the development of a successful open geodata ecosystem from a user-centric
-    perspective. This framework will include indicators developed through qualitative
-    research by interviewing various user groups and will be used to perform a comparative
-    analysis of local open geodata ecosystems considered to be a best practice for
-    user participation.'
-- 778499397dc8-thesis.png
-- Accessing a successful open geodata ecosystem from a user-centric perspective: A qualitative comparison
+  image: b575ce82525b-thesis_p1.jpg
+- name: Haoyang Dong
+  title: Correcting global elevation models for canopy and infrastructure using Machine Learning
+  supervisors: Maarten Pronk and Hugo Ledoux
+  summary: "Accurate elevation data are essential for many applications in geoscience. Unfortunately, most digital elevation\
+    \ models (DEMs) are Digital Surface Models (DSMs) rather than Digital Terrain Models (DTMs), in which the data of vegetation\
+    \ and buildings will cause systematical errors. Current methods of converting DSMs to (pseudo)DTMs such as MERIT DEM,\
+    \ FABDEM, and CoastalDEM are either uncompleted or vague about the exact methods used and with results that contain artifacts.\
+    \ \n\nThis project aims to produce a (pseudo)DTM from a DSM. The main two steps of the methodology:\n1. Surface classification\
+    \ and removing non-ground pixels using machine learning\n2. Interpolating the removed pixels from ground surroundings\
+    \ using traditional methods\n\nBoth the AHN4 datasets (resolution at 0.5m and 5m) and global DEMs (resolution at 30m)\
+    \ are considered to be used. The evaluation of classification in this method can be done with a proper train-test split\
+    \ on AHN4 datasets. Furthermore, the comparison of the results between this method and other models mentioned above will\
+    \ be made on global DEMs. Resampling and discussion on the effects of the resolution are also parts of this project.\n\
+    \nApplications that need the correct representation of the terrain like flood simulation and further research on correcting\
+    \ DEMs with machine learning will benefit from the project."
+  image: 2e414a2d84e7-p1_registration.png
+- name: Lisa Geers
+  title: Automatic real time detection of fisher boats in Natura 2000 areas with the use of drones
+  supervisors: Martijn Meijers and Azarakhsh Rafiee
+  summary: "Natura 2000 is a European network of protected areas with the purpose to protect the habitat of numerous species.\
+    \ For this reason fishing is constrained in marine protected areas. Monitoring the  compliance of fisher boats to these\
+    \ rules is done by the Dutch NVWA and is very labour intensive, as surveyors need to sail around in boats to check fishers.\
+    \ The NVWA wants to change this method by using drones to monitor these fishing boats. This is still a challenge, because\
+    \ fishing boats as well as fishing activity need to be automatically detected on the drone footage. Moreover, the exact\
+    \ location of the boats needs to be determined to see if they are fishing in restricted areas. In addition, these objectives\
+    \ need to be carried out in real time for the surveyor to be able to catch law-breaking fishers in the act. \nThis thesis\
+    \ aims to find a method to detect and localise active fishing boats in real time. This will be done with the use of Esri’s\
+    \ GeoAI software, collected drone footage from the Dutch NVWA and other open spatial data. The following objectives will\
+    \ be researched:\n-How to detect fishing boats on drone footage and determine if they are fishing.\n-How to derive the\
+    \ exact location of boats from drone footage.\n-How to carry out these objectives in real time."
+  image: 4d02f7585e53-p1.jpg
+- name: Lisa Keurentjes
+  title: Automatic repair of 3D city models
+  supervisors: Hugo Ledoux and Ivan Pađen
+  summary: 'To tackle our complex world, we tend to make cities “smarter”, by using simulations from various disciplines,
+    like for example wind field or flood simulations. These simulations and analysis have become essential tools for decision
+    making in urban planning and analytics.
+
+
+    High data quality 3D city models serve as reliable representation of the real world objects, seeing the high-quality information
+    and solid spatial visibility they offer. To validate the quality of the date and achieve interoperability, the ISO 19100
+    series standards were created. But there are just too many different fields where 3D data can be exploited to conclude
+    all validation rules for every field. For example typical extra requirements for wind simulation software include: no
+    small features, edges, and gaps between buildings. Sadly a significant amount of 3D city models is not considered valid
+    to the standards above. This hinders the further analyzing or processing of these models. Since manual repair of 3D City
+    models is very time consuming and prone to errors, automatic repair methods are highly desirable. Therefore the objective
+    of this thesis will be to develop a software framework as proof-of-concept for automatic repair of 3D city models. The
+    software will repair errors that users choose, so that the models fulfill basic requirements and requirements for specific
+    use cases. Also the Software will be designed in such a way that it could be extended with more repair options.'
+  image: 1a8a2ff49f94-repair.gif
+- name: Pinelopi Eirini Kountouri
+  title: Analyzing the effects of level-of-details on the pollutant dispersion in real urban environments
+  supervisors: Clara García-Sánchez and Ivan Pađen
+  summary: "With the increase of urbanization process, more than 50% of the world population live in urban \nenvironments,\
+    \ where traffic, industry and domestic pollution pose a high health risk for people.\nThe level of pollution in urban\
+    \ canyons is strongly affected by the building’s layout and city’s \norganization. Thus, the investigation of wind around\
+    \ buildings and passive scalar distributions is\ncrucial for improving the urban environment, by addressing air pollutant\
+    \ diffusion, natural \nventilation and pedestrian comfort. To achieve this, wind flow analysis is required, based on \n\
+    advanced techniques. One of the most common methods used concerning fluid flow is \nComputational Fluid Dynamics (CFD).\
+    \ CFD simulations of fluid flow and mass transfer require\nnumerical solution of Navier-Stokes equation together with\
+    \ continuity equation. Finally, in the \ncurrent thesis we will study the Stanford test case to investigate the impact\
+    \ of the level-of-details \nof real urban environment in results of CFD simulations. Specifically, this research will\
+    \ be focused on testing and applying a wind analysis simulation implementing in different LoDs as well as to build a dispersion\
+    \ model within this work flow. The final outcome will be compared in the end \nwith real-world measurements. Having this\
+    \ goal, the current thesis will answer the following \nmain research question: \nWhat’s the impact of different LoDs of\
+    \ the buildings for the pollutant dispersion from different \nsources around an urban environment?"
+  image: 088508ea1eb2-p1.png
+- name: Katrin Meschin
+  title: Forest structure estimation of boreal and mixed forest from ICESat-2 radiometric profile
+  supervisors: Maarten Pronk and Hugo Ledoux
+  summary: "Forests play a crucial role in Earth’s carbon cycle and the global climate. Therefore, understanding forest structure\
+    \ on a global scale is important in environmental research. Ice, Cloud, and land Elevation Satellite (ICESat-2) uses photon\
+    \ counting and is tuned for studying polar regions. However, it also has potential to be used for measuring the structural\
+    \ characteristics of forests at large scales. By using radiometry, the number of signal photons detected per outgoing\
+    \ laser shots, the change in the returns has been shown to vary for different forest types. Neuenschwander et al. (2022)\
+    \ developed an ICESat-2 radiometric profiles for three general forest types which can be used for calculating vegetation\
+    \ structure. However, research for using such radiometric profiles for extracting forest structural information and canopy\
+    \ cover is still in under development.\nThis thesis aims to undertake exploratory analysis on using ICESat-2 data and\
+    \ the radiometric profiles derived to extract forest structural information. The study area is Estonia – a country in\
+    \ Northern Europe with both boreal-type coniferous forest as well as temperate mixed forest. \nThe main research question\
+    \ raised is:\nTo what extent can forest structural information, including the canopy cover, of Estonian boreal and mixed\
+    \ forest be determined from the ICESat-2 radiometry?\nThe results will be validated against an aerial full waveform lidar\
+    \ point cloud by Estonian Land Board which covers the entire Estonian territory"
+  image: 2afd917b7780-lidar_400_400.png
+- name: Simon Pena Pereira
+  title: Automated rooftop solar panel detection through Convolutional Neural Networks
+  supervisors: Azarakhsh Rafiee and Stef Lhermitte
+  summary: "As one of the main drivers of the greenhouse effect, the energy sector is increasingly shifting towards more renewable\
+    \ and sustainable energy sources to face climate change by reaching policy-made climate targets. A popular option to contribute\
+    \ to this energy transition is the installation of photovoltaic (PV) systems on rooftops. That allows a renewable energy\
+    \ supply by solar PV systems in a decentralized manner. Depending on the country, there exist well to poorly documented\
+    \ registries of active PV systems, which are a hurdle for planning and achieving an efficient energy transition. \nAn\
+    \ approach for providing up-to-date information on installed systems is the automated detection of rooftop solar panels\
+    \ through Convolutional Neural Networks (CNN). The objective is to train and run a CNN model for object detection on aerial\
+    \ images to determine the location and distribution as well as the approximate size of rooftop solar panels for estimations\
+    \ of their electrical power."
+  image: 7e180e8882e2-p1img.jpg
+- name: Guilherme Spinoza Andreo
+  title:
+    Accessing a successful open geodata ecosystem from a user-centric perspective: A qualitative comparison
+  supervisors: Frederika Welle Donker and Stefano Calzatti
+  summary: An open data ecosystem can be defined as a circular, inclusive, sustainable network, in which data is accessible,
+    re-useable, and oriented for the cooperation of its interdependent environment with its users. A well-performing user
+    driven open geodata ecosystem could potentially stimulate citizen participation, innovation, use and re-use of data between
+    users and data suppliers. To understand the status of geoinformation in these ecosystems and to identify the socio-economic
+    benefits of a well-performing one, further research is required into how they can be assessed properly. Using an assessment
+    framework can be a strong instrument to further develop open geodata ecosystems, especially for cities in the early stages
+    of development. Measuring and evaluating the value and success of open geoinformation in relation to user participation
+    in the private, public and educational sectors is still a challenge. What aspects can be used to define the most effective
+    strategy to transition to an open geodata? What are the crucial factors that promote user participation? This thesis aims
+    to develop an assessment framework to provide guidelines for the development of a successful open geodata ecosystem from
+    a user-centric perspective. This framework will include indicators developed through qualitative research by interviewing
+    various user groups and will be used to perform a comparative analysis of local open geodata ecosystems considered to
+    be a best practice for user participation.
+  image: 778499397dc8-thesis.png

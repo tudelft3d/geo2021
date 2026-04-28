@@ -1,91 +1,61 @@
-Bhatt:
-- Vidushi
-- "Voxel based 3D Point Cloud Semantic Segmentation at Urban scale" 
-- Peter van Oosterom
-- Undecided
-- " Most 3D PC segmentation techniques today either attempt ML methodologies to achieve \
-  \ segmentation or labour intensive classification by people. The issue with ML techniques \
-  \ for segmentation is primarily related to the lack of sufficient training material \
-  \ to execute achieve a reliable classification. New research in this direction experiments \
-  \ with the utilisation of voxel structures to attempt segmentation of point cloud. \
-  \ This project is aimed at looking into the current techniques and assessing their \
-  \ applicability at the urban scale. "
-- .nan
-- ./img/Bhatt.png
-Chandran:
-- Aswathy
-- "Building Material component for the LADM"
-- Peter van Oosterom
-- Wilko Quak
-- " The thesis focuses on explores the potential integration of Building Material into \
-  \ the Land Administration Domain Model (LADM). It centers on advancing the circularity \
-  \ and sustainability of buildings by introducing an additional component in LADM. \
-  \ This element will consists of a database of materials organized by their components \
-  \ like quality, type etc, offering an understanding of their estimated lifespan. These \
-  \ materials can then be reused in new construction projects, taking into account geographical \
-  \ considerations like proximity and the type of building involved. The research aims \
-  \ to evaluate the feasibility and advantages of incorporating the building materials \
-  \ section into the existing LADM framework, utilizing case studies. Through this project, \
-  \ it aims to understand the implications for improving the circularity and efficiency \
-  \ of both land administration systems and building materials."
-- .nan
-- ./img/Chandran.png
-Epema:
-- Susanne
-- "A 3D delineation method for urban river spaces."
-- Claudiu Forgaci
-- Jantien Stoter
-- " An accurate spatial description, a spatial delineation, of riverside urban areas \
-  \ is essential for a wide range of applications, including flood mitigation and public \
-  \ space design. This thesis aims to develop a 3D delineation method for urban river \
-  \ spaces by adapting an existing 2D delineation approach. By adapting this 2D method, \
-  \ the aim is to develop a technique that is able to more accurately represent the \
-  \ spatial complexities of these areas. This thesis will tackle challenges related \
-  \ to using open 3D data effectively and exploring scalability options within the Netherlands \
-  \ but also possibly internationally."
-- .nan
-- ./img/Epema.png
-Tsipa:
-- Eirini Chrysovalantou
-- "Usability Evaluation of Vario-Scale Maps for Dynamic and Interactive Mapping"
-- Martijn Meijers
-- Peter van Oosterom
-- "The digital mapping environment is evolving from traditional fixed-scale maps to\
-  \ dynamic, interactive solutions. This thesis proposes a usability study of the\
-  \ 'vario-scale' approach, aimed at providing smoother map interactions.\n\nObjective\
-  \ \nThe main objective is to assess the usability of vario-scale maps and suggest\
-  \ empirical enhancements. The study will evaluate the user's ability to perform\
-  \ realistic map-use tasks, focusing on ease of use, user satisfaction, and interaction\
-  \ effectiveness.\n\nMethodology\nThe first step in this study will be a comprehensive\
-  \ literature review. Next, prototypes will be developed following cartographic principles.\
-  \ The study will explore the impact of map properties like label placement, and\
-  \ vario-scale-specific properties, such as feature importance. The study participants\
-  \ will perform map-use tasks, vocalising their thoughts to capture interaction impressions\
-  \ and cognitive processes. For this, eye-tracking and screen-logging software will\
-  \ be utilised.\n\nChallenges\nA significant challenge is user adaptability, as traditional\
-  \ map users might find the vario-scale concept initially confusing. Additionally,\
-  \ the study will require assessing the participants' backgrounds to tailor usability\
-  \ tests, accommodating various familiarity levels. Developing targeted prototypes\
-  \ that gradually introduce vario-scale features will be challenging. Identifying\
-  \ optimal modifications of the map\u2019s properties for each prototype is crucial."
-- .nan
-- ./img/Tsipa.png
-Xu:
-- Longxiang
-- "Large-scale solar potential analyses based on Semantic 3D City Models"
-- "Camilo Le\xF3n S\xE1nchez"
-- Giorgio Agugiaro
-- "Solar potential analysis is of great help to energy transition through city planning, \
-  \ analysis of occupant behavior, assessing building energy performance, and scheduling \
-  \ the power grid. Computing high resolution (spatial, temporal, and semantic) solar \
-  \ irradiance is the key step of solar potential analysis. To determine the solar irradiance \
-  \ with high resolution, we can utilize 3D City Models (3DCM). Within the context of \
-  \ 3DCM, calculating shadows, sky-view factor (SVF), and ground view factor (GVF) are \
-  \ the most important and computationally intensive steps. Existing methods for the \
-  \ calculations, either apply simplifications or assumptions to make the computation \
-  \ achievable in a limited time. While some methods are accurate, but unable to scale \
-  \ to city-level. The thesis will be focused on developing a methodology that can achieve \
-  \ fast shadow solar irradiance with minimum assumptions. The expected methodology \
-  \ will be able to be applied to large areas such as the whole Netherlands."
-- .nan
-- ./img/Xu.png
+- name: Vidushi Bhatt
+  title: Voxel based 3D Point Cloud Semantic Segmentation at Urban scale
+  supervisors: Peter van Oosterom and Undecided
+  summary: ' Most 3D PC segmentation techniques today either attempt ML methodologies to achieve  segmentation or labour intensive
+    classification by people. The issue with ML techniques  for segmentation is primarily related to the lack of sufficient
+    training material  to execute achieve a reliable classification. New research in this direction experiments  with the
+    utilisation of voxel structures to attempt segmentation of point cloud.  This project is aimed at looking into the current
+    techniques and assessing their  applicability at the urban scale. '
+  image: Bhatt.png
+- name: Aswathy Chandran
+  title: Building Material component for the LADM
+  supervisors: Peter van Oosterom and Wilko Quak
+  summary: ' The thesis focuses on explores the potential integration of Building Material into  the Land Administration Domain
+    Model (LADM). It centers on advancing the circularity  and sustainability of buildings by introducing an additional component
+    in LADM.  This element will consists of a database of materials organized by their components  like quality, type etc,
+    offering an understanding of their estimated lifespan. These  materials can then be reused in new construction projects,
+    taking into account geographical  considerations like proximity and the type of building involved. The research aims  to
+    evaluate the feasibility and advantages of incorporating the building materials  section into the existing LADM framework,
+    utilizing case studies. Through this project,  it aims to understand the implications for improving the circularity and
+    efficiency  of both land administration systems and building materials.'
+  image: Chandran.png
+- name: Susanne Epema
+  title: A 3D delineation method for urban river spaces.
+  supervisors: Claudiu Forgaci and Jantien Stoter
+  summary: ' An accurate spatial description, a spatial delineation, of riverside urban areas  is essential for a wide range
+    of applications, including flood mitigation and public  space design. This thesis aims to develop a 3D delineation method
+    for urban river  spaces by adapting an existing 2D delineation approach. By adapting this 2D method,  the aim is to develop
+    a technique that is able to more accurately represent the  spatial complexities of these areas. This thesis will tackle
+    challenges related  to using open 3D data effectively and exploring scalability options within the Netherlands  but also
+    possibly internationally.'
+  image: Epema.png
+- name: Eirini Chrysovalantou Tsipa
+  title: Usability Evaluation of Vario-Scale Maps for Dynamic and Interactive Mapping
+  supervisors: Martijn Meijers and Peter van Oosterom
+  summary: "The digital mapping environment is evolving from traditional fixed-scale maps to dynamic, interactive solutions.\
+    \ This thesis proposes a usability study of the 'vario-scale' approach, aimed at providing smoother map interactions.\n\
+    \nObjective \nThe main objective is to assess the usability of vario-scale maps and suggest empirical enhancements. The\
+    \ study will evaluate the user's ability to perform realistic map-use tasks, focusing on ease of use, user satisfaction,\
+    \ and interaction effectiveness.\n\nMethodology\nThe first step in this study will be a comprehensive literature review.\
+    \ Next, prototypes will be developed following cartographic principles. The study will explore the impact of map properties\
+    \ like label placement, and vario-scale-specific properties, such as feature importance. The study participants will perform\
+    \ map-use tasks, vocalising their thoughts to capture interaction impressions and cognitive processes. For this, eye-tracking\
+    \ and screen-logging software will be utilised.\n\nChallenges\nA significant challenge is user adaptability, as traditional\
+    \ map users might find the vario-scale concept initially confusing. Additionally, the study will require assessing the\
+    \ participants' backgrounds to tailor usability tests, accommodating various familiarity levels. Developing targeted prototypes\
+    \ that gradually introduce vario-scale features will be challenging. Identifying optimal modifications of the map’s properties\
+    \ for each prototype is crucial."
+  image: Tsipa.png
+- name: Longxiang Xu
+  title: Large-scale solar potential analyses based on Semantic 3D City Models
+  supervisors: Camilo León Sánchez and Giorgio Agugiaro
+  summary: Solar potential analysis is of great help to energy transition through city planning,  analysis of occupant behavior,
+    assessing building energy performance, and scheduling  the power grid. Computing high resolution (spatial, temporal, and
+    semantic) solar  irradiance is the key step of solar potential analysis. To determine the solar irradiance  with high
+    resolution, we can utilize 3D City Models (3DCM). Within the context of  3DCM, calculating shadows, sky-view factor (SVF),
+    and ground view factor (GVF) are  the most important and computationally intensive steps. Existing methods for the  calculations,
+    either apply simplifications or assumptions to make the computation  achievable in a limited time. While some methods
+    are accurate, but unable to scale  to city-level. The thesis will be focused on developing a methodology that can achieve  fast
+    shadow solar irradiance with minimum assumptions. The expected methodology  will be able to be applied to large areas
+    such as the whole Netherlands.
+  image: Xu.png

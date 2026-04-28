@@ -1,17 +1,31 @@
-Wu:
-- Jiaoyang
-- "Detecting building element/material through ground-based thermal imagery using Deep Neural Networks approach" 
-- Azarakhsh Rafiee
-- Regina Bokel
-- "Identifying and analyzing the elements/materials used in construction supports promoting sustainable practices in the building industry. This process aims to enhance the lifecycle of materials by facilitating their reuse, recycling, and repurposing, thereby minimizing waste and reducing the environmental impact. Utilizing advanced technologies, both sensing technologies and Deep Neural Networks, provides the scope for more accurate and detailed detection of building elements and analysis of building materials. While mainly optical imagery and laser scanning data have been applied in detection of building elements (e.g. windows), the leverage of thermal imagery requires further research. A potential thesis topic is the leverage of close-ranged (ground-based) thermal imagery (using an existing thermal camera) for the detection of building elements (e.g. windows) and materials. Thermal imagery can be acquired with high temporal frequency for (part of) an existing building (e.g. Architecture Faculty building). A Deep Neural Network approach (e.g. (time-dependent) Convolutional Neural Networks) can be applied to the acquired thermal imagery for spatio-temporal analysis to enable the detection of building elements/materials."
-- .nan
-- ./img/Wu.png
-
-Sárkány:
-- Ákos Soma
-- "Voronoi mesh generation tailored for urban wind simulations"
-- Clara García-Sánchez
-- Hugo Ledoux
-- "Deriving a 3D virtual representation of the context for urban wind simulations carries two main difficulties. First, the environment has to be captured and reconstructed virtually. Second, the continuous 3D domain has to be discretized for the computations. Researchers at Delft University of Technology developed an application that automatically reconstructs a Digital Terrain Model and a boundary representation of the buildings in a given area. However, these representations cannot be directly used for CFD without being discretized. The discretization is done by dividing the 3D domain into discrete cells. The shape and structure of a cell can vary between simulations — tetrahedral and hexahedral meshes are among the most commonly used, but polyhedral meshes also exist, and they have some advantages over traditional meshes. An important benefit of polyhedral meshes is that they can be generated from a Voronoi diagram constructed over an unorganized set of points. A Voronoi mesh partitions space into cells, where each cell consists of all points closer to a given point in the unorganized structure than to any other point. Given that the unorganized structure of seed points is generated with the correct conditions on a boundary, the constructed Voronoi mesh conforms to that boundary. This feature is advantageous for flow simulations, where conforming tightly to the boundary (particularly around sharp features) is crucial."
-- .nan
-- ./img/Sárkány.png
+- name: Jiaoyang Wu
+  title: Detecting building element/material through ground-based thermal imagery using Deep Neural Networks approach
+  supervisors: Azarakhsh Rafiee and Regina Bokel
+  summary: Identifying and analyzing the elements/materials used in construction supports promoting sustainable practices
+    in the building industry. This process aims to enhance the lifecycle of materials by facilitating their reuse, recycling,
+    and repurposing, thereby minimizing waste and reducing the environmental impact. Utilizing advanced technologies, both
+    sensing technologies and Deep Neural Networks, provides the scope for more accurate and detailed detection of building
+    elements and analysis of building materials. While mainly optical imagery and laser scanning data have been applied in
+    detection of building elements (e.g. windows), the leverage of thermal imagery requires further research. A potential
+    thesis topic is the leverage of close-ranged (ground-based) thermal imagery (using an existing thermal camera) for the
+    detection of building elements (e.g. windows) and materials. Thermal imagery can be acquired with high temporal frequency
+    for (part of) an existing building (e.g. Architecture Faculty building). A Deep Neural Network approach (e.g. (time-dependent)
+    Convolutional Neural Networks) can be applied to the acquired thermal imagery for spatio-temporal analysis to enable the
+    detection of building elements/materials.
+  image: Wu.png
+- name: Ákos Soma Sárkány
+  title: Voronoi mesh generation tailored for urban wind simulations
+  supervisors: Clara García-Sánchez and Hugo Ledoux
+  summary: Deriving a 3D virtual representation of the context for urban wind simulations carries two main difficulties. First,
+    the environment has to be captured and reconstructed virtually. Second, the continuous 3D domain has to be discretized
+    for the computations. Researchers at Delft University of Technology developed an application that automatically reconstructs
+    a Digital Terrain Model and a boundary representation of the buildings in a given area. However, these representations
+    cannot be directly used for CFD without being discretized. The discretization is done by dividing the 3D domain into discrete
+    cells. The shape and structure of a cell can vary between simulations — tetrahedral and hexahedral meshes are among the
+    most commonly used, but polyhedral meshes also exist, and they have some advantages over traditional meshes. An important
+    benefit of polyhedral meshes is that they can be generated from a Voronoi diagram constructed over an unorganized set
+    of points. A Voronoi mesh partitions space into cells, where each cell consists of all points closer to a given point
+    in the unorganized structure than to any other point. Given that the unorganized structure of seed points is generated
+    with the correct conditions on a boundary, the constructed Voronoi mesh conforms to that boundary. This feature is advantageous
+    for flow simulations, where conforming tightly to the boundary (particularly around sharp features) is crucial.
+  image: Sárkány.png

@@ -5,32 +5,34 @@ permalink: /theses/2023april/
 ---
 
 
-{% assign thesis = site.data.theses_2023april %}
+{% assign thesis = site.data.theses_2023april | sort: 'name' %}
 
 {% for i in thesis %}
 
 <article class="media">
   <figure class="media-left">
     <p class="image">
-      <img src="img/{{ i[1][4] }}">
+      <img src="img/{{ i.image }}">
     </p>
   </figure>
   <div class="media-content">
     <div class="content">
       <p>
-        <strong>{{ i[1][0] }} {{ i[0] }}</strong> 
-        <br>
-        <em>{{ i[1][5] }}</em>
-        <br>
-        {{ i[1][3] | markdownify }}
-        <small>Supervisors: {{ i[1][1] }} + {{ i[1][2] }}</small>
-        <br>
-        <small>{{ i[1][6] }}</small>
+        <strong>{{ i.name }}</strong> 
+        <br />
+        <em>{{ i.title }}</em>
+        <br />
+        {{ i.summary | markdownify }}
+        <br />
+        <small>Supervisors: {{ i.supervisors}}</small>
+        <br />
+        {% if i.company %}
+          <small>(company involved: {{ i.company }})</small>
+        {% endif %}
       </p>
     </div>
   </div>
 </article>
 
 {% endfor %}
-
 

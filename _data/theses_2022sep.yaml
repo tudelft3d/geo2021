@@ -1,387 +1,266 @@
-Cai:
-- Yuduan
-- Martijn Meijers
-- Peter van Oosterom
-- 'In the field of massive point cloud data management, the majority of point cloud
-  data is currently done at the file level, but an efficient database-based solution
-  is crucial. Database management system (DBMS) has advantages in functionalities,
-  optimised disk IO strategies and automatic parallelization in the query executions.
+- name: Yuduan Cai
+  supervisors: Martijn Meijers and Peter van Oosterom
+  summary: 'In the field of massive point cloud data management, the majority of point cloud data is currently done at the
+    file level, but an efficient database-based solution is crucial. Database management system (DBMS) has advantages in functionalities,
+    optimised disk IO strategies and automatic parallelization in the query executions.
 
-  PostgreSQL is a desirable database to store point clouds, as it is open-sourced,
-  has spatial extension and supports arrays for all its scalar types, allowing us
-  to store additional values per point, like intensity and gps time. In some previous
-  studies, the application of space filling curves for point cloud data has been explored
-  and tested, but queries are usually not efficient enough. In this research, the
-  approach is to split the space filling curve key in a head and tail part and make
-  groups of points inside the database based on the head, therefore to make the storage
-  and manipulation more efficient. The expected outcome includes a storage data model,
-  a Python-based data importer and a scientific benchmark. The benchmark will use
-  AHN2 dataset, and be performed on query, add, update and delete.'
-- 4b5df05abbc6-pointcloud_in_database.png
-Dechamps:
-- Louis
-- Giorgio Agugiaro
-- Jantien Stoter
-- "In the past decade, there has been growing interest in creating what is known as\
-  \ a Digital twin of urban environments. This Digital\
-  \ twin is an exact digital representation of the real world and all its physical\
-  \ attributes and relationships and dynamic phenomena. This includes services such\
-  \ utility networks, charged with the transportation of goods such as electricity,\
-  \ data, water, gas, sewage and other commodities that help a city function. In these\
-  \ utility networks it is important for them to be accessible for maintenance reasons,\
-  \ or to remove and replace them completely. The maintenance of these networks can\
-  \ become problematic when the exact (2D, but actually 3D) geographic position of\
-  \ each individual utility type is not known or poorly documented. An accident while\
-  \ accessing the networks can not only be harmful on site but it may also affect\
-  \ the resources supplied to important buildings, such as electricity to a hospital,\
-  \ causing therefore potentially harmful cascading effects. Therefore, it is important\
-  \ that the exact position of utility networks is replicated within the Digital twin?\nTherefore, the objective of this thesis will be to research\
-  \ the possible ways to improve the utility networks, with particular focus on the\
-  \ geographical information, and special focus on the 3rd dimension. One promising\
-  \ method is to attempt to retrieve the positions of the underground utilities from\
-  \ what are known as \u9225\u69A9it scans'. 1500 char. max"
-- 21dddc881e96-3D_utility_mappping.jpeg
-Fengyan:
-- Zhang
-- Ken Arroyo Ohori
-- Hugo Ledoux
-- Geometric algorithms are usually described and designed for infinite precision.
-  However, this is not the case when it comes to the implementation because of floating-point
-  arithmetic, which will cause problems when robust solutions are desired. A common
-  solution is to generate objects with finite-precision estimated coordinates. Iterated
-  snap rounding (ISR) is such a method to convert infinite-precision to finite-precision,
-  so as to obtain well separated vertices and cleaner geometric arrangements. Currently
-  there are some implementations, for example - CGAL. It is robust but there seems
-  to be room for improvement in efficiency. For instance, for a map of the USA (containing
-  about 56 polygons), the average run time is about 78.64s. This is slow in practice
-  (where datasets typically contain thousands of polygons). Related to this, Constrained
-  Delaunay Triangulation (CDT) has been previously used for repairing polygons (prepair)
-  and planar partitions (pprepair), which gives the inspiration to apply CDT on snap
-  rounding process. The aim of this thesis is to explore the possibility of using
-  CDT to perform further optimization. CDT will firstly be constructed as the base
-  data structure, the topological relationships of the triangles will allow to identify
-  the situations where snap is desired. Then the snap operation can be realized by
-  modifying the CDT (e.g., collapsing a particularly thin triangle into a point or
-  an edge), which may be theoretically more efficient.
-- 2435a4e5e876-p1.png
-Hengelmolen:
-- Maren
-- Clara García-Sánchez
-- Hugo Ledoux
-- "Air flows have an impact on the living comfort within the urban environment. Analysing\
-  \ these air flows helps to evaluate the air quality (e.g. natural ventilation, air\
-  \ pollution), and avoid architectural design issues caused by wind loads. Therefore,\
-  \ computation fluid dynamics (CFD) simulations are essential. CFD use mathematics,\
-  \ physics and computer science to simulate and visualise fluid flows. However, CFD\
-  \ simulations require many pre-run set-up features that can drastically affect the\
-  \ performance of the simulation.\n \nTo ensure the users simulate real conditions,\
-  \ the wind engineering community has created CFD guidelines. Currently, the users\
-  \ need to implement the pre-run settings manually. Yet some pre-run processes can\
-  \ be partially automated, as well as their comparison with the CFD guidelines. Hence\
-  \ a tool can be developed that performs these functions and can be integrated into\
-  \ a web application for accessibility and usability. \n\nThe aim of this project\
-  \ is to create a web application that allows users to import CFD set-ups and verify\
-  \ their compatibility with the most recent CFD guidelines developed by the wind\
-  \ engineering community."
-- 5c40675684bb-Research_in_one_image.png
-Kan:
-- Leo
-- Hugo Ledoux
-- Maarten Pronk
-- "The ICESat-2, which has near global coverage, measures elevation with lidar. There\
-  \ are, however, large data gaps between each track and beam per direction in the\
-  \ spaceborne lidar dataset. \n\nSuch gaps are even more prominent at the equator.\
-  \ This project seeks to fill these gaps and derive a Digital Terrain Model (DTM)\
-  \ by a combination of feature extraction, spatial interpolation and machine learning\
-  \ techniques. Auxiliary data from global DEMs such as SRTM, ALOS, or Copernicus\
-  \ DEM will also be needed, and Generative Adversarial Network (GAN) will be the\
-  \ primary method. \n\nThe desired goal is to generate a DTM that has good accuracy.\
-  \ The generated DTM will be compared against existing aerial lidar DTMs as ground\
-  \ truth. The extent of this project will, therefore, be approximately the size of\
-  \ existing aerial lidar datasets. Consequently, this project can potentially be\
-  \ helpful when flying an aeroplane is impractical in remote parts of the world."
-- 5e80ad6129a8-cover_image.png
-Mbwanda:
-- Tendai
-- Giorgio Agugiaro
-- Camilo León-Sánchez
-- 'Semantic 3d city models are an asset to various user groups which require them
-  for storing and using domain-specific urban information. Users want to be able to
-  manipulate and visualise 3d city models. However, the 3DCityDB has a complex structure,
-  sometimes resulting in SQL queries which may be too complex for users with limited
-  SQL knowledge. Hence a QGIS plugin was developed in a previous MSc thesis to "facilitate
-  the use of 3DCityDB for users of different fields and expertise with the common
-  denominator being the well-accustomed QGIS environment" (Pantelios, 2022). However,
-  in it''s current release the 3DCityDB-Loader does not yet support ADEs and has some
-  functional limitations, leaving room for further development. On this background,
-  my thesis will be undertaken to achieve the following objectives: 1. enhance the
-  3DCityDB-Loader''s functionalities in terms of user experience, for example client-side
-  GUI improvements; 2. develop ADE support on the 3DCityDB-Loader, both client-side
-  and server-side. Further development of the 3DCityDB-Loader will follow incremental
-  and iterative development approaches. In addition, development testing will be performed
-  concurrently for units and components. While the aim is to have a generic approach
-  for ADE support, my focus will be on the Energy ADE.'
-- b0d392b5fd6-Picture2.png
-Meines:
-- Siebren
-- Azarakhsh Rafiee
-- Eleonora Brembilla
-- "With increasing weather extremities due to climate change, and the densification\
-  \ of our urban areas, the need to consider environmental factors such as noise and\
-  \ light become increasingly important. To consider all these aspects, a change in\
-  \ the way we design our urban areas in necessary. \nHistorically decisions in urban\
-  \ development are often made with the idea of optimization based on a certain environmental\
-  \ factor, without factual backing. For instance: a  building is made in a certain\
-  \ shape, to maximize the amount of sunlight coming into the building, but instead\
-  \ of running simulations such a decision is often made solely on a hunch. Recently\
-  \ there has been a development to aim to make these decisions more grounded for\
-  \ instance with parametric design. Although this is a step in the right direction,\
-  \ there are many improvements to be made. \nIn my thesis I will develop a game engine\
-  \ based spatial decision support system (SDSS) for urban development design. The\
-  \ tool aims to provide urban developers an easy, scientific, and comprehensible\
-  \ tool which they can use to make spatial decisions considering different criteria\
-  \ such as daylight and noise. The tool will combine urban decision-making with GIS\
-  \ analysis. The efficient use of geospatial data and GIS functions will support\
-  \ a scalable architecture for urban development. the A game engine will be used\
-  \ to make the tool interactive, to be able to quickly (re)calculate spatial analysis,\
-  \ and to make it fit for VR."
-- 607e8142a83a-p1_submission_image.jpg
-Panagiotidou:
-- Ioanna
-- Nail Ibrahimli
-- Hugo Ledoux
-- "Multi-view stereo (MVS) allows us to reconstruct a dense 3D representation of scenes\
-  \ based on a visual set of overlapping images. The most common reconstruction pipeline\
-  \ of MVS establishes dense correspondences between images to obtain depth maps.\
-  \ Traditional MVS methods that rely on photo-consistent metrics to establish these\
-  \ correspondences achieve remarkably accurate results, yet are weak on producing\
-  \ a complete model reconstruction. This is because reflective, low-textured and\
-  \ specular regions of the image make matching impossible, leading to invalid depth\
-  \ pixel estimates. To address this issue, various researchers have included global\
-  \ semantic data in their methods. By using nearby pixels from the same object class,\
-  \ they explored ways to refine depth maps. For example, they assumed that pixels\
-  \ that belong to the same semantic region must share an identical depth value. The\
-  \ built environment, which is the focal point of this thesis, typically consists\
-  \ of planar surfaces. During reconstruction, such semantic priors that enforce strong\
-  \ geometric constraints specific to each class help to achieve better completeness\
-  \ results. Another way that researchers have addressed the incomplete model reconstruction\
-  \ is by implementing learning-based MVS systems. In recent years, these systems\
-  \ have demonstrated superior performance by surpassing the traditional approaches\
-  \ in stereo benchmarks. \nThis research aims to reconstruct a complete and accurate\
-  \ representation of building facade ele"
-- 205c9f147-semantic3D.png
-Papadimitriou:
-- Chrysanthi
-- Bastiaan van Loenen
-- Stefano Calzati
-- A geodata ecosystem consists of data from a wide variety of stakeholders from public,
-  private, academia, and other sectors and each of them contributes to the ecosystem
-  with different levels of openness. However, the majority of annually created data,
-  are controlled by companies and not easily accessible or reusable for other stakeholders.  The
-  European Commission is trying to address the fragmentation of data between stakeholders
-  by introducing the concept of Data Spaces, in an attempt to connect dispersed geographical
-  data from different actors, from the private and public sectors. One of the objectives
-  of the EU Green Deal Data Space is to create a sustainable governance scheme that
-  connects national, regional, and local data ecosystems and enables public and private
-  stakeholders to access relevant data and to develop cross-sector data services to
-  address the challenges the EU Green Deal brings, such us making Europe climate-neutral
-  and ensuring a just and inclusive transition. This thesis will contribute to this
-  objective by exploring the barriers and incentives for the private sector to participate
-  in  the Green Deal Data Space. Additionally a strategy will be designed to satisfy
-  these requirements. The requirements will be developed by qualitative research from
-  surveys and interviews with private companies that would potentially be part of
-  the data space.
-- 96998c3c8d52-data_space.jpg
-Poon:
-- Chris
-- "Camilo León-Sánchez"
-- Giorgio Agugiaro
-- 'The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope
-  of this thesis is to infer the building type using as main sources the 3DBAG and
-  the BAG datasets using feature engineering as well as machine learning.
+    PostgreSQL is a desirable database to store point clouds, as it is open-sourced, has spatial extension and supports arrays
+    for all its scalar types, allowing us to store additional values per point, like intensity and gps time. In some previous
+    studies, the application of space filling curves for point cloud data has been explored and tested, but queries are usually
+    not efficient enough. In this research, the approach is to split the space filling curve key in a head and tail part and
+    make groups of points inside the database based on the head, therefore to make the storage and manipulation more efficient.
+    The expected outcome includes a storage data model, a Python-based data importer and a scientific benchmark. The benchmark
+    will use AHN2 dataset, and be performed on query, add, update and delete.'
+  image: 4b5df05abbc6-pointcloud_in_database.png
+- name: Louis Dechamps
+  supervisors: Giorgio Agugiaro and Jantien Stoter
+  summary: 'In the past decade, there has been growing interest in creating what is known as a Digital twin of urban environments.
+    This Digital twin is an exact digital representation of the real world and all its physical attributes and relationships
+    and dynamic phenomena. This includes services such utility networks, charged with the transportation of goods such as
+    electricity, data, water, gas, sewage and other commodities that help a city function. In these utility networks it is
+    important for them to be accessible for maintenance reasons, or to remove and replace them completely. The maintenance
+    of these networks can become problematic when the exact (2D, but actually 3D) geographic position of each individual utility
+    type is not known or poorly documented. An accident while accessing the networks can not only be harmful on site but it
+    may also affect the resources supplied to important buildings, such as electricity to a hospital, causing therefore potentially
+    harmful cascading effects. Therefore, it is important that the exact position of utility networks is replicated within
+    the Digital twin?
+
+    Therefore, the objective of this thesis will be to research the possible ways to improve the utility networks, with particular
+    focus on the geographical information, and special focus on the 3rd dimension. One promising method is to attempt to retrieve
+    the positions of the underground utilities from what are known as 鈥榩it scans''. 1500 char. max'
+  image: 21dddc881e96-3D_utility_mappping.jpeg
+- name: Zhang Fengyan
+  supervisors: Ken Arroyo Ohori and Hugo Ledoux
+  summary: Geometric algorithms are usually described and designed for infinite precision. However, this is not the case when
+    it comes to the implementation because of floating-point arithmetic, which will cause problems when robust solutions are
+    desired. A common solution is to generate objects with finite-precision estimated coordinates. Iterated snap rounding
+    (ISR) is such a method to convert infinite-precision to finite-precision, so as to obtain well separated vertices and
+    cleaner geometric arrangements. Currently there are some implementations, for example - CGAL. It is robust but there seems
+    to be room for improvement in efficiency. For instance, for a map of the USA (containing about 56 polygons), the average
+    run time is about 78.64s. This is slow in practice (where datasets typically contain thousands of polygons). Related to
+    this, Constrained Delaunay Triangulation (CDT) has been previously used for repairing polygons (prepair) and planar partitions
+    (pprepair), which gives the inspiration to apply CDT on snap rounding process. The aim of this thesis is to explore the
+    possibility of using CDT to perform further optimization. CDT will firstly be constructed as the base data structure,
+    the topological relationships of the triangles will allow to identify the situations where snap is desired. Then the snap
+    operation can be realized by modifying the CDT (e.g., collapsing a particularly thin triangle into a point or an edge),
+    which may be theoretically more efficient.
+  image: 2435a4e5e876-p1.png
+- name: Maren Hengelmolen
+  supervisors: Clara García-Sánchez and Hugo Ledoux
+  summary: "Air flows have an impact on the living comfort within the urban environment. Analysing these air flows helps to\
+    \ evaluate the air quality (e.g. natural ventilation, air pollution), and avoid architectural design issues caused by\
+    \ wind loads. Therefore, computation fluid dynamics (CFD) simulations are essential. CFD use mathematics, physics and\
+    \ computer science to simulate and visualise fluid flows. However, CFD simulations require many pre-run set-up features\
+    \ that can drastically affect the performance of the simulation.\n \nTo ensure the users simulate real conditions, the\
+    \ wind engineering community has created CFD guidelines. Currently, the users need to implement the pre-run settings manually.\
+    \ Yet some pre-run processes can be partially automated, as well as their comparison with the CFD guidelines. Hence a\
+    \ tool can be developed that performs these functions and can be integrated into a web application for accessibility and\
+    \ usability. \n\nThe aim of this project is to create a web application that allows users to import CFD set-ups and verify\
+    \ their compatibility with the most recent CFD guidelines developed by the wind engineering community."
+  image: 5c40675684bb-Research_in_one_image.png
+- name: Leo Kan
+  supervisors: Hugo Ledoux and Maarten Pronk
+  summary: "The ICESat-2, which has near global coverage, measures elevation with lidar. There are, however, large data gaps\
+    \ between each track and beam per direction in the spaceborne lidar dataset. \n\nSuch gaps are even more prominent at\
+    \ the equator. This project seeks to fill these gaps and derive a Digital Terrain Model (DTM) by a combination of feature\
+    \ extraction, spatial interpolation and machine learning techniques. Auxiliary data from global DEMs such as SRTM, ALOS,\
+    \ or Copernicus DEM will also be needed, and Generative Adversarial Network (GAN) will be the primary method. \n\nThe\
+    \ desired goal is to generate a DTM that has good accuracy. The generated DTM will be compared against existing aerial\
+    \ lidar DTMs as ground truth. The extent of this project will, therefore, be approximately the size of existing aerial\
+    \ lidar datasets. Consequently, this project can potentially be helpful when flying an aeroplane is impractical in remote\
+    \ parts of the world."
+  image: 5e80ad6129a8-cover_image.png
+- name: Tendai Mbwanda
+  supervisors: Giorgio Agugiaro and Camilo León-Sánchez
+  summary: 'Semantic 3d city models are an asset to various user groups which require them for storing and using domain-specific
+    urban information. Users want to be able to manipulate and visualise 3d city models. However, the 3DCityDB has a complex
+    structure, sometimes resulting in SQL queries which may be too complex for users with limited SQL knowledge. Hence a QGIS
+    plugin was developed in a previous MSc thesis to "facilitate the use of 3DCityDB for users of different fields and expertise
+    with the common denominator being the well-accustomed QGIS environment" (Pantelios, 2022). However, in it''s current release
+    the 3DCityDB-Loader does not yet support ADEs and has some functional limitations, leaving room for further development.
+    On this background, my thesis will be undertaken to achieve the following objectives: 1. enhance the 3DCityDB-Loader''s
+    functionalities in terms of user experience, for example client-side GUI improvements; 2. develop ADE support on the 3DCityDB-Loader,
+    both client-side and server-side. Further development of the 3DCityDB-Loader will follow incremental and iterative development
+    approaches. In addition, development testing will be performed concurrently for units and components. While the aim is
+    to have a generic approach for ADE support, my focus will be on the Energy ADE.'
+  image: b0d392b5fd6-Picture2.png
+- name: Siebren Meines
+  supervisors: Azarakhsh Rafiee and Eleonora Brembilla
+  summary: "With increasing weather extremities due to climate change, and the densification of our urban areas, the need\
+    \ to consider environmental factors such as noise and light become increasingly important. To consider all these aspects,\
+    \ a change in the way we design our urban areas in necessary. \nHistorically decisions in urban development are often\
+    \ made with the idea of optimization based on a certain environmental factor, without factual backing. For instance: a\
+    \  building is made in a certain shape, to maximize the amount of sunlight coming into the building, but instead of running\
+    \ simulations such a decision is often made solely on a hunch. Recently there has been a development to aim to make these\
+    \ decisions more grounded for instance with parametric design. Although this is a step in the right direction, there are\
+    \ many improvements to be made. \nIn my thesis I will develop a game engine based spatial decision support system (SDSS)\
+    \ for urban development design. The tool aims to provide urban developers an easy, scientific, and comprehensible tool\
+    \ which they can use to make spatial decisions considering different criteria such as daylight and noise. The tool will\
+    \ combine urban decision-making with GIS analysis. The efficient use of geospatial data and GIS functions will support\
+    \ a scalable architecture for urban development. the A game engine will be used to make the tool interactive, to be able\
+    \ to quickly (re)calculate spatial analysis, and to make it fit for VR."
+  image: 607e8142a83a-p1_submission_image.jpg
+- name: Ioanna Panagiotidou
+  supervisors: Nail Ibrahimli and Hugo Ledoux
+  summary: "Multi-view stereo (MVS) allows us to reconstruct a dense 3D representation of scenes based on a visual set of\
+    \ overlapping images. The most common reconstruction pipeline of MVS establishes dense correspondences between images\
+    \ to obtain depth maps. Traditional MVS methods that rely on photo-consistent metrics to establish these correspondences\
+    \ achieve remarkably accurate results, yet are weak on producing a complete model reconstruction. This is because reflective,\
+    \ low-textured and specular regions of the image make matching impossible, leading to invalid depth pixel estimates. To\
+    \ address this issue, various researchers have included global semantic data in their methods. By using nearby pixels\
+    \ from the same object class, they explored ways to refine depth maps. For example, they assumed that pixels that belong\
+    \ to the same semantic region must share an identical depth value. The built environment, which is the focal point of\
+    \ this thesis, typically consists of planar surfaces. During reconstruction, such semantic priors that enforce strong\
+    \ geometric constraints specific to each class help to achieve better completeness results. Another way that researchers\
+    \ have addressed the incomplete model reconstruction is by implementing learning-based MVS systems. In recent years, these\
+    \ systems have demonstrated superior performance by surpassing the traditional approaches in stereo benchmarks. \nThis\
+    \ research aims to reconstruct a complete and accurate representation of building facade ele"
+  image: 205c9f147-semantic3D.png
+- name: Chrysanthi Papadimitriou
+  supervisors: Bastiaan van Loenen and Stefano Calzati
+  summary: A geodata ecosystem consists of data from a wide variety of stakeholders from public, private, academia, and other
+    sectors and each of them contributes to the ecosystem with different levels of openness. However, the majority of annually
+    created data, are controlled by companies and not easily accessible or reusable for other stakeholders.  The European
+    Commission is trying to address the fragmentation of data between stakeholders by introducing the concept of Data Spaces,
+    in an attempt to connect dispersed geographical data from different actors, from the private and public sectors. One of
+    the objectives of the EU Green Deal Data Space is to create a sustainable governance scheme that connects national, regional,
+    and local data ecosystems and enables public and private stakeholders to access relevant data and to develop cross-sector
+    data services to address the challenges the EU Green Deal brings, such us making Europe climate-neutral and ensuring a
+    just and inclusive transition. This thesis will contribute to this objective by exploring the barriers and incentives
+    for the private sector to participate in  the Green Deal Data Space. Additionally a strategy will be designed to satisfy
+    these requirements. The requirements will be developed by qualitative research from surveys and interviews with private
+    companies that would potentially be part of the data space.
+  image: 96998c3c8d52-data_space.jpg
+- name: Chris Poon
+  supervisors: Camilo León-Sánchez and Giorgio Agugiaro
+  summary: 'The 3DBAG contains the geometries of buildings for the whole Netherlands. The scope of this thesis is to infer
+    the building type using as main sources the 3DBAG and the BAG datasets using feature engineering as well as machine learning.
 
 
-  Recent studies such as 3D Building Metrics or Global Building Morphology Indicators
-  calculate some metrics from buildings that could potentially be used as features
-  for a ML algorithm. Can these types of metrics correctly classify the building type?
-  In this thesis, the student is expected to use the open data available in the Netherlands
-  to extract features that can lead to infer the building type of a construction based
-  on the TABULA project specification for the NL.
+    Recent studies such as 3D Building Metrics or Global Building Morphology Indicators calculate some metrics from buildings
+    that could potentially be used as features for a ML algorithm. Can these types of metrics correctly classify the building
+    type? In this thesis, the student is expected to use the open data available in the Netherlands to extract features that
+    can lead to infer the building type of a construction based on the TABULA project specification for the NL.
 
 
-  The building type information plays a relevant role for energy simulation tools
-  since they can be used to overcome the lack of data of the 3DBAG regarding building
-  physics such as construction materials.'
-- 5259f82bccd-thesis_research_image.png
-"Powałka":
-- Leon Piotr
-- Liangliang Nan
-- Jantien Stoter
-- "Creating GPS art on the map is an interesting way to make one's outdoor activity\
-  \ more engaging. Cyclists, runners and hikers can create impressive drawings on\
-  \ the map by traversing the road/pedestrian network in a carefully planned way.\
-  \ Such planning, however, is not yet automated, which makes the GPS artists have\
-  \ to meticulously design the routes with the complex road network in mind.\nThe\
-  \ aim of my research is to come up with a full process that can express a person's initial idea (for example a contour drawing) as a route, which the user can\
-  \ then follow to create their GPS art. This involves transforming the input image\
-  \ to match the routing network in a selected area and generating a route which approximates\
-  \ the shape in the best possible way. For the first part, an image matching algorithm\
-  \ can be used to search for patterns in the road network. The second part will use\
-  \ a graph routing algorithm with a custom cost function to make the resulting route\
-  \ as similar to the input shape as possible."
-- 0e4a0a99678-resided.png
-Theodoridou:
-- Eleni
-- Dr. Azarakhsh Rafiee
-- Dr. Martijn Meijers
-- 'Modern cities are complex entities that require innovative solutions in order to
-  face pressing challenges and add economic and social value to their assets. A powerful
-  tool to assist urban planners and decision makers in city management, achieving
-  sustainability and tackling environmental and socio-economic issues, are urban digital
-  twins. An urban digital twin replicates the real - world 3D built environment with
-  the addition of smart city and Internet of Things (IoT) technologies, such as sensors,
-  that update this digital platform in accordance with the real - life processes and
-  functions. Therefore, sensor data input is the crucial factor that transforms a
-  static 3D city model to a dynamic urban digital twin.
+    The building type information plays a relevant role for energy simulation tools since they can be used to overcome the
+    lack of data of the 3DBAG regarding building physics such as construction materials.'
+  image: 5259f82bccd-thesis_research_image.png
+- name: Leon Piotr Powałka
+  supervisors: Liangliang Nan and Jantien Stoter
+  summary: 'Creating GPS art on the map is an interesting way to make one''s outdoor activity more engaging. Cyclists, runners
+    and hikers can create impressive drawings on the map by traversing the road/pedestrian network in a carefully planned
+    way. Such planning, however, is not yet automated, which makes the GPS artists have to meticulously design the routes
+    with the complex road network in mind.
 
-  A main issue that needs to be addressed in present-day digital twins is the lack
-  of standardization and interoperability. Therefore, in this research, an attempt
-  will be made to facilitate both of the aforementioned aspects in an urban digital
-  twin by using widely accepted standards such as OGC SensorThingsAPI and OGC 3D Tile
-  standard to integrate sensor measurements into a 3D city model platform. The main
-  objectives of this research are (1) the integration of diverse sensors, (2) real
-  - time visualization of the sensor data, and (3) using the data for urban simulations
-  and pattern analysis.'
-- 9cd1aac33cf-P1_V2_pic.png
-Therias:
-- Adele Marie
-- Dr. Azarakhsh Rafiee
-- Dr. Stef Lhermitte
-- "Ghana and Cote d'Ivoire are major producers and exporters of cocoa beans.\
-  \ In recent years, environmental and social factors have led smallholder farmers\
-  \ to encroach onto forest land. As of 2024, the European Union will ban the import\
-  \ of such products issued from deforested areas, a law whose enforcement will require\
-  \ highly accurate and timely tracking of farm extents. While the classification\
-  \ of multispectral satellite imagery is applied to detect other crops, cocoa presents\
-  \ unique challenges. First, West Africa has frequent cloud cover due to Monsoon\
-  \ climate, limiting the availability of cloud-free multispectral datasets and the\
-  \ temporal resolution of datasets. Second, agroforestry, which integrates shade\
-  \ trees to improve cocoa growing conditions, has a spectral signature and canopy\
-  \ structure similar to nearby forest. To address these challenges, researchers have\
-  \ implemented machine learning algorithms trained with radar, multispectral, or\
-  \ a combination of both, to identify cocoa crops. While most of these implementations\
-  \ use a pixel-wise classification that does not consider the spatial context, recent\
-  \ work has applied a Convolutional Neural Network trained with multispectral data\
-  \ that shows promising results in Ghana and Cote d'Ivoire. The objective\
-  \ of this thesis is to build on this research by integrating radar data into the\
-  \ network in order to test the impact of texture information on the accuracy of\
-  \ the deep learning classification."
-- 270668af38f7-image_thesis.png
-Visser:
-- Fabian
-- Nail Ibrahimli
-- Liangliang Nan
-- 'Arguably, two of the most interesting fields in machine learning right now is the
-  development of differentiable 3d reconstruction, and stylistic rendering. Implicit Differentiable
-  Rendering (IDR) recreates 3d geometry, camera parameters, and color and reflectance
-  of the object, requiring only masked images as input. The geometry is modeled using the zero level set of 
-  a NN, and the material using a neural renderer. The renderer of two different models
-  can be swapped to create geometry from one scene with appearance from the other.
-  Stylistic rendering is all about applying styling, artistic characteristics, to
-  a scene. Style representation correlates features between different layers of a CNN, which can
-  be used to reconstruct styling while keeping content representation from another input image.
-  If it possible to swap renderers for IDR, is it then possible to instead introduce
-  a stylistic renderer? That is the question that I will be exploring. Something similar has been
-  performed for NeRF, applying styling to the view synthesis created. I will explore if a similar
-  method be implemented to IDR, either as a renderer or to the ouput images. It could also be
-  possible to look at texture mapping the styling. To simplify the process, fast style transfer
-  can be used, which only requires one forward pass for the content reconstruction.'
-- df02fd6f30cd-style_rgb_rendering.png
-Xia:
-- Yitong
-- Jantien Stoter
-- Weixiao Gao
-- "The objective of this research is to extract openings (including doors and windows)\
-  \ of buildings using image data sources (oblique aerial imagery or street view images)\
-  \ and integrate them into the 3D BAG LoD 2.2 building model. To identify the building\
-  \ façades, doors, and windows information in the images, machine learning techniques\
-  \ will be used.  After correcting the extracted facade and calculating the relative\
-  \ position of openings on the facade, the 3D coordinates of openings will be calculated\
-  \ by combining the 3D coordinates of the corresponding facade and finally integrating\
-  \ them into the 3D BAG. The openings can be placed almost exactly on the plane of\
-  \ the façade due to the approach used to derive 3D absolute position from 2D\
-  \ relative position.  The solution could be easily extended to very large area (e.g.\
-  \ the whole Netherlands) due to the image data coverage is large and easily accessible.\
-  \ The expected results of t his project are a program to automate the integration\
-  \ of windows and doors with 3D BAG LoD 2.2 model, capable of handling a wide range\
-  \ of complex buildings and façades."
-- dcf6d151ff-1668768938045.jpg
-Yan:
-- Lan
-- Ken Arroyo Ohori
-- Jasper van der Vaart
-- "With the rapid development of information technologies, the Architecture, engineering,\
-  \ and construction industry (AEC) face the opportunities and challenges that they\
-  \ bring, for example, the coming into being of building information modeling (BIM).\
-  \ The Industry Foundation Classes (IFC) is considered the most-used data exchange\
-  \ format for BIM models. However, the IFC is complex, and thus creates difficulties\
-  \ in extracting meaningful information from IFC models when using them for different\
-  \ user applications. Therefore, it is necessary to develop software tools that can\
-  \ extract information from BIM models based on customers' needs. \n\nIn many applications\
-  \ within the AEC industry, users only need the exterior shapes of buildings, for\
-  \ instance issuing building permits, or conducting building energy simulations.\
-  \ Under these circumstances, directly using the IFC models can bring unnecessary\
-  \ information and slow down the process. Therefore, this graduation project will\
-  \ aim at building a software tool that can extract the building exteriors from input\
-  \ IFC models. The feature extraction process of this software will follow a mixed\
-  \ approach between generalized 3D shape extraction algorithm (for example 3D alpha\
-  \ shapes) and shape extraction with a focus on building models to preserve buildings'\
-  \ semantic information (for instance which part belongs to the roof part and which\
-  \ part belongs to the wall part)."
-- 325f0cc235ef-P1.png
-Yang:
-- Yue
-- Martijn Meijers
-- Peter van Oosterom
-- The aim of this study is to improve an LADM 3D prototype system on the example of
-  selected city districts. In land administration, 3D data visualisation is needed
-  in many cases to represent the real world. Cesium is widely used to display 3D data
-  that is more complicated than 2D. However, when there are millions of buildings,
-  it takes a long time to retrieve and load the data. The research revolves around
-  the possibility of storing both geometries and attributes in a database. To achieve
-  this approach, the data will be sent to the client via a server dealing with 3D
-  geospatial data. This proposed method would possibly speed up loading time and interaction.
-  Literature research on geometry representation and render object triangulation will
-  be conducted, also GeoWeb and existing applications such as 3DCityDB web map client
-  and 3D BAG viewer. Based on this, efficient indexing of spatial data will be studied,
-  such as R-tree, which helps retrieve data from the database faster. Methodologies
-  and libraries related to theories above will be explored in practice. It is also
-  expected to avoid potential problems such as data redundancy, data inconsistency
-  and error. In addition, vario-scale will also be studied, possibly implementing
-  aggregation when zooming out and in. Also worth noting the semantic information
-  can be ambiguous due to the legal meaning of spatial plans. To validate the proposed
-  system architecture, the improved prototype will be compared with the previous version.
-- 3bc9c931593-P1_submit.png
-van Esch:
-- Marieke
-- Edward Verbree
-- Stefan van der Spek
-- "Driving Urban Transition (DUT) is a co-funded European partnership addressing urgently\
-  \ needed urban transformations towards a sustainable future with enhanced quality\
-  \ of life in cities (DUT, 2022). One of the three topics they are addressing is\
-  \ the 15-minute cities (15mC). Sustainable mobilities will be promoted for 15-minute\
-  \ reachable destinations. With the reorganisation of daily route mobilities and\
-  \ redistribution of urban space configuration, it will be possible to make our cities\
-  \ more climate neutral, healthier and inclusive. Several cities developed their\
-  \ own walkability tools based on quantitative measurements (based on the proximity\
-  \ of facilities for example) in order to evaluate their streets. For now, they don't take into account the experience/perception of pedestrians with increasing\
-  \ temperatures and humidity whilst walking through cities. The question for the\
-  \ Geomatics part is: how to model the pedestrian perception in streets\
-  \ with the increase of temperature and change in humidity within cities in 2050?
-  This will be done by QGIS, SQL and 3DBag. The question for the Urbanism part is:\
-  \ how to arrange climate adaptive public spaces in favour of (denser)\
-  \ healthier population cities in 15mC? The formulation of this IDD thesis\
-  \ is still evolving. The test case is still to be determined: Right now Amsterdam,\
-  \ The Hague or Utrecht are options. Gert-Jan Steeneveld of Wageningen University\
-  \ for temperature increases in 2050 and Simon Schneider of Utrecht University."
-- b26f2f664fac-warmcity.png
+    The aim of my research is to come up with a full process that can express a person''s initial idea (for example a contour
+    drawing) as a route, which the user can then follow to create their GPS art. This involves transforming the input image
+    to match the routing network in a selected area and generating a route which approximates the shape in the best possible
+    way. For the first part, an image matching algorithm can be used to search for patterns in the road network. The second
+    part will use a graph routing algorithm with a custom cost function to make the resulting route as similar to the input
+    shape as possible.'
+  image: 0e4a0a99678-resided.png
+- name: Eleni Theodoridou
+  supervisors: Dr. Azarakhsh Rafiee and Dr. Martijn Meijers
+  summary: 'Modern cities are complex entities that require innovative solutions in order to face pressing challenges and
+    add economic and social value to their assets. A powerful tool to assist urban planners and decision makers in city management,
+    achieving sustainability and tackling environmental and socio-economic issues, are urban digital twins. An urban digital
+    twin replicates the real - world 3D built environment with the addition of smart city and Internet of Things (IoT) technologies,
+    such as sensors, that update this digital platform in accordance with the real - life processes and functions. Therefore,
+    sensor data input is the crucial factor that transforms a static 3D city model to a dynamic urban digital twin.
+
+    A main issue that needs to be addressed in present-day digital twins is the lack of standardization and interoperability.
+    Therefore, in this research, an attempt will be made to facilitate both of the aforementioned aspects in an urban digital
+    twin by using widely accepted standards such as OGC SensorThingsAPI and OGC 3D Tile standard to integrate sensor measurements
+    into a 3D city model platform. The main objectives of this research are (1) the integration of diverse sensors, (2) real
+    - time visualization of the sensor data, and (3) using the data for urban simulations and pattern analysis.'
+  image: 9cd1aac33cf-P1_V2_pic.png
+- name: Adele Marie Therias
+  supervisors: Dr. Azarakhsh Rafiee and Dr. Stef Lhermitte
+  summary: Ghana and Cote d'Ivoire are major producers and exporters of cocoa beans. In recent years, environmental and social
+    factors have led smallholder farmers to encroach onto forest land. As of 2024, the European Union will ban the import
+    of such products issued from deforested areas, a law whose enforcement will require highly accurate and timely tracking
+    of farm extents. While the classification of multispectral satellite imagery is applied to detect other crops, cocoa presents
+    unique challenges. First, West Africa has frequent cloud cover due to Monsoon climate, limiting the availability of cloud-free
+    multispectral datasets and the temporal resolution of datasets. Second, agroforestry, which integrates shade trees to
+    improve cocoa growing conditions, has a spectral signature and canopy structure similar to nearby forest. To address these
+    challenges, researchers have implemented machine learning algorithms trained with radar, multispectral, or a combination
+    of both, to identify cocoa crops. While most of these implementations use a pixel-wise classification that does not consider
+    the spatial context, recent work has applied a Convolutional Neural Network trained with multispectral data that shows
+    promising results in Ghana and Cote d'Ivoire. The objective of this thesis is to build on this research by integrating
+    radar data into the network in order to test the impact of texture information on the accuracy of the deep learning classification.
+  image: 270668af38f7-image_thesis.png
+- name: Fabian Visser
+  supervisors: Nail Ibrahimli and Liangliang Nan
+  summary: Arguably, two of the most interesting fields in machine learning right now is the development of differentiable
+    3d reconstruction, and stylistic rendering. Implicit Differentiable Rendering (IDR) recreates 3d geometry, camera parameters,
+    and color and reflectance of the object, requiring only masked images as input. The geometry is modeled using the zero
+    level set of a NN, and the material using a neural renderer. The renderer of two different models can be swapped to create
+    geometry from one scene with appearance from the other. Stylistic rendering is all about applying styling, artistic characteristics,
+    to a scene. Style representation correlates features between different layers of a CNN, which can be used to reconstruct
+    styling while keeping content representation from another input image. If it possible to swap renderers for IDR, is it
+    then possible to instead introduce a stylistic renderer? That is the question that I will be exploring. Something similar
+    has been performed for NeRF, applying styling to the view synthesis created. I will explore if a similar method be implemented
+    to IDR, either as a renderer or to the ouput images. It could also be possible to look at texture mapping the styling.
+    To simplify the process, fast style transfer can be used, which only requires one forward pass for the content reconstruction.
+  image: df02fd6f30cd-style_rgb_rendering.png
+- name: Yitong Xia
+  supervisors: Jantien Stoter and Weixiao Gao
+  summary: The objective of this research is to extract openings (including doors and windows) of buildings using image data
+    sources (oblique aerial imagery or street view images) and integrate them into the 3D BAG LoD 2.2 building model. To identify
+    the building façades, doors, and windows information in the images, machine learning techniques will be used.  After correcting
+    the extracted facade and calculating the relative position of openings on the facade, the 3D coordinates of openings will
+    be calculated by combining the 3D coordinates of the corresponding facade and finally integrating them into the 3D BAG.
+    The openings can be placed almost exactly on the plane of the façade due to the approach used to derive 3D absolute position
+    from 2D relative position.  The solution could be easily extended to very large area (e.g. the whole Netherlands) due
+    to the image data coverage is large and easily accessible. The expected results of t his project are a program to automate
+    the integration of windows and doors with 3D BAG LoD 2.2 model, capable of handling a wide range of complex buildings
+    and façades.
+  image: dcf6d151ff-1668768938045.jpg
+- name: Lan Yan
+  supervisors: Ken Arroyo Ohori and Jasper van der Vaart
+  summary: "With the rapid development of information technologies, the Architecture, engineering, and construction industry\
+    \ (AEC) face the opportunities and challenges that they bring, for example, the coming into being of building information\
+    \ modeling (BIM). The Industry Foundation Classes (IFC) is considered the most-used data exchange format for BIM models.\
+    \ However, the IFC is complex, and thus creates difficulties in extracting meaningful information from IFC models when\
+    \ using them for different user applications. Therefore, it is necessary to develop software tools that can extract information\
+    \ from BIM models based on customers' needs. \n\nIn many applications within the AEC industry, users only need the exterior\
+    \ shapes of buildings, for instance issuing building permits, or conducting building energy simulations. Under these circumstances,\
+    \ directly using the IFC models can bring unnecessary information and slow down the process. Therefore, this graduation\
+    \ project will aim at building a software tool that can extract the building exteriors from input IFC models. The feature\
+    \ extraction process of this software will follow a mixed approach between generalized 3D shape extraction algorithm (for\
+    \ example 3D alpha shapes) and shape extraction with a focus on building models to preserve buildings' semantic information\
+    \ (for instance which part belongs to the roof part and which part belongs to the wall part)."
+  image: 325f0cc235ef-P1.png
+- name: Yue Yang
+  supervisors: Martijn Meijers and Peter van Oosterom
+  summary: The aim of this study is to improve an LADM 3D prototype system on the example of selected city districts. In land
+    administration, 3D data visualisation is needed in many cases to represent the real world. Cesium is widely used to display
+    3D data that is more complicated than 2D. However, when there are millions of buildings, it takes a long time to retrieve
+    and load the data. The research revolves around the possibility of storing both geometries and attributes in a database.
+    To achieve this approach, the data will be sent to the client via a server dealing with 3D geospatial data. This proposed
+    method would possibly speed up loading time and interaction. Literature research on geometry representation and render
+    object triangulation will be conducted, also GeoWeb and existing applications such as 3DCityDB web map client and 3D BAG
+    viewer. Based on this, efficient indexing of spatial data will be studied, such as R-tree, which helps retrieve data from
+    the database faster. Methodologies and libraries related to theories above will be explored in practice. It is also expected
+    to avoid potential problems such as data redundancy, data inconsistency and error. In addition, vario-scale will also
+    be studied, possibly implementing aggregation when zooming out and in. Also worth noting the semantic information can
+    be ambiguous due to the legal meaning of spatial plans. To validate the proposed system architecture, the improved prototype
+    will be compared with the previous version.
+  image: 3bc9c931593-P1_submit.png
+- name: Marieke van Esch
+  supervisors: Edward Verbree and Stefan van der Spek
+  summary: 'Driving Urban Transition (DUT) is a co-funded European partnership addressing urgently needed urban transformations
+    towards a sustainable future with enhanced quality of life in cities (DUT, 2022). One of the three topics they are addressing
+    is the 15-minute cities (15mC). Sustainable mobilities will be promoted for 15-minute reachable destinations. With the
+    reorganisation of daily route mobilities and redistribution of urban space configuration, it will be possible to make
+    our cities more climate neutral, healthier and inclusive. Several cities developed their own walkability tools based on
+    quantitative measurements (based on the proximity of facilities for example) in order to evaluate their streets. For now,
+    they don''t take into account the experience/perception of pedestrians with increasing temperatures and humidity whilst
+    walking through cities. The question for the Geomatics part is: how to model the pedestrian perception in streets with
+    the increase of temperature and change in humidity within cities in 2050? This will be done by QGIS, SQL and 3DBag. The
+    question for the Urbanism part is: how to arrange climate adaptive public spaces in favour of (denser) healthier population
+    cities in 15mC? The formulation of this IDD thesis is still evolving. The test case is still to be determined: Right now
+    Amsterdam, The Hague or Utrecht are options. Gert-Jan Steeneveld of Wageningen University for temperature increases in
+    2050 and Simon Schneider of Utrecht University.'
+  image: b26f2f664fac-warmcity.png

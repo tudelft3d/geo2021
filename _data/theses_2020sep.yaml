@@ -1,392 +1,295 @@
-Chatzidiakos:
-- Charalampos
-- Anna Labetski
-- Ken Arroyo Ohori
-- "Nowadays, 3D semantic city models are more and more used for the analysis of large\
-  \ urban areas. Until now, the focus has mostly been on models of buildings that\
-  \ have become very common. Nonetheless, many cases that could benefit from the detailed\
-  \ geometrical and semantic representation of road networks as well (Beil, Christof\
-  \ & Kolbe, Thomas, 2017). Nevertheless, the representation of roads in 3D city models\
-  \ might have potential drawbacks. The complexity related to the geometries of the\
-  \ model will increase while the file will become more complex as well. The main\
-  \ problem is that since roads in 3D city models is a fairly new development there\
-  \ are a few guidelines regarding modelling. The are many undefined concepts. With\
-  \ respect to that, this Thesis aims to answer:\nWhat is the most efficient way to\
-  \ model road networks and intersections in 3D semantic city models? And are the\
-  \ benefits of doing this overcome the potential downsides? \nDuring this thesis,\
-  \ different ideas for modelling roads will be analyzed. Areal and linear representations\
-  \ of existing data of roads will be used. Making use of python programming language,\
-  \ different approaches on how both these representations will be stored in a single\
-  \ CityJSON file for a road city object will be explored. Modelling intersections\
-  \ of roads is expected to be the most challenging part regarding modelling (Freek\
-  \ Boersma 2019). The linkage of linear (MultiLineStrings) and areal (Multisurfaces)\
-  \ data by one to one mapping will be tested."
-- 7012f198422c-road_intersection.png
-- How should roads be modelled in 3D City Models?
-Chen:
-- Zhaiyu
-- Liangliang Nan
-- Seyran Khademi
-- 'Polygonal meshes provide an efficient representation for 3D shapes with sparse
-  sets of parameters. With the advent of deep neural networks, learning-based approaches
-  for 3D reconstruction have gained popularity. However, end-to-end reconstruction
-  from point clouds to polygonal meshes is still non-trivial. Existing methods either
-  fail to incorporate high-level shape information, or struggle to comply with certain
-  geometric constraints.
+- name: Charalampos Chatzidiakos
+  title: How should roads be modelled in 3D City Models?
+  supervisors: Anna Labetski and Ken Arroyo Ohori
+  summary: "Nowadays, 3D semantic city models are more and more used for the analysis of large urban areas. Until now, the\
+    \ focus has mostly been on models of buildings that have become very common. Nonetheless, many cases that could benefit\
+    \ from the detailed geometrical and semantic representation of road networks as well (Beil, Christof & Kolbe, Thomas,\
+    \ 2017). Nevertheless, the representation of roads in 3D city models might have potential drawbacks. The complexity related\
+    \ to the geometries of the model will increase while the file will become more complex as well. The main problem is that\
+    \ since roads in 3D city models is a fairly new development there are a few guidelines regarding modelling. The are many\
+    \ undefined concepts. With respect to that, this Thesis aims to answer:\nWhat is the most efficient way to model road\
+    \ networks and intersections in 3D semantic city models? And are the benefits of doing this overcome the potential downsides?\
+    \ \nDuring this thesis, different ideas for modelling roads will be analyzed. Areal and linear representations of existing\
+    \ data of roads will be used. Making use of python programming language, different approaches on how both these representations\
+    \ will be stored in a single CityJSON file for a road city object will be explored. Modelling intersections of roads is\
+    \ expected to be the most challenging part regarding modelling (Freek Boersma 2019). The linkage of linear (MultiLineStrings)\
+    \ and areal (Multisurfaces) data by one to one mapping will be tested."
+  image: 7012f198422c-road_intersection.png
+- name: Zhaiyu Chen
+  title: Polygonal Mesh Reconstruction from Point Clouds with Deep Implicit Fields
+  supervisors: Liangliang Nan and Seyran Khademi
+  summary: 'Polygonal meshes provide an efficient representation for 3D shapes with sparse sets of parameters. With the advent
+    of deep neural networks, learning-based approaches for 3D reconstruction have gained popularity. However, end-to-end reconstruction
+    from point clouds to polygonal meshes is still non-trivial. Existing methods either fail to incorporate high-level shape
+    information, or struggle to comply with certain geometric constraints.
 
 
-  We propose a novel framework for reconstructing compact, watertight, polygonal meshes
-  from point clouds by incorporating the implicitly represented function space with
-  explicitly encoded geometry. Initial results show that our method is able to reconstruct
-  meshes with high geometric fidelity and error-free topology ([demo](https://www.dropbox.com/s/9ez6nnmil4c0s96/sog_teaser_Fig1.avi?dl=0)).
-  We hope our work, as of future iterations, can bridge the ubiquitous 3D deep learning
-  solutions with more geometric constraints that are hugely neglected nowadays.'
-- 64798c59903b-sog_teaser_Fig1.gif
-- Polygonal Mesh Reconstruction from Point Clouds with Deep Implicit Fields
-Dinklo:
-- Constantijn
-- "Clara Garc\xEDa-S\xE1nchez"
-- Hugo Ledoux
-- 'Currently, visualizing large Computation Fluid Dynamic (CFD) datasets is a rather
-  difficult task to accomplish. This is because CFD outputs produce exceptionally
-  large data files.
+    We propose a novel framework for reconstructing compact, watertight, polygonal meshes from point clouds by incorporating
+    the implicitly represented function space with explicitly encoded geometry. Initial results show that our method is able
+    to reconstruct meshes with high geometric fidelity and error-free topology ([demo](https://www.dropbox.com/s/9ez6nnmil4c0s96/sog_teaser_Fig1.avi?dl=0)).
+    We hope our work, as of future iterations, can bridge the ubiquitous 3D deep learning solutions with more geometric constraints
+    that are hugely neglected nowadays.'
+  image: 64798c59903b-sog_teaser_Fig1.gif
+- name: Constantijn Dinklo
+  title: Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
+  supervisors: Clara García-Sánchez and Hugo Ledoux
+  summary: 'Currently, visualizing large Computation Fluid Dynamic (CFD) datasets is a rather difficult task to accomplish.
+    This is because CFD outputs produce exceptionally large data files.
 
-  Programs that are used to visualize data are generally not equipped to deal with
-  these large datasets. Paraview is one of these possible programs, however, it can
-  be slow to respond and can crash on multiple occasions due to RAM constraints. On
-  the other hand, it does implement features like slicing and viewing the data at
-  different time periods, which are both desired in a possible solution. Game engines
-  can run 4K graphics at 60fps by optimizing their graphics rendering. I will be looking
-  into these engines to see what help they can provide in increasing performance.
-  However, it should be noted that these engines do not implement the above-mentioned
-  features by default.
+    Programs that are used to visualize data are generally not equipped to deal with these large datasets. Paraview is one
+    of these possible programs, however, it can be slow to respond and can crash on multiple occasions due to RAM constraints.
+    On the other hand, it does implement features like slicing and viewing the data at different time periods, which are both
+    desired in a possible solution. Game engines can run 4K graphics at 60fps by optimizing their graphics rendering. I will
+    be looking into these engines to see what help they can provide in increasing performance. However, it should be noted
+    that these engines do not implement the above-mentioned features by default.
 
-  Currently, splitting the datafiles into smaller provides one option of visualizing
-  the data. However, this removes the option of viewing the entire simulation in one
-  go. Some possible tactics that could be applied to increase the performance are
-  loading in individual data types and reducing the number of input data points based
-  on distance from the model.
+    Currently, splitting the datafiles into smaller provides one option of visualizing the data. However, this removes the
+    option of viewing the entire simulation in one go. Some possible tactics that could be applied to increase the performance
+    are loading in individual data types and reducing the number of input data points based on distance from the model.
 
-  The outcome of this project should determine whether using games engines is a feasible
-  option to display CFD simulation output datasets.'
-- 3ccebc69c5d0-P1_foto.JPG
-- Visualizing Massive Computational Fluid Dynamic Simulation Output Data Efficiently Using Game Engines
-Doan:
-- Truc Quynh
-- Giorgio Agugiaro
-- Roberto Cavallo
-- "The emergence of spatial data and GIS-supported tools has induced more inclusive\
-  \ spatial planning approaches. While urban settings are efficiently assessed through\
-  \ spatial analyses in the pre-design stage, 3D city modelling and web technologies\
-  \ help to visualize and disseminate development scenarios in the post-design stage.\
-  \ The intermediate stage regarding design solution and evaluation, however, hasn\u2019\
-  t widely supported. Hence, the first version of a GIS-supported design tool has\
-  \ developed in a previous study to assist the realization of the 3D model of development\
-  \ scenarios. Site analysis was conducted on the City of today to generate KPIs for\
-  \ the following design stage. The design solutions are then integrated back into\
-  \ a 3D city model and are disseminated via web platforms.\n\nThis thesis aims to\
-  \ test, critically review, and propose extensions and improvements for the product.\
-  \ The focus will be on the expansion of input KPIs, the output parameters, and the\
-  \ impacts of the designs on the urban settings. To generate KPIs, a data-driven\
-  \ approach that considers spatial and non-spatial, volumetric and non-volumetric\
-  \ data will be employed. Regarding output parameters and impact estimation, the\
-  \ scenarios\u2019 3D model will be incorporated into the current 3D model to perform\
-  \ spatial analyses based on a set of criteria. These approaches thus will contribute\
-  \ to the further integration of 3D city models into the planning process and explore\
-  \ its possibilities in assisting urban practices."
-- 6d46b544141-QuynhDoan_5025923_thesis_in_one_image.jpg
-- Test and extension of a GIS-supported design tool for new urban development areas
-Hobeika:
-- Nadine
-- Clara García-Sánchez
-- "Ivan Pa\u0111en"
-- "In 2017, the \u2018Kuspact\u2019, a Dutch national agreement, was signed to develop\
-  \ the Dutch coast without damaging its ecosystem nor its aesthetics. Consequently,\
-  \ the formation and protection of coastal dunes have become a focal point for research\
-  \ and development. For this reason, this Master thesis aims to investigate the impact\
-  \ of certain coastal house configurations on wind turbulence for the purpose of\
-  \ either heightening or widening the dunes, or even both. Computational fluid dynamics\
-  \ (CFD) will be used to simulate wind around the configurations and the dunes. The\
-  \ beach-dune profile and four initial configurations were provided by a landscape\
-  \ architecture PhD student from the University of Twente. Based on the initial simulations,\
-  \ further configurations and parameters will be tested to optimise the results.\
-  \ \nTo simulate the wind turbulence, the Reynolds averaged Navier-Stokes (RANS)\
-  \ model will be used. More specifically, simulations will be carried out using the\
-  \ Re-Normalisation Group k-epsilon (RNG k-epsilon) model because it has so far been\
-  \ established as the most suited to model the effects of wind turbulence in the\
-  \ built environment. After running the simulations in OpenFOAM software, relevant\
-  \ fields such as pressure and velocity will be analysed to filter configurations\
-  \ and conclude with the best choice for the Dutch coast."
-- 7d8153118aa6-draft_image_02.png
-- Interaction between wind flows and beach housing to promote dune formation
-de Jong:
-- Maarten
-- Hugo Ledoux
-- Ravi Peters
-- 'The goal of this thesis project is to explore how the streaming paradigm can be
-  used to create a seamless TIN of all AHN3 points in the Netherlands (~800B). The
-  advantage of using a streaming Delaunay triangulation is that it circumvents having
-  to load all the points into memory, which is an impossible task at this scale. However,
-  a disadvantage is that this method requires an understanding of when points are
-  no longer necessary for the triangulation and can be stored to disk and unloaded
-  from memory. Challenges lie in determining how the point ordering of the AHN3 tiles
-  will affect the efficiency of the algorithm, as well as ensuring that artefacts
-  do not occur around tile borders.
+    The outcome of this project should determine whether using games engines is a feasible option to display CFD simulation
+    output datasets.'
+  image: 3ccebc69c5d0-P1_foto.JPG
+- name: Truc Quynh Doan
+  title: Test and extension of a GIS-supported design tool for new urban development areas
+  supervisors: Giorgio Agugiaro and Roberto Cavallo
+  summary: 'The emergence of spatial data and GIS-supported tools has induced more inclusive spatial planning approaches.
+    While urban settings are efficiently assessed through spatial analyses in the pre-design stage, 3D city modelling and
+    web technologies help to visualize and disseminate development scenarios in the post-design stage. The intermediate stage
+    regarding design solution and evaluation, however, hasn’t widely supported. Hence, the first version of a GIS-supported
+    design tool has developed in a previous study to assist the realization of the 3D model of development scenarios. Site
+    analysis was conducted on the City of today to generate KPIs for the following design stage. The design solutions are
+    then integrated back into a 3D city model and are disseminated via web platforms.
 
-  Furthermore, an assessment will be made of whether it is possible to simplify the
-  triangulation at a local level. This consists of determining a (basic) methodology
-  to reduce the number of triangles. This will reduce the overall size of the resulting
-  triangulation, making easier to work with in subsequent research.
 
-  The desired final result of this thesis project is to have a process in place that
-  is capable of handling a large number (> 50) of AHN3 tiles and Delaunay triangulating
-  them, while performing some simplification.'
-- 0ae54f8d219-anim.gif
-- One TIN for all AHN3 points with Streaming Delaunay Triangulation
-Kenesei:
-- Kristof
-- Ravi Peters
-- Jantien Stoter
-- "The Dutch Nationaal Wegenbestand (NWB) open data road model is effectively a graph\
-  \ representation of the Dutch road network. It is primarily used for modelling purposes,\
-  \ such as that of noise propagation and traffic flow \u2013 often to serve as the\
-  \ basis for regulatory compliance evaluation. Due to changes in Dutch noise modelling\
-  \ policy, the data set now needs to be transposed into 3D. The responsible government\
-  \ agency, Rijkswaterstaat, is therefore seeking a solution that can automatically\
-  \ enrich the road model with elevation estimates. This includes roads in complex\
-  \ multi-level and urban settings.\nOur research aims to find out whether a combination\
-  \ of Dutch open geospatial data (such as AHN and DTB) and the maintainer\u2019s\
-  \ civil engineering data can be used to realise this task in a way that the output\
-  \ fulfils the prescribed accuracy requirements.\nTo do this, we will assess which\
-  \ data sets can contribute to this task, and in what way. Attention will be devoted\
-  \ to establishing how (or even if) we can track the propagation of the uncertainty\
-  \ descriptors of the source data through the considered workflows. In terms of the\
-  \ workflow itself, we are curious to see whether building a shared 2.5D model from\
-  \ the input sources could handle complex 3D layouts, such as overpasses. To find\
-  \ out, we intend to create prototype implementations using tools that are common\
-  \ in the Geomatics discipline."
-- 3bdb605851f0-thumbnail.png
-- Converting the national road network (NWB) from 2D into 3D
-Li:
-- Xiaoai
-- Stelios Vitalis
-- Hugo Ledoux
-- "[OGC](https://ogcapi.ogc.org/) recently released the [WFS 3.0](https://ogcapi.ogc.org/features/)\
-  \ standard called \u201COGC API \u2013 Features: Part 1 \u2013 Core\u201D.  It is\
-  \ a more open and more  web-oriented RESTful API. [CityJSON](https://www.cityjson.org/)\
-  \ as a JSON-based exchange format of 3D city models is less verbose and more web-friendly\
-  \ than CityGML and can be used in a broad range of applications.  Therefore, the\
-  \ efficient dissemination and easy access of CityJSON datasets can be very valuable.\n\
-  \nThe [OGC](https://ogcapi.ogc.org/) APIs focus on 2D datasets that lack usability\
-  \ for 3D research and applications. The different CRSs in CityJSON datasets can\
-  \ also be problematic. Besides, there exists no specific database or schema for\
-  \ the storage of CityJSON datasets on the server which limits the dissemination.\n\
-  \nThe research questions are conducted with this in mind.\n  - How to develop a\
-  \ RESTful API for access to geospatial feature resources in CityJSON and to realize\
-  \ the fast retrieval of part city objects?\n  - How to properly store CityJSON in\
-  \ a database to support a RESTful access?\n \n\nThe [schema of CityJSON](https://3d.bk.tudelft.nl/schemas/cityjson/)\
-  \ is mapped to an entity-relationship model for the storage on a database. Restful\
-  \ API is developed for access and data filtering (bbox, attributes etc.). Then benchmarking\
-  \ is used for testing the performance of the RESTful API."
-- 9c424a9b1de-draco400.gif
-- "CityREST: CityJSON in a database + RESTful access"
-Lumban Gaol:
-- Yustisi Ardhitasari
-- Ken Arroyo Ohori
-- Ravi Peters
-- Shallow water depth information is essential for coastal management and research.
-  Satellite-Derived Bathymetry (SDB) is a way to model water depth in shallow water
-  areas. It can be used to fill data gaps that occur with the conventional survey
-  method based on echo sounding. It is also a low-cost technique since remote sensing
-  images are used instead of field surveys. The basic principle of SDB is to produce
-  a continuous water depth field by finding the correlation between bottom reflectance
-  from satellite images and in-situ depth acquired from conventional surveys. A major
-  limitation of the SDB model is that it requires in-situ data for calibration, but
-  shallow water in-situ data is not available for many areas. Most studies achieved
-  a precise model by applying the model within in-situ coverage. However, it becomes
-  challenging when the goal is to generate an SDB model by minimizing the amount of
-  in-situ data and using the calibration model outside the input coverage. This research
-  aims to investigate the possibility of machine learning to derive an SDB model with
-  limited in-situ data. A machine learning method will be developed to extract depth
-  in the shallow water area. The method will focus on minimizing the in-situ data
-  needed for training and observing the resulting quality. The quality of the model
-  will be assessed based on evaluation metrics, i.e. root mean square error and total
-  vertical uncertainty.
-- 38ba5f429ccd-201015_usvi.png
-- Machine Learning Approach for Satellite-Derived Bathymetry with Minimal In-situ Data
-Milyana:
-- Nur An Nisa
-- Hendrik Ploeger
-- Bastiaan van Loenen
-- "The modern-day spatial planning requires sensitivity to seek a balance between\
-  \ how to develop existing living environment while maintaining a citizen\u2019s\
-  \ perspective.  Therefore, cities are required to re-de\uFB01ne their public participation\
-  \ strategies by adoption modern tools that could increase the trust and satisfaction\
-  \ of citizens regarding planning products. This challenge has made geographic information\
-  \ system (GIS) technologies invaluable to the experts for enhancing the place-making\
-  \ process by transforming spatial data into actionable insights for citizens. These\
-  \ days, web-based GIS are often used to foster the citizen participation process.\
-  \  However, involving users in GIS within the planning decision system has increased\
-  \ the complexity of the deliverables of spatial information. Moreover, the implementation\
-  \ of GIS with a central role in delivering spatial plans should be in more user-friendly\
-  \ way. At this core, User Experience (UX) could help the spatial planning experts\
-  \ to make this spatial information to become more \u201Dhumane\u201D. User Experience\
-  \ (UX) can be the suitable approach for engaging users with spatial planning deliverables.\
-  \ This thesis project will investigate how can user experience be applied to trigger\
-  \ active participation in spatial planning. The research will develop an UX mockup\
-  \ design and find the possibility to be applied as web-based GIS prototype. The\
-  \ focus of the study will be based on spatial planning in Indonesia."
-- 70433204ddfd-nmilyana_method.jpg
-- Designing user experience (UX) to trigger participation in spatial planning
-Morlighem:
-- Camille
-- Hugo Ledoux
-- Anna Labetski
-- This thesis is about automatically reconstructing 3D buildings from historical maps.
-  Current 3D city models are nowadays well-known and used for many applications, but
-  historical 3D city models remain difficult to generate as they rely on various historical
-  sources as historical maps and photographs. Yet historical 3D city models are valuable
-  for the historical heritage as they ease the restoration of cultural sites and may
-  provide worldwide access to these sites, among other applications. Some research
-  has been conducted in this area, but the methods proposed to build historical 3D
-  city models stay essentially manual. Therefore, the objective of this thesis is
-  to automate as much as possible the whole process from the vectorization of the
-  historical maps to the generation of the historical 3D city models. The first steps
-  to implement are the georeferencing of the historical maps, followed by the extraction
-  of the building footprints using machine learning or deep learning algorithms. A
-  crude 3D city model will first be generated from the building footprints using procedural
-  modelling. Building height could be extracted from historical photographs or defined
-  by superimposing the current AHN3 over the building footprints. This crude 3D city
-  model will then be further refined by including information from cadastral data.
-  With this method, several historical 3D city models will be generated for different
-  epochs, which will allow representing the evolution of a city.
-- 9398977ec02f-rotterdam.JPG
-- Automatic reconstruction of historical 3D city models
-Papageorgiou:
-- Manos
-- Ravi Peters
-- Weixiao Gao
-- "The goal of my thesis is to assist in the automatic reconstruction of LoD2 3D city\
-  \ models from lidar point clouds with a method that requires a classified point\
-  \ cloud and building footprints. \nSpecifically, I will be investigating the preprocessing\
-  \ steps of this method where a point cloud is classified into ground, building and\
-  \ other points and further segmented into individual building instances from which\
-  \ the building footprints are extracted. This data can be then used as input to\
-  \ an already in development experimental software to produce an LoD2 3D city model.\
-  \ Since accurate building footprints and classified point clouds are not always\
-  \ available at our disposal, this research is meant to help in situations where\
-  \ the available datasets have different accuracies and inconsistencies between them\
-  \ by reducing the required data to produce an LoD2 3D city model to just an unclassified\
-  \ point cloud. \nMore specifically, this thesis will focus on the classification\
-  \ of lidar point clouds using deep learning and the research question it will attempt\
-  \ to answer is how well existing neural networks will perform if we train them with\
-  \ the AHN3 dataset. \nTo answer this question, multiple tests will be conducted\
-  \ with various supervised deep learning algorithms and datasets using python coding\
-  \ and open source code from Github while software like QGIS, FME, Blender and Meshlab\
-  \ will be used for data preparation and visualization."
-- 9e375dbdb8-400x400.png
-- Point cloud classification with supervised deep learning algorithms for automatic reconstruction of LoD2 3D city models
-Roy:
-- Ellie
-- Hugo Ledoux
-- Giorgio Agugiaro
-- "In the Netherlands, information on buildings is provided as open-data via the \u201C\
-  Basisregistratie Adressen en Gebouwen\u201D, or BAG for short. Part of this dataset\
-  \ consists of 2D polygons representing the footprints of all buildings. Each footprint\
-  \ is associated with a number of attributes, such as the construction date and current\
-  \ use. However, the number of floors within each building is currently not included.\
-  \ This would be a valuable additional attribute for many applications. For example,\
-  \ flood response plans require this information to determine the number of inhabitable\
-  \ storeys remaining given a breach of flood defences. In addition, this information\
-  \ is required for energy performance estimations. Therefore, this thesis focuses\
-  \ on the development of an automatic method to infer the number of floors of all\
-  \ buildings in the Netherlands. This method will firstly consider the residential\
-  \ building stock, before potentially also including other building typologies. Previous\
-  \ efforts have focused on dividing the measured height of a building by an average\
-  \ floor-to-ceiling height. However, this over-simplification limits the accuracy\
-  \ of the results. The improved method will focus on using building attributes, such\
-  \ as the roof shape and construction year, to provide a more realistic estimate\
-  \ of the number of floors. The method will most likely use machine learning techniques,\
-  \ based on training data collected from multiple municipalities."
-- 15c4ff03b7e4-p1_image.jpg
-- Inferring the number of floors of all buildings in the Netherlands
-- with Deltares (Maarten Pronk)
-Smit:
-- Mels
-- Edward Verbree
-- Martijn Meijers
-- "During my master thesis I will be investigating options to detect glass in LiDAR\
-  \ Point Clouds. This is a\nnon-trivial assignment as LiDAR is a light based scanning\
-  \ technique. As glass is both transparent and\nreflective, light has trouble getting\
-  \ a good reading of this material as it can be absorbed, pass through\nit or be\
-  \ reflected by it, with only very little of the reflected light being sent back\
-  \ to the scanner.\nBecause of this, points tend to show up at places where nothing\
-  \ should be if glass is present in the\nscene. This then provides false information\
-  \ in Point Clouds showing or not showing obstacles where\nthey shouldn\u2019t or\
-  \ should be.\nTo do this research is done into different types of Point Clouds to\
-  \ see which properties can be used to\ndeduce the placement of glass in the scenes.\n\
-  Should the initial approach of only using the available data in a Point Cloud not\
-  \ prove to be accurate\nenough, then combining other sensor data with the LiDAR\
-  \ scans can also prove promising. Examples\nof this could be Thermal Infrared cameras\
-  \ to detect heat changes where glass is present or Sonar\npulses that are able to\
-  \ see glass as it reflects sound just fine. The found results of these extra sensors\n\
-  could then be used to detect glass as walls that these methods detect where the\
-  \ LiDAR scan does\nnot, show the presence of a transparent or reflective material\
-  \ such as glass or mirrors. By fusing\nthese results with the Point Cloud glass\
-  \ can then be placed inside as well enhancing the end result."
-- 75cbff965ed0-Research_in_one_image.jpg
-- Detecting glass through LiDAR Point Clouds
-- with CGI (Robert Voûte)
-Stevers:
-- Anna Vera
-- Clara García-Sánchez
-- Giorgio Agugiaro
-- "Along the Dutch coast, the dunes are the first line of defence against the sea.\
-  \ To let the dunes grow along with the rising sea level, we need sediment transport\
-  \ by wind. However, the growing number of beach housing on Dutch beaches effect\
-  \ the wind, and therefore the sedimentation. The configurations of these buildings\
-  \ can influence the amount of sediment transport along the beaches. It is interesting\
-  \ therefore to explore the possibilities of configurations that could increase sediment\
-  \ transport rather than limit this. Increased sedimentation can promote dune formation\
-  \ and therefore aid in flood protection.\n\nThe objective of this thesis is to model\
-  \ different types of beach house configurations and the effects they have on the\
-  \ sediment flow considering multiple wind conditions. We aim to find if some types\
-  \ of configurations can support the sediment transport. As a case study this thesis\
-  \ will focus on the beaches of Noordwijk, the Netherlands. The different configurations\
-  \ of beach housing and the effects of the wind can be simulated by creating CFD\
-  \ models using OpenFOAM. The CFD models show the direction and speed of wind around\
-  \ a 3D city model. Using these simulations we can determine which configurations\
-  \ have the highest potential to either heighten, or widen to dunes.\n \nThis thesis,\
-  \ together with Nadine Hobeika\u2019s, will be part of the ShoreScape project, a\
-  \ research conducted by TU Delft and UTwente. The results from our work can be used\
-  \ in real life models on beaches in 2021."
-- 82f852014991-visualization.0008.png
-- Modelling wind around beach housing for dune formation
-- with ShoreScape (Janneke van Bergen)
-Wu:
-- Jialun
-- Francesca Noardo
-- Ken Arroyo Ohori
-- 'Automated analysis and management of 3D city data will promote the development
-  of the city, especially in large cities like Rotterdam. Therefore, this study focuses
-  on the digitization and automation of the building permission checks which support
-  government officials in real situations. This will follow the ambitions/specification
-  of European Network for Digital Building Permits (reference: EUnet4DBP) by implementing
-  simple and machine-readable rules and requirements which means we formalize and
-  store the information related to the regulation in our 3D city model following a
-  formal data structure (the CityGML and CityJSON ADE mechanism give inspiration for
-  this part). Besides, it will ensure interoperability which allows officials to visualize
-  and check the buildings follow the open standards.
+    This thesis aims to test, critically review, and propose extensions and improvements for the product. The focus will be
+    on the expansion of input KPIs, the output parameters, and the impacts of the designs on the urban settings. To generate
+    KPIs, a data-driven approach that considers spatial and non-spatial, volumetric and non-volumetric data will be employed.
+    Regarding output parameters and impact estimation, the scenarios’ 3D model will be incorporated into the current 3D model
+    to perform spatial analyses based on a set of criteria. These approaches thus will contribute to the further integration
+    of 3D city models into the planning process and explore its possibilities in assisting urban practices.'
+  image: 6d46b544141-QuynhDoan_5025923_thesis_in_one_image.jpg
+- name: Nadine Hobeika
+  title: Interaction between wind flows and beach housing to promote dune formation
+  supervisors: Clara García-Sánchez and Ivan Pađen
+  summary: "In 2017, the ‘Kuspact’, a Dutch national agreement, was signed to develop the Dutch coast without damaging its\
+    \ ecosystem nor its aesthetics. Consequently, the formation and protection of coastal dunes have become a focal point\
+    \ for research and development. For this reason, this Master thesis aims to investigate the impact of certain coastal\
+    \ house configurations on wind turbulence for the purpose of either heightening or widening the dunes, or even both. Computational\
+    \ fluid dynamics (CFD) will be used to simulate wind around the configurations and the dunes. The beach-dune profile and\
+    \ four initial configurations were provided by a landscape architecture PhD student from the University of Twente. Based\
+    \ on the initial simulations, further configurations and parameters will be tested to optimise the results. \nTo simulate\
+    \ the wind turbulence, the Reynolds averaged Navier-Stokes (RANS) model will be used. More specifically, simulations will\
+    \ be carried out using the Re-Normalisation Group k-epsilon (RNG k-epsilon) model because it has so far been established\
+    \ as the most suited to model the effects of wind turbulence in the built environment. After running the simulations in\
+    \ OpenFOAM software, relevant fields such as pressure and velocity will be analysed to filter configurations and conclude\
+    \ with the best choice for the Dutch coast."
+  image: 7d8153118aa6-draft_image_02.png
+- name: Maarten de Jong
+  title: One TIN for all AHN3 points with Streaming Delaunay Triangulation
+  supervisors: Hugo Ledoux and Ravi Peters
+  summary: 'The goal of this thesis project is to explore how the streaming paradigm can be used to create a seamless TIN
+    of all AHN3 points in the Netherlands (~800B). The advantage of using a streaming Delaunay triangulation is that it circumvents
+    having to load all the points into memory, which is an impossible task at this scale. However, a disadvantage is that
+    this method requires an understanding of when points are no longer necessary for the triangulation and can be stored to
+    disk and unloaded from memory. Challenges lie in determining how the point ordering of the AHN3 tiles will affect the
+    efficiency of the algorithm, as well as ensuring that artefacts do not occur around tile borders.
 
-  The key point of this research is to realize the interpretation and formalization
-  of laws and regulations, they are then translated into algorithms for automated
-  computation and analysis. The research will develop an extension of CityJSON to
-  extend the existing data model since CityJSON has better interoperability than CityGML.
-  We then utilize it in building permission check applications. It will store, evaluate,
-  and verify the final results. This research will be carried out with a specific
-  case study, by selecting a small area of the research area (Rotterdam) and specific
-  laws and regulations to conduct the research, and then extend it to the realization
-  of more laws and regulations.'
-- 0f55910db963-research_image1.png
-- A CityJSON extension to store city information towards the automation of building permit
+    Furthermore, an assessment will be made of whether it is possible to simplify the triangulation at a local level. This
+    consists of determining a (basic) methodology to reduce the number of triangles. This will reduce the overall size of
+    the resulting triangulation, making easier to work with in subsequent research.
 
+    The desired final result of this thesis project is to have a process in place that is capable of handling a large number
+    (> 50) of AHN3 tiles and Delaunay triangulating them, while performing some simplification.'
+  image: 0ae54f8d219-anim.gif
+- name: Kristof Kenesei
+  title: Converting the national road network (NWB) from 2D into 3D
+  supervisors: Ravi Peters and Jantien Stoter
+  summary: 'The Dutch Nationaal Wegenbestand (NWB) open data road model is effectively a graph representation of the Dutch
+    road network. It is primarily used for modelling purposes, such as that of noise propagation and traffic flow – often
+    to serve as the basis for regulatory compliance evaluation. Due to changes in Dutch noise modelling policy, the data set
+    now needs to be transposed into 3D. The responsible government agency, Rijkswaterstaat, is therefore seeking a solution
+    that can automatically enrich the road model with elevation estimates. This includes roads in complex multi-level and
+    urban settings.
+
+    Our research aims to find out whether a combination of Dutch open geospatial data (such as AHN and DTB) and the maintainer’s
+    civil engineering data can be used to realise this task in a way that the output fulfils the prescribed accuracy requirements.
+
+    To do this, we will assess which data sets can contribute to this task, and in what way. Attention will be devoted to
+    establishing how (or even if) we can track the propagation of the uncertainty descriptors of the source data through the
+    considered workflows. In terms of the workflow itself, we are curious to see whether building a shared 2.5D model from
+    the input sources could handle complex 3D layouts, such as overpasses. To find out, we intend to create prototype implementations
+    using tools that are common in the Geomatics discipline.'
+  image: 3bdb605851f0-thumbnail.png
+- name: Xiaoai Li
+  title: 'CityREST: CityJSON in a database + RESTful access'
+  supervisors: Stelios Vitalis and Hugo Ledoux
+  summary: "[OGC](https://ogcapi.ogc.org/) recently released the [WFS 3.0](https://ogcapi.ogc.org/features/) standard called\
+    \ “OGC API – Features: Part 1 – Core”.  It is a more open and more  web-oriented RESTful API. [CityJSON](https://www.cityjson.org/)\
+    \ as a JSON-based exchange format of 3D city models is less verbose and more web-friendly than CityGML and can be used\
+    \ in a broad range of applications.  Therefore, the efficient dissemination and easy access of CityJSON datasets can be\
+    \ very valuable.\n\nThe [OGC](https://ogcapi.ogc.org/) APIs focus on 2D datasets that lack usability for 3D research and\
+    \ applications. The different CRSs in CityJSON datasets can also be problematic. Besides, there exists no specific database\
+    \ or schema for the storage of CityJSON datasets on the server which limits the dissemination.\n\nThe research questions\
+    \ are conducted with this in mind.\n  - How to develop a RESTful API for access to geospatial feature resources in CityJSON\
+    \ and to realize the fast retrieval of part city objects?\n  - How to properly store CityJSON in a database to support\
+    \ a RESTful access?\n \n\nThe [schema of CityJSON](https://3d.bk.tudelft.nl/schemas/cityjson/) is mapped to an entity-relationship\
+    \ model for the storage on a database. Restful API is developed for access and data filtering (bbox, attributes etc.).\
+    \ Then benchmarking is used for testing the performance of the RESTful API."
+  image: 9c424a9b1de-draco400.gif
+- name: Yustisi Ardhitasari Lumban Gaol
+  title: Machine Learning Approach for Satellite-Derived Bathymetry with Minimal In-situ Data
+  supervisors: Ken Arroyo Ohori and Ravi Peters
+  summary: Shallow water depth information is essential for coastal management and research. Satellite-Derived Bathymetry
+    (SDB) is a way to model water depth in shallow water areas. It can be used to fill data gaps that occur with the conventional
+    survey method based on echo sounding. It is also a low-cost technique since remote sensing images are used instead of
+    field surveys. The basic principle of SDB is to produce a continuous water depth field by finding the correlation between
+    bottom reflectance from satellite images and in-situ depth acquired from conventional surveys. A major limitation of the
+    SDB model is that it requires in-situ data for calibration, but shallow water in-situ data is not available for many areas.
+    Most studies achieved a precise model by applying the model within in-situ coverage. However, it becomes challenging when
+    the goal is to generate an SDB model by minimizing the amount of in-situ data and using the calibration model outside
+    the input coverage. This research aims to investigate the possibility of machine learning to derive an SDB model with
+    limited in-situ data. A machine learning method will be developed to extract depth in the shallow water area. The method
+    will focus on minimizing the in-situ data needed for training and observing the resulting quality. The quality of the
+    model will be assessed based on evaluation metrics, i.e. root mean square error and total vertical uncertainty.
+  image: 38ba5f429ccd-201015_usvi.png
+- name: Nur An Nisa Milyana
+  title: Designing user experience (UX) to trigger participation in spatial planning
+  supervisors: Hendrik Ploeger and Bastiaan van Loenen
+  summary: The modern-day spatial planning requires sensitivity to seek a balance between how to develop existing living environment
+    while maintaining a citizen’s perspective.  Therefore, cities are required to re-deﬁne their public participation strategies
+    by adoption modern tools that could increase the trust and satisfaction of citizens regarding planning products. This
+    challenge has made geographic information system (GIS) technologies invaluable to the experts for enhancing the place-making
+    process by transforming spatial data into actionable insights for citizens. These days, web-based GIS are often used to
+    foster the citizen participation process.  However, involving users in GIS within the planning decision system has increased
+    the complexity of the deliverables of spatial information. Moreover, the implementation of GIS with a central role in
+    delivering spatial plans should be in more user-friendly way. At this core, User Experience (UX) could help the spatial
+    planning experts to make this spatial information to become more ”humane”. User Experience (UX) can be the suitable approach
+    for engaging users with spatial planning deliverables. This thesis project will investigate how can user experience be
+    applied to trigger active participation in spatial planning. The research will develop an UX mockup design and find the
+    possibility to be applied as web-based GIS prototype. The focus of the study will be based on spatial planning in Indonesia.
+  image: 70433204ddfd-nmilyana_method.jpg
+- name: Camille Morlighem
+  title: Automatic reconstruction of historical 3D city models
+  supervisors: Hugo Ledoux and Anna Labetski
+  summary: This thesis is about automatically reconstructing 3D buildings from historical maps. Current 3D city models are
+    nowadays well-known and used for many applications, but historical 3D city models remain difficult to generate as they
+    rely on various historical sources as historical maps and photographs. Yet historical 3D city models are valuable for
+    the historical heritage as they ease the restoration of cultural sites and may provide worldwide access to these sites,
+    among other applications. Some research has been conducted in this area, but the methods proposed to build historical
+    3D city models stay essentially manual. Therefore, the objective of this thesis is to automate as much as possible the
+    whole process from the vectorization of the historical maps to the generation of the historical 3D city models. The first
+    steps to implement are the georeferencing of the historical maps, followed by the extraction of the building footprints
+    using machine learning or deep learning algorithms. A crude 3D city model will first be generated from the building footprints
+    using procedural modelling. Building height could be extracted from historical photographs or defined by superimposing
+    the current AHN3 over the building footprints. This crude 3D city model will then be further refined by including information
+    from cadastral data. With this method, several historical 3D city models will be generated for different epochs, which
+    will allow representing the evolution of a city.
+  image: 9398977ec02f-rotterdam.JPG
+- name: Manos Papageorgiou
+  title: Point cloud classification with supervised deep learning algorithms for automatic reconstruction of LoD2 3D city
+    models
+  supervisors: Ravi Peters and Weixiao Gao
+  summary: "The goal of my thesis is to assist in the automatic reconstruction of LoD2 3D city models from lidar point clouds\
+    \ with a method that requires a classified point cloud and building footprints. \nSpecifically, I will be investigating\
+    \ the preprocessing steps of this method where a point cloud is classified into ground, building and other points and\
+    \ further segmented into individual building instances from which the building footprints are extracted. This data can\
+    \ be then used as input to an already in development experimental software to produce an LoD2 3D city model. Since accurate\
+    \ building footprints and classified point clouds are not always available at our disposal, this research is meant to\
+    \ help in situations where the available datasets have different accuracies and inconsistencies between them by reducing\
+    \ the required data to produce an LoD2 3D city model to just an unclassified point cloud. \nMore specifically, this thesis\
+    \ will focus on the classification of lidar point clouds using deep learning and the research question it will attempt\
+    \ to answer is how well existing neural networks will perform if we train them with the AHN3 dataset. \nTo answer this\
+    \ question, multiple tests will be conducted with various supervised deep learning algorithms and datasets using python\
+    \ coding and open source code from Github while software like QGIS, FME, Blender and Meshlab will be used for data preparation\
+    \ and visualization."
+  image: 9e375dbdb8-400x400.png
+- name: Ellie Roy
+  title: Inferring the number of floors of all buildings in the Netherlands
+  supervisors: Hugo Ledoux and Giorgio Agugiaro
+  summary: In the Netherlands, information on buildings is provided as open-data via the “Basisregistratie Adressen en Gebouwen”,
+    or BAG for short. Part of this dataset consists of 2D polygons representing the footprints of all buildings. Each footprint
+    is associated with a number of attributes, such as the construction date and current use. However, the number of floors
+    within each building is currently not included. This would be a valuable additional attribute for many applications. For
+    example, flood response plans require this information to determine the number of inhabitable storeys remaining given
+    a breach of flood defences. In addition, this information is required for energy performance estimations. Therefore, this
+    thesis focuses on the development of an automatic method to infer the number of floors of all buildings in the Netherlands.
+    This method will firstly consider the residential building stock, before potentially also including other building typologies.
+    Previous efforts have focused on dividing the measured height of a building by an average floor-to-ceiling height. However,
+    this over-simplification limits the accuracy of the results. The improved method will focus on using building attributes,
+    such as the roof shape and construction year, to provide a more realistic estimate of the number of floors. The method
+    will most likely use machine learning techniques, based on training data collected from multiple municipalities.
+  image: 15c4ff03b7e4-p1_image.jpg
+  company: with Deltares (Maarten Pronk)
+- name: Mels Smit
+  title: Detecting glass through LiDAR Point Clouds
+  supervisors: Edward Verbree and Martijn Meijers
+  summary: 'During my master thesis I will be investigating options to detect glass in LiDAR Point Clouds. This is a
+
+    non-trivial assignment as LiDAR is a light based scanning technique. As glass is both transparent and
+
+    reflective, light has trouble getting a good reading of this material as it can be absorbed, pass through
+
+    it or be reflected by it, with only very little of the reflected light being sent back to the scanner.
+
+    Because of this, points tend to show up at places where nothing should be if glass is present in the
+
+    scene. This then provides false information in Point Clouds showing or not showing obstacles where
+
+    they shouldn’t or should be.
+
+    To do this research is done into different types of Point Clouds to see which properties can be used to
+
+    deduce the placement of glass in the scenes.
+
+    Should the initial approach of only using the available data in a Point Cloud not prove to be accurate
+
+    enough, then combining other sensor data with the LiDAR scans can also prove promising. Examples
+
+    of this could be Thermal Infrared cameras to detect heat changes where glass is present or Sonar
+
+    pulses that are able to see glass as it reflects sound just fine. The found results of these extra sensors
+
+    could then be used to detect glass as walls that these methods detect where the LiDAR scan does
+
+    not, show the presence of a transparent or reflective material such as glass or mirrors. By fusing
+
+    these results with the Point Cloud glass can then be placed inside as well enhancing the end result.'
+  image: 75cbff965ed0-Research_in_one_image.jpg
+  company: with CGI (Robert Voûte)
+- name: Anna Vera Stevers
+  title: Modelling wind around beach housing for dune formation
+  supervisors: Clara García-Sánchez and Giorgio Agugiaro
+  summary: "Along the Dutch coast, the dunes are the first line of defence against the sea. To let the dunes grow along with\
+    \ the rising sea level, we need sediment transport by wind. However, the growing number of beach housing on Dutch beaches\
+    \ effect the wind, and therefore the sedimentation. The configurations of these buildings can influence the amount of\
+    \ sediment transport along the beaches. It is interesting therefore to explore the possibilities of configurations that\
+    \ could increase sediment transport rather than limit this. Increased sedimentation can promote dune formation and therefore\
+    \ aid in flood protection.\n\nThe objective of this thesis is to model different types of beach house configurations and\
+    \ the effects they have on the sediment flow considering multiple wind conditions. We aim to find if some types of configurations\
+    \ can support the sediment transport. As a case study this thesis will focus on the beaches of Noordwijk, the Netherlands.\
+    \ The different configurations of beach housing and the effects of the wind can be simulated by creating CFD models using\
+    \ OpenFOAM. The CFD models show the direction and speed of wind around a 3D city model. Using these simulations we can\
+    \ determine which configurations have the highest potential to either heighten, or widen to dunes.\n \nThis thesis, together\
+    \ with Nadine Hobeika’s, will be part of the ShoreScape project, a research conducted by TU Delft and UTwente. The results\
+    \ from our work can be used in real life models on beaches in 2021."
+  image: 82f852014991-visualization.0008.png
+  company: with ShoreScape (Janneke van Bergen)
+- name: Jialun Wu
+  title: A CityJSON extension to store city information towards the automation of building permit
+  supervisors: Francesca Noardo and Ken Arroyo Ohori
+  summary: 'Automated analysis and management of 3D city data will promote the development of the city, especially in large
+    cities like Rotterdam. Therefore, this study focuses on the digitization and automation of the building permission checks
+    which support government officials in real situations. This will follow the ambitions/specification of European Network
+    for Digital Building Permits (reference: EUnet4DBP) by implementing simple and machine-readable rules and requirements
+    which means we formalize and store the information related to the regulation in our 3D city model following a formal data
+    structure (the CityGML and CityJSON ADE mechanism give inspiration for this part). Besides, it will ensure interoperability
+    which allows officials to visualize and check the buildings follow the open standards.
+
+    The key point of this research is to realize the interpretation and formalization of laws and regulations, they are then
+    translated into algorithms for automated computation and analysis. The research will develop an extension of CityJSON
+    to extend the existing data model since CityJSON has better interoperability than CityGML. We then utilize it in building
+    permission check applications. It will store, evaluate, and verify the final results. This research will be carried out
+    with a specific case study, by selecting a small area of the research area (Rotterdam) and specific laws and regulations
+    to conduct the research, and then extend it to the realization of more laws and regulations.'
+  image: 0f55910db963-research_image1.png
