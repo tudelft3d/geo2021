@@ -12,7 +12,7 @@
 
 - name: "Michel Beeren"
   title: "Optimizing 3D Alpha Wrapping for CFD Applications; Repairing and Simplifying 3D Building Models"
-  supervisors: "Clara Garcia Sanchez and Hugo Ledoux"
+  supervisors: "Clara García-Sánchez and Hugo Ledoux"
   summary: "This thesis proposes extending CGAL's 3D Alpha Wrap algorithm to generate valid, watertight, and CFD-ready building meshes that better preserve sharp architectural features while minimizing unnecessary mesh complexity. The core objective is to develop a method that uses locally adaptive α parameters—smaller values near sharp/small features for detail, larger values in smooth regions to reduce triangle count—guided by feature detection from techniques like adaptive octree refinement or the Medial Axis Transform. The workflow includes pre-processing for feature detection, in-algorithm modification for local α-adaptation, and post-processing to sharpen rounded edges. The improved algorithm aims to serve as a robust fallback in automated reconstruction pipelines like City4CFD, producing ISO 19107-compliant meshes efficiently without manual repair."
   image: "michel.jpg"
 
@@ -98,7 +98,7 @@
 
 - name: "Carmem Félix Aires"
   title: "A Comparison of Wind Velocity Predictions from Wind-Only and Thermally Coupled OpenFOAM Solvers in Complex Terrain"
-  supervisors: "Clara Garcia Sanchez and Miguel Martin Fehlmann"
+  supervisors: "Clara García-Sánchez and Miguel Martin Fehlmann"
   summary: "This thesis proposal investigates the feasibility of using advanced urban microclimate simulations (urbanMicroclimateFOAM) to analyze heat stress in complex, non-flat urban terrain. It compares wind-only and thermally-coupled CFD models against field measurements from Carnegie Mellon University during a heatwave, evaluating accuracy, computational demands, and numerical stability. The study also integrates automated 3D city reconstruction from LiDAR data to assess its suitability for detailed simulations. The goal is to identify when high-fidelity thermal coupling is necessary for reliable urban climate analysis, thereby supporting evidence-based urban planning for heat resilience."
   image: "carmem.jpg"
   company: "Haskoning"
@@ -124,7 +124,7 @@
 
 - name: "Anne den Hartog"
   title: "Thermally comfortable urban mobility: operationalizing urban microclimate data into a pedestrian routing tool"
-  supervisors: "Clara Garcia Sanchez, Daniela Maiullari and Lukas Beuster"
+  supervisors: "Clara García-Sánchez, Daniela Maiullari and Lukas Beuster"
   summary: "This thesis proposal aims to develop a fully open-source, scalable pedestrian routing tool that integrates urban microclimate data to improve thermal comfort during heatwaves. Using UMEP (specifically SOLWEIG and URock models), it will generate high-resolution data on mean radiant temperature and wind conditions to assess heat stress. The research focuses on operationalizing this data into a web-based routing application, employing adaptive algorithms that balance route length and heat exposure without predefined weights. The tool will be tested in Rotterdam, emphasizing reproducibility, scalability, and user accessibility to support climate-aware mobility decisions."
   image: "anne.jpg"
 

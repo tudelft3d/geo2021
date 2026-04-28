@@ -10,7 +10,7 @@ Wu:
 Sárkány:
 - Ákos Soma
 - "Voronoi mesh generation tailored for urban wind simulations"
-- Clara Garcia Sanchez
+- Clara García-Sánchez
 - Hugo Ledoux
 - "Deriving a 3D virtual representation of the context for urban wind simulations carries two main difficulties. First, the environment has to be captured and reconstructed virtually. Second, the continuous 3D domain has to be discretized for the computations. Researchers at Delft University of Technology developed an application that automatically reconstructs a Digital Terrain Model and a boundary representation of the buildings in a given area. However, these representations cannot be directly used for CFD without being discretized. The discretization is done by dividing the 3D domain into discrete cells. The shape and structure of a cell can vary between simulations — tetrahedral and hexahedral meshes are among the most commonly used, but polyhedral meshes also exist, and they have some advantages over traditional meshes. An important benefit of polyhedral meshes is that they can be generated from a Voronoi diagram constructed over an unorganized set of points. A Voronoi mesh partitions space into cells, where each cell consists of all points closer to a given point in the unorganized structure than to any other point. Given that the unorganized structure of seed points is generated with the correct conditions on a boundary, the constructed Voronoi mesh conforms to that boundary. This feature is advantageous for flow simulations, where conforming tightly to the boundary (particularly around sharp features) is crucial."
 - .nan
