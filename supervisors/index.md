@@ -44,7 +44,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 - Make sure your students submit their case before the [registration deadline](../dates/), which should be at the end of week 2.
 - Approve the supervisory team of your students before the end of week 4.
-- Schedule the A1 date in SuperSaaS before the before the end of week 4.
+- Schedule the A1 date in SuperSaaS before the end of week 4.
 
 ### A1 (Kick-off)
 
@@ -52,7 +52,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 - Both supervisors jointly decide if it's a go (continue to Midterm) or no-go (retake).
 - The 1st supervisor must put in the system the final result of the A1.
   - If it's a go (continue to Midterm), both supervisors, student, co-reader (if known) and delegate should decide on A3 and A4 dates from the slots available in SuperSaaS and enter them in the system.
-  - If it's a no/go (retake), the same but for a new A1 date in the next period.
+  - If it's a no-go (retake), the same but for a new A1 date in the next period.
 
 ### A2 (Midterm)
 
