@@ -6,9 +6,14 @@ color: warning-60
 logo: fa-table
 ---
 
-_This is a formatted version from the rubric in the graduation guide. For feedback to put in MyCase, you can [download](feedback.xlsx) the spreadsheet, highlight the appropriate columns, put additional comments and upload._
+_This is a formatted version from the rubric in the graduation guide. For feedback to put in MyCase, you can [download the A3 rubric as a spreadsheet](feedback.xlsx), highlight the appropriate columns, put additional comments and upload._
 
-## Research (50%)
+* ToC
+{:toc}
+
+## A3
+
+### Research (50%)
 
 <table class="table is-striped is-narrow is-fullwidth">
 	<thead>
@@ -72,7 +77,7 @@ _This is a formatted version from the rubric in the graduation guide. For feedba
 	</tbody>
 </table>
 
-## Process (20%)
+### Process (20%)
 
 <table class="table is-striped is-narrow is-fullwidth">
 	<thead>
@@ -127,7 +132,7 @@ _This is a formatted version from the rubric in the graduation guide. For feedba
 	</tbody>
 </table>
 
-## Communication - Report (18%)
+### Communication - Report (18%)
 
 <table class="table is-striped is-narrow is-fullwidth">
 	<thead>
@@ -191,7 +196,7 @@ _This is a formatted version from the rubric in the graduation guide. For feedba
 	</tbody>
 </table>
 
-## Communication - Presentation (12%)
+### Communication - Presentation (12%)
 
 <table class="table is-striped is-narrow is-fullwidth">
 	<thead>
@@ -251,6 +256,31 @@ _This is a formatted version from the rubric in the graduation guide. For feedba
 			<td>Very confident with the content at a research and development level</td>
 			<td>Masters the content within the research topic</td>
 			<td>Masters the content beyond the research topic</td>
+		</tr>
+	</tbody>
+</table>
+
+## A4
+
+<table class="table is-striped is-narrow is-fullwidth">
+	<thead>
+		<tr><th class="has-text-centered">Verbally</th><th class="has-text-centered">Visually</th><th class="has-text-centered">A4 final grade</th></tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Explained and argued for a lay audience without adjustments or in an incomprehensible way</td>
+			<td>Shown and displayed for a lay audience without adjustments or in an incomprehensible way</td>
+			<td>A3 grade - 0.5</td>
+		</tr>
+		<tr>
+			<td>Explained and argued for a lay audience in an understandable way</td>
+			<td>Shown and displayed for a lay audience in an understandable way</td>
+			<td>A3 grade</td>
+		</tr>
+		<tr>
+			<td>Explained and argued for a lay audience in an exceptionally good and engaging way</td>
+			<td>Shown and displayed for a lay audience in an exceptionally good and engaging way</td>
+			<td>A3 grade + 0.5</td>
 		</tr>
 	</tbody>
 </table>
