@@ -9,7 +9,7 @@ future:           true
 
 #-- Setup
 title:            TU Delft MSc Geomatics graduation thesis
-description:      "Information about the TU Delft MSc Geomatics graduation thesis project (GEO2021), including rules, deadlines, templates, and resources for students and supervisors."
+description:      "Information about the TU Delft MSc Geomatics graduation thesis project (GEO2021-GEO2022), including rules, deadlines, templates, and resources for students and supervisors."
 url:              "https://geomatics.bk.tudelft.nl"
 baseurl:          "/geo2021"
 
