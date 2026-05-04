@@ -59,8 +59,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 ## [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/)
 1. [Creation of planar partitions from mismatched datasets](https://3d.bk.tudelft.nl/education/msctopics/#creation-of-planar-partitions-from-mismatched-datasets)
-2. [Different heuristics for CGAL polygon repair](https://3d.bk.tudelft.nl/education/msctopics/#different-heuristics-for-cgal-polygon-repair)
-3. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis)
+2. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis)
 
 ## [Jesús Balado Frías](https://www.gdmc.nl/staff/)
 1. [From low quality point clouds to high quality BIM](https://www.gdmc.nl/education/topics/topics.html#from-low-quality-point-clouds-to-high-quality-bim)
@@ -69,10 +68,6 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 ## [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 1. [Developing an open-source Multifunctional Green Infrastructure Planning Support System](https://3d.bk.tudelft.nl/education/msctopics/#designing-a-nature-based-solutions-planning-support-system)
-
-## [Weixiao Gao](https://3d.bk.tudelft.nl/weixiao/)
- 1. [Urban Mesh Segmentation](https://3d.bk.tudelft.nl/education/msctopics/#urban-mesh-segmentation)
- 2. [3D Reconstruction for Man-Made Urban Linear Objects](https://3d.bk.tudelft.nl/education/msctopics/#3d-reconstruction-for-man-made-urban-linear-objects)
 
 ## [Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/)
 1. [Optimizing building mesh designs for computational fluid dynamics using machine learning.](https://3d.bk.tudelft.nl/education/msctopics/#optimizing-building-mesh-designs-for-computational-fluid-dynamics-using-machine-learning)
@@ -122,6 +117,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 4. [Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam](https://3d.bk.tudelft.nl/education/msctopics/#too-cool-or-too-hot-cooling-and-heating-demand-scenarios-based-on-the-semantic-3d-city-model-of-rotterdam)
 5. [Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS](https://3d.bk.tudelft.nl/education/msctopics/#adding-support-for-citysim-to-the-3dcitydb-tools-plugin-for-qgis) (Co-supervisor)
 6. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas) (Co-supervisor)
+7. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas)
 
 ## [Bastiaan van Loenen](https://www.tudelft.nl/en/staff/b.vanloenen/)
 1. [Governance of the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#IP)
@@ -134,9 +130,6 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 3. [Making a vario-scale 4D point cloud](https://www.gdmc.nl/education/topics/topics.html#Making_a_vario_45scale_4D_point_cloud)
 4. [Comparing compression techniques for 2.5 and 3D point clouds](https://www.gdmc.nl/education/topics/topics.html#Comparing_compression_techniques_for_2.5_and_3D_point_clouds)
 5. [Compare solutions for bringing 3D subsurface data on the web - at Geological Survey of the Netherlands](https://www.gdmc.nl/education/topics/topics.html#Compare_solutions_for_bringing_3D_subsurface_data_on_the_web_45_at_Geological_Survey_of_the_Netherlands)
-
-## [Martín Mosteiro Romero](https://www.tudelft.nl/staff/m.a.mosteiroromero/)
-1. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas)
  
 ## [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang)
 1. [Holistic indoor scene understanding and reconstruction](https://3d.bk.tudelft.nl/education/msctopics/#holistic-indoor-scene-understanding-and-reconstruction)
@@ -190,9 +183,3 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 1. [Seabed fingerprinting](https://www.gdmc.nl/education/topics/topics.html#seabed-fingerprinting)
 2. [Smart voxels](https://www.gdmc.nl/education/topics/topics.html#smart-voxels)
 
-
-## [Frederika Welle Donker](https://www.tudelft.nl/en/staff/f.m.welledonker/)
-1. [Financial and economic aspects of the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#financial)
-1. [Design of a user driven open data ecosystem](https://kcopendata.eu/education/thesis-topics/#userdriven)
-1. [Assessment of the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#ODECO)
-<!-- 3. [Open SDI: user motivations](https://kcopendata.eu/education/thesis-topics/#the-open-data-user) -->
