@@ -63,6 +63,9 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 ## [Jesús Balado Frías](https://www.gdmc.nl/staff/)
 1. [Integration of point clouds in CityGML standard for obtaining a continuous Level of Detail](https://www.gdmc.nl/education/topics/topics.html#Integration_of_point_clouds_in_CityGML_standard_for_obtaining_a_continuous_Level_of_Detail)
+2. From Point Clouds to Morphotopes: Automated Urban Taxonomy Using Airborne LiDAR
+3. Point Cloud Domain Transformation: Adapting Airborne LiDAR-Trained Models for Indoor Wireframe Reconstruction
+4. From Points to Pedestrians: Deriving High-Resolution Walkability Indicators from Multi-Platform LiDAR data
 
 ## [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 1. [Developing an open-source Multifunctional Green Infrastructure Planning Support System](https://3d.bk.tudelft.nl/education/msctopics/#designing-a-nature-based-solutions-planning-support-system)
