@@ -16,7 +16,7 @@ permalink: /potentialtopics/
       <li>You should submit a topic by the end of week 3 of the quarter before your official thesis start. By then, you need to have a topic and at least one supervisor selected.</li>
       <li>Be warned that if you wait until the end, then it is possible that your topic is already gone and your favourite supervisor is full.</li>
       <li>A topic can be changed a bit until the A1 registration date.</li>
-      <li>There are three groups involved in Geomatics education: <a href="https://3d.bk.tudelft.nl">3D geoinformation</a>, <a href="https://www.gdmc.nl">GIS technology (GDMC)</a> and the <a href="https://kcopendata.eu/">Knowledge center open data</a>. Your 1st supervisor must be a staff from one of these groups and have completed the UTQ (teaching qualification for staff), which includes all teachers but generally not PhDs.</li>
+      <li>There are three groups involved in Geomatics education: <a href="https://3d.bk.tudelft.nl">3D geoinformation</a>, <a href="https://www.gdmc.nl">GIS technology (GDMC)</a> and the <a href="https://kcopendata.bk.tudelft.nl/">Knowledge center open data</a>. Your 1st supervisor must be a staff from one of these groups and have completed the UTQ (teaching qualification for staff), which includes all teachers but generally not PhDs.</li>
       <li>The lists of potential MSc thesis topics from the groups and a list of recommended topics are below. Click on the links for more info, which will take you to the different pages in the websites of the groups.</li>
       <li>You can:
         <ol>
@@ -43,7 +43,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 * [3D geoinformation](https://3d.bk.tudelft.nl/education/msctopics/)
 * [GIS technology / GDMC](https://gdmc.nl/education/topics/)
-* [Knowledge center open data](https://kcopendata.eu/education/thesis-topics/)
+* [Knowledge center open data](https://kcopendata.bk.tudelft.nl/education/thesis-topics/)
 
 ---
 
@@ -121,8 +121,8 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 7. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas)
 
 ## [Bastiaan van Loenen](https://www.tudelft.nl/en/staff/b.vanloenen/)
-1. [Governance of the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#IP)
-2. [Bridging the information gap between public and private sector](https://kcopendata.eu/education/thesis-topics/#bridging)
+1. [Governance of the open data ecosystem](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#IP)
+2. [Bridging the information gap between public and private sector](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#bridging)
 
 
 ## [Martijn Meijers](https://www.tudelft.nl/en/staff/b.m.meijers/)
@@ -146,9 +146,9 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 4. [Making a vario-scale 4D point cloud](https://www.gdmc.nl/education/topics/topics.html#Making_a_vario_45scale_4D_point_cloud)
 
 ## [Hendrik Ploeger](https://www.tudelft.nl/staff/h.d.ploeger/)
-1. [Intellectual property & data ownership in the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#IP) 
-2. [Privacy in the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#privacy-and-open-data)
-3. [Liability in the open data ecosystem](https://kcopendata.eu/education/thesis-topics/#liability)
+1. [Intellectual property & data ownership in the open data ecosystem](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#IP) 
+2. [Privacy in the open data ecosystem](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#privacy-and-open-data)
+3. [Liability in the open data ecosystem](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#liability)
 
 
 ## [Wilko Quak](https://www.tudelft.nl/staff/c.w.quak/)
