@@ -106,10 +106,9 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 
 ## [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
-1. [How can 3D alpha wrapping be best used to repair buildings?](https://3d.bk.tudelft.nl/education/msctopics/#how-can-3d-alpha-wrapping-be-best-used-to-repair-buildings)
-1. [Estimating noise pollution with machine learning?](https://3d.bk.tudelft.nl/education/msctopics/#estimating-noise-pollution-with-machine-learning)
-1. [Modern metadata for CityJSON](https://3d.bk.tudelft.nl/education/msctopics/#modern-metadata-for-cityjson)
-1. [Water (level) detection with ICESat-2 measurements](https://3d.bk.tudelft.nl/education/msctopics/#water-level-detection-with-icesat-2-measurements)
+1. [Japan’s PLATEAU: from CityGML to CityJSON](https://3d.bk.tudelft.nl/education/msctopics/#japans-plateau-from-citygml-to-cityjson)
+2. [Filling the massive gaps in space lidar datasets with a diffusion model](https://3d.bk.tudelft.nl/education/msctopics/#filling-the-massive-gaps-in-space-lidar-datasets-with-a-diffusion-model)
+
 
 ## [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
 1. [Accuracy assessment of EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#accuracy-assessment-of-energybag-in-house-urban-energy-building-simulation-tool)
@@ -183,4 +182,3 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 ## [Robert Voûte](https://www.gdmc.nl/staff/)
 1. [Seabed fingerprinting](https://www.gdmc.nl/education/topics/topics.html#seabed-fingerprinting)
 2. [Smart voxels](https://www.gdmc.nl/education/topics/topics.html#smart-voxels)
-
