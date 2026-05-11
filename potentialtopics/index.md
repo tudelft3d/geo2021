@@ -164,12 +164,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 6. [Optimization for energy demand-production-storage balance in Local Energy Systems through Deep Reinforcement Learning](https://gdmc.nl/education/topics/topics.html#optimization-for-energy-demand-production-storage-balance-in-local-energy-systems-through-deep-reinforcement-learning)
 
 ## [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
-1. [Developing Level of Detail framework for 3D cadastre implementation in practice](https://3d.bk.tudelft.nl/education/msctopics/#3d-cadastre)
-2. [Developing methods for edge-matching with customisable heuristics](https://3d.bk.tudelft.nl/education/msctopics/#developing-methods-for-edge-matching-with-customisable-heuristics-geometric-topological-and-semantic)
-3. [Supporting earthquake risk assessment by 3D city models](https://3d.bk.tudelft.nl/education/msctopics/#supporting-earthquake-risk-assessment-by-3d-city-models)
-4. [3D delineation of urban river spaces](https://3d.bk.tudelft.nl/education/msctopics/#3d-delineation-of-urban-river-spaces)
-5. [Update 3D BAG from different point clouds](https://3d.bk.tudelft.nl/education/msctopics/#update-3d-bag-from-different-point-clouds)
-6. [Development on quality assessment of point cloud datasets](https://3d.bk.tudelft.nl/education/msctopics/#development-on-quality-assessment-of-point-cloud-datasets)
+1. [Developing methods for edge-matching with customisable heuristics (with CBS)](https://3d.bk.tudelft.nl/education/msctopics/#developing-methods-for-edge-matching-with-customisable-heuristics-geometric-topological-and-semantic)
 
 <!-- 2. [Reconstructing a 3D road network for the whole Netherlands (for the National Road Data set (NWB))](https://nationaalwegenbestand.nl/nieuws/hoogte-informatie-toegevoegd-aan-nwb-voor-omgevingswet) [with NWB] -->
 
