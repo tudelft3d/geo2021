@@ -165,6 +165,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 ## [Jantien Stoter](https://3d.bk.tudelft.nl/jstoter/)
 1. [Developing methods for edge-matching with customisable heuristics (with CBS)](https://3d.bk.tudelft.nl/education/msctopics/#developing-methods-for-edge-matching-with-customisable-heuristics-geometric-topological-and-semantic)
+2. [Developing Level of Detail framework for 3D cadastre implementation in practice](https://3d.bk.tudelft.nl/education/msctopics/#3d-cadastre)
 
 <!-- 2. [Reconstructing a 3D road network for the whole Netherlands (for the National Road Data set (NWB))](https://nationaalwegenbestand.nl/nieuws/hoogte-informatie-toegevoegd-aan-nwb-voor-omgevingswet) [with NWB] -->
 
