@@ -65,7 +65,7 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 
 - The 1st supervisor has to assess if the work is original, and thus you need to go to the [Brightspace Plagiarism Scan](https://brightspace.tudelft.nl/d2l/lms/dropbox/admin/folders_manage.d2l?ou=47493) and check the report. If the link doesn't work, search for Plagiarism scan MSc thesis - BK in Brightspace.
 - Both supervisors and the co-reader must read the final thesis, attend the A3 meeting and ask questions.
-  - If it's a go (continue to Finalisation), both supervisors should also decide the preliminary mark of the student with [the rubric](../rubric/). Note that the final mark at the A4 might only be within 0.5 points of the preliminary one. Note also that whether the student is cum laude is decided based on this mark, not on the final one. The 1st supervisor must put in the system the result of the A3.
+  - If it's a go (continue to Finalisation), both supervisors should also decide the preliminary mark of the student with [the rubric](../rubric/). Note that the final mark at the A4 might only be within 0.5 points of the preliminary one. Note also that whether the student is cum laude is decided based on this mark, not on the final one. <i class="fa-solid fa-triangle-exclamation"></i> In order to have the preliminary mark available at the A4, it's a good idea to put it in the MyCase notes (which are not visible to the student).
   - If it's a no-go (retake), both supervisors, co-reader, student and delegate should decide on new A3 and A4 dates from the slots available in SuperSaaS and enter them in the system.
 
 ### A4 (Finalisation)
