@@ -108,6 +108,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 ## [Hugo Ledoux](https://3d.bk.tudelft.nl/hledoux/)
 1. [Japan’s PLATEAU: from CityGML to CityJSON](https://3d.bk.tudelft.nl/education/msctopics/#japans-plateau-from-citygml-to-cityjson)
 2. [Filling the massive gaps in space lidar datasets with a diffusion model](https://3d.bk.tudelft.nl/education/msctopics/#filling-the-massive-gaps-in-space-lidar-datasets-with-a-diffusion-model)
+3. [Procedural generation of 3D buildings](https://3d.bk.tudelft.nl/education/msctopics/#procedural-generation-of-3d-buildings)
 
 
 ## [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
