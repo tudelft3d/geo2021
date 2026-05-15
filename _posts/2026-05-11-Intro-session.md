@@ -10,3 +10,7 @@ On Monday, May 18th at 16:00 in room D we will have an intro to the thesis. We'l
 Hope to see you all there!
 
 Ken
+
+- - -
+
+The slides from the intro session are available <a href="{{ '/introsession/geo2022_intro_2026-05.pdf' | prepend: site.baseurl}}">here</a>.
