@@ -1,62 +1,196 @@
+/* Dark mode via OS preference (unless user explicitly chose light) */
 @media (prefers-color-scheme: dark) {
-
-	.has-background-danger-60 {
+	html:not(.light-mode) .has-background-danger-60 {
 		background-color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-30-l)) !important;
 	}
 
-	.has-text-danger-60-invert {
+	html:not(.light-mode) .has-text-danger-60-invert {
 		color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-30-invert-l)) !important;
 	}
 
-	.has-background-warning-60 {
+	html:not(.light-mode) .has-background-warning-60 {
 		background-color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-30-l)) !important;
 	}
 
-	.has-text-warning-60-invert {
+	html:not(.light-mode) .has-text-warning-60-invert {
 		color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-30-invert-l)) !important;
 	}
 
-	.has-background-light {
+	html:not(.light-mode) .has-background-light {
 		background-color: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-invert-l)) !important;
 	}
 
-	.has-text-light-invert {
+	html:not(.light-mode) .has-text-light-invert {
 		color: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l)) !important;
 	}
 
-	.has-background-info-60 {
+	html:not(.light-mode) .has-background-info-60 {
 		background-color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-30-l)) !important;
 	}
 
-	.has-text-info-60-invert {
+	html:not(.light-mode) .has-text-info-60-invert {
 		color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-30-invert-l)) !important;
 	}
 
-	.has-background-success-60 {
+	html:not(.light-mode) .has-background-success-60 {
 		background-color: hsl(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-30-l)) !important;
 	}
 
-	.has-text-success-60-invert {
+	html:not(.light-mode) .has-text-success-60-invert {
 		color: hsl(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-30-invert-l)) !important;
 	}
 
-	.has-background-primary-60 {
+	html:not(.light-mode) .has-background-primary-60 {
 		background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-10-l)) !important;
 	}
 
-	.has-text-primary-60-invert {
+	html:not(.light-mode) .has-text-primary-60-invert {
 		color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
 	}
 
-	.has-background-white {
+	html:not(.light-mode) .has-background-white {
 		background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-invert-l)) !important;
 	}
 
-	.has-text-white-invert {
+	html:not(.light-mode) .has-text-white-invert {
 		color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
 	}
 
-	.has-background-link-60 {
+	html:not(.light-mode) .has-background-link-60 {
 		background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-l)) !important;
 	}
+}
+
+/* Dark mode via manual toggle (same rules, .dark-mode class on <html>) */
+html.dark-mode {
+	--bulma-scheme-brightness: dark;
+	--bulma-scheme-main-l: 9%;
+	--bulma-scheme-main-bis-l: 11%;
+	--bulma-scheme-main-ter-l: 13%;
+	--bulma-soft-l: 20%;
+	--bulma-bold-l: 90%;
+	--bulma-soft-invert-l: 90%;
+	--bulma-bold-invert-l: 20%;
+	--bulma-background-l: 14%;
+	--bulma-border-weak-l: 21%;
+	--bulma-border-l: 24%;
+	--bulma-text-weak-l: 53%;
+	--bulma-text-l: 71%;
+	--bulma-text-strong-l: 93%;
+	--bulma-text-title-l: 100%;
+	--bulma-hover-background-l-delta: 5%;
+	--bulma-active-background-l-delta: 10%;
+	--bulma-hover-border-l-delta: 10%;
+	--bulma-active-border-l-delta: 20%;
+	--bulma-hover-color-l-delta: 5%;
+	--bulma-active-color-l-delta: 10%;
+	--bulma-shadow-h: 0deg;
+	--bulma-shadow-s: 0%;
+	--bulma-shadow-l: 100%;
+}
+
+html.dark-mode .has-background-danger-60 {
+	background-color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-30-l)) !important;
+}
+
+html.dark-mode .has-text-danger-60-invert {
+	color: hsl(var(--bulma-danger-h), var(--bulma-danger-s), var(--bulma-danger-30-invert-l)) !important;
+}
+
+html.dark-mode .has-background-warning-60 {
+	background-color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-30-l)) !important;
+}
+
+html.dark-mode .has-text-warning-60-invert {
+	color: hsl(var(--bulma-warning-h), var(--bulma-warning-s), var(--bulma-warning-30-invert-l)) !important;
+}
+
+html.dark-mode .has-background-light {
+	background-color: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-invert-l)) !important;
+}
+
+html.dark-mode .has-text-light-invert {
+	color: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l)) !important;
+}
+
+html.dark-mode .has-background-info-60 {
+	background-color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-30-l)) !important;
+}
+
+html.dark-mode .has-text-info-60-invert {
+	color: hsl(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-30-invert-l)) !important;
+}
+
+html.dark-mode .has-background-success-60 {
+	background-color: hsl(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-30-l)) !important;
+}
+
+html.dark-mode .has-text-success-60-invert {
+	color: hsl(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-30-invert-l)) !important;
+}
+
+html.dark-mode .has-background-primary-60 {
+	background-color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-10-l)) !important;
+}
+
+html.dark-mode .has-text-primary-60-invert {
+	color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
+}
+
+html.dark-mode .has-background-white {
+	background-color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-invert-l)) !important;
+}
+
+html.dark-mode .has-text-white-invert {
+	color: hsl(var(--bulma-white-h), var(--bulma-white-s), var(--bulma-white-l)) !important;
+}
+
+html.dark-mode .has-background-link-60 {
+	background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-l)) !important;
+}
+
+/* Light mode override (when user toggles to light on a dark OS) */
+html.light-mode {
+	--bulma-scheme-brightness: light;
+	--bulma-scheme-main-l: 100%;
+	--bulma-scheme-main-bis-l: 98%;
+	--bulma-scheme-main-ter-l: 96%;
+	--bulma-soft-l: 90%;
+	--bulma-bold-l: 20%;
+	--bulma-soft-invert-l: 20%;
+	--bulma-bold-invert-l: 90%;
+	--bulma-background-l: 96%;
+	--bulma-border-weak-l: 93%;
+	--bulma-border-l: 86%;
+	--bulma-text-weak-l: 48%;
+	--bulma-text-l: 29%;
+	--bulma-text-strong-l: 21%;
+	--bulma-text-title-l: 14%;
+	--bulma-hover-background-l-delta: -5%;
+	--bulma-active-background-l-delta: -10%;
+	--bulma-hover-border-l-delta: -10%;
+	--bulma-active-border-l-delta: -20%;
+	--bulma-hover-color-l-delta: -5%;
+	--bulma-active-color-l-delta: -10%;
+	--bulma-shadow-h: 221deg;
+	--bulma-shadow-s: 14%;
+	--bulma-shadow-l: 4%;
+}
+
+/* Toggle button */
+.darkmode-toggle {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 999;
+	background: transparent;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	opacity: 0.5;
+	color: inherit;
+	transition: opacity 0.2s;
+}
+.darkmode-toggle:hover {
+	opacity: 1;
 }
