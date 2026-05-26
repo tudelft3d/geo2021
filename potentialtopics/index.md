@@ -62,6 +62,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 2. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis)
 3. [3D city models without building footprints](https://3d.bk.tudelft.nl/education/msctopics/#3d-city-models-without-building-footprints)
 4. [3D city model processing using LLMs](https://3d.bk.tudelft.nl/education/msctopics/#3d-city-model-processing-using-llms)
+5. Converting building interiors from IFC to STL for ventilation simulations (more info in June)
 
 ## [Jesús Balado Frías](https://www.gdmc.nl/staff/)
 1. [Integration of point clouds in CityGML standard for obtaining a continuous Level of Detail](https://www.gdmc.nl/education/topics/topics.html#Integration_of_point_clouds_in_CityGML_standard_for_obtaining_a_continuous_Level_of_Detail)
@@ -80,6 +81,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 5. [Developing an open-source GIS pipeline tailored for FastEddy](https://3d.bk.tudelft.nl/education/msctopics/#developing-an-open-source-gis-pipeline-tailored-for-fasteddy)
 6. [Citizen Voices in Climate Action: Developing digital platforms for citizen engagement in climate planning and design](https://3d.bk.tudelft.nl/education/msctopics/#citizen-voices-in-climate-action-developing-digital-platforms-for-citizen-engagement-in-climate-planning-and-design)
 7. [Revealing energy inequalities in The Netherlands](https://3d.bk.tudelft.nl/education/msctopics/#revealing-energy-inequalities-in-the-netherlands)
+8. Converting building interiors from IFC to STL for ventilation simulations (more info in June)
 
 ## [Amin Jalilzadeh](https://www.tudelft.nl/staff/a.jalilzadeh/)
 1. [Designing a Data Infrastructure for Digital Twin Technology in Energy Management](https://www.gdmc.nl/education/topics/topics.html#designing-a-data-infrastructure-for-digital-twin-technology-in-energy-management)
