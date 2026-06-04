@@ -6,7 +6,9 @@ color: warning-60
 logo: fa-table
 ---
 
-_This is a formatted version from the rubric in the graduation guide. For feedback to put in MyCase, you can [download the A3 rubric as a spreadsheet](feedback.xlsx), highlight the appropriate columns, put additional comments and upload. If you're a delegate for an upcoming A3 or A4, download the grade list [here](grade-list.pdf)._
+_This is a formatted version from the rubric in the graduation guide. For feedback to put in MyCase at the A4, you can [download the A3 rubric as a spreadsheet](feedback.xlsx), highlight the appropriate columns, put additional comments and upload._ <i class="fa-solid fa-triangle-exclamation"></i> Remember that we shouldn't communicate the marks at A3, so don't upload it at A3!
+
+_If you're a delegate for an upcoming A3 or A4, you can download the grade list [here](grade-list.pdf)._
 
 * ToC
 {:toc}
