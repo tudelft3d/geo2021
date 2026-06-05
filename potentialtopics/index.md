@@ -72,6 +72,7 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 
 ## [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
 1. [Developing an open-source Multifunctional Green Infrastructure Planning Support System](https://3d.bk.tudelft.nl/education/msctopics/#designing-a-nature-based-solutions-planning-support-system)
+2. [Identifying social frontiers with image processing techniques](https://erc-segue.nl/SocialFrontiers.html)
 
 ## [Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/)
 1. [Optimizing building mesh designs for computational fluid dynamics using machine learning.](https://3d.bk.tudelft.nl/education/msctopics/#optimizing-building-mesh-designs-for-computational-fluid-dynamics-using-machine-learning)
