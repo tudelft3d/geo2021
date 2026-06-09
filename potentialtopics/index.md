@@ -116,15 +116,6 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 3. [Procedural generation of 3D buildings](https://3d.bk.tudelft.nl/education/msctopics/#procedural-generation-of-3d-buildings)
 
 
-## [Camilo León-Sánchez](https://3d.bk.tudelft.nl/cleon/)
-1. [Accuracy assessment of EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#accuracy-assessment-of-energybag-in-house-urban-energy-building-simulation-tool)
-2. [Development of a Graphical User Interface for EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#development-of-a-graphical-user-interface-for-energybag-in-house-urban-energy-building-simulation-tool)
-3. [Integration of 3DcityDB + Energy ADE 2.0 into a Solar Potential Analysis Engine](https://3d.bk.tudelft.nl/education/msctopics/#integration-of-3dcitydb--energy-ade-20-into-a-solar-potential-analysis-engine)
-4. [Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam](https://3d.bk.tudelft.nl/education/msctopics/#too-cool-or-too-hot-cooling-and-heating-demand-scenarios-based-on-the-semantic-3d-city-model-of-rotterdam)
-5. [Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS](https://3d.bk.tudelft.nl/education/msctopics/#adding-support-for-citysim-to-the-3dcitydb-tools-plugin-for-qgis) (Co-supervisor)
-6. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas) (Co-supervisor)
-7. [Influence of Level of Detail and roof shape on simulated building energy performance and solar potential in urban areas](https://3d.bk.tudelft.nl/education/msctopics/#influence-of-level-of-detail-and-roof-shape-on-simulated-building-energy-performance-and-solar-potential-in-urban-areas)
-
 ## [Bastiaan van Loenen](https://www.tudelft.nl/en/staff/b.vanloenen/)
 1. [Governance of the open data ecosystem](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#IP)
 2. [Bridging the information gap between public and private sector](https://kcopendata.bk.tudelft.nl/education/thesis-topics/#bridging)
