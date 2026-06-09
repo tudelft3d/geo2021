@@ -50,12 +50,17 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 # Topics per supervisor
 
 ## [Giorgio Agugiaro](https://3d.bk.tudelft.nl/gagugiaro/)
+1. [Development of a API to automatically exchange CityGML + Energy ADE data to automatize Energy Performance Certification](https://3d.bk.tudelft.nl/education/msctopics/#development-of-a-api-to-automatically-exchange-citygml--energy-ade-data-to-automatize-energy-performance-certification)
+2. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis) (Co-supervision)
+
+<!--
 1. [Adding support for CitySim to the 3DCityDB-Tools plugin for QGIS](https://3d.bk.tudelft.nl/education/msctopics/#adding-support-for-citysim-to-the-3dcitydb-tools-plugin-for-qgis)
 2. [Development of the client-side 3DCityDB-Tools plugin for QGIS to support CityGML 3.0 data via the new 3DCityDB v. 5](https://3d.bk.tudelft.nl/education/msctopics/#development-of-the-client-side-part-of-the-3dcitydb-tools-plugin-for-qgis-to-support-citygml-30-data)
 3. [Too cool or too hot? Cooling and heating demand scenarios based on the semantic 3D city model of Rotterdam](https://3d.bk.tudelft.nl/education/msctopics/#too-cool-or-too-hot-cooling-and-heating-demand-scenarios-based-on-the-semantic-3d-city-model-of-rotterdam) (Co-supervisor)
-4. [IFC in PostgreSQL/PostGIS](https://3d.bk.tudelft.nl/education/msctopics/#ifc-in-postgresqlpostgis) (Co-supervision)
 5. [Accuracy assesment of EnergyBAG](https://3d.bk.tudelft.nl/education/msctopics/#accuracy-assesment-of-energybag-in-house-urban-energy-building-simulation-tool) (Co-supervision)
 6. [Development of a Graphical User Interface for EnergyBAG in-house urban energy building simulation tool)](https://3d.bk.tudelft.nl/education/msctopics/#development-of-a-graphical-user-interface-for-energybag-in-house-urban-energy-building-simulation-tool) (Co-supervision)
+-->
+
 
 ## [Ken Arroyo Ohori](https://3d.bk.tudelft.nl/ken/)
 1. [Creation of planar partitions from mismatched datasets](https://3d.bk.tudelft.nl/education/msctopics/#creation-of-planar-partitions-from-mismatched-datasets)
