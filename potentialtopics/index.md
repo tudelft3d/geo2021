@@ -76,8 +76,9 @@ Use the form below to register your selected MSc thesis topic with the thesis co
 4. From Points to Pedestrians: Deriving High-Resolution Walkability Indicators from Multi-Platform LiDAR data
 
 ## [Daniele Cannatella](https://3d.bk.tudelft.nl/dcannatella/)
-1. [Developing an open-source Multifunctional Green Infrastructure Planning Support System](https://3d.bk.tudelft.nl/education/msctopics/#designing-a-nature-based-solutions-planning-support-system)
-2. [Identifying social frontiers with image processing techniques](https://erc-segue.nl/SocialFrontiers.html)
+1. [Designing an Impact Assessment Module for a Climate Adaptation Decision Support System: From NbS Scenarios to Indicator Change](https://github.com/tudelft3d/website/blob/main/education/msctopics/index.md#designing-and-implementing-a-multi-criteria-nbs-suitability-and-prioritisation-pipeline-for-historic-urban-landscapes)
+2. [Designing and Implementing a Multi-Criteria NbS Suitability and Prioritisation Pipeline for Historic Urban Landscapes (HULs)](https://github.com/tudelft3d/website/blob/main/education/msctopics/index.md#designing-an-impact-assessment-module-for-a-climate-adaptation-decision-support-system)
+3. [Identifying social frontiers with image processing techniques](https://erc-segue.nl/SocialFrontiers.html)
 
 ## [Clara García-Sánchez](https://3d.bk.tudelft.nl/gsclara/)
 1. [Optimizing building mesh designs for computational fluid dynamics using machine learning.](https://3d.bk.tudelft.nl/education/msctopics/#optimizing-building-mesh-designs-for-computational-fluid-dynamics-using-machine-learning)
