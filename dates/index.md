@@ -7,8 +7,8 @@ permalink: /dates/
 ---
 
 Next:
+<i class="fa-solid fa-triangle-exclamation"></i> This is a draft from the faculty intended for AUBS. The final calendar will be available with the Geomatics graduation guide, so use it for rough planning only. Most likely the Geomatics A3s will be 5 weeks before the A4.
 - [2026-2027](2025-2026.pdf)
-<i class="fa-solid fa-triangle-exclamation"></i> This is draft directly from the faculty. Use it for rough planning only. Also note that most likely the Geomatics A3s will be 5 weeks before the A4.
 
 Current:
 - [2025-2026](2025-2026.pdf)
