@@ -6,6 +6,10 @@ logo: fa-calendar-days
 permalink: /dates/
 ---
 
+Next:
+- [2026-2027](2025-2026.pdf)
+<i class="fa-solid fa-triangle-exclamation"></i> This is draft directly from the faculty. Use it for rough planning only. Also note that most likely the Geomatics A3s will be 5 weeks before the A4.
+
 Current:
 - [2025-2026](2025-2026.pdf)
 
