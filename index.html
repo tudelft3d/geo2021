@@ -20,7 +20,6 @@ title: GEO2021-GEO2022--MSc Geomatics
       <div class="cell is-col-span-2 is-row-span-2 notification box has-background-light has-text-left has-text-light-invert">
         <div class="content">
           <p class="title"><i class="fa-solid fa-newspaper"></i> Latest news</p>
-          <p><i class="fa-solid fa-triangle-exclamation"></i> For students who started before the 2025-2026 academic year (P system), see the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a>.</p>
           {% for post in site.posts limit:3 %}
           <p><b>{{ post.date | date_to_string }}:</b> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
           {% endfor %}

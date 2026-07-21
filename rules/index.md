@@ -24,7 +24,7 @@ Note that you have to follow the rules of the academic year when you started you
 
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
-<i class="fa-solid fa-triangle-exclamation"></i> For students who started before the 2025-2026 academic year (P system), see the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a>
+<i class="fa-solid fa-triangle-exclamation"></i> The Graduation guide 2026-2027 will be available after the summer.
    
 
 ## A0 (Preparation)
