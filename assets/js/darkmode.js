@@ -1,5 +1,5 @@
 (function() {
-  var KEY = 'geo2021-theme';
+  var KEY = 'geo2022-theme';
   var html = document.documentElement;
   var mq = window.matchMedia('(prefers-color-scheme: dark)');
 
