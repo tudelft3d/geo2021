@@ -1,0 +1,109 @@
+year: "2026-2027"
+
+phases:
+  - id: education
+    label: Education
+  - id: no-education
+    label: No education
+  - id: a1
+    label: A1 Kick-off
+  - id: a2
+    label: A2 midterm
+  - id: a3
+    label: A3 Green light
+  - id: a4
+    label: A4 Finalisation & public presentations
+
+quarters:
+  - name: Quarter 1
+    num: 1
+    start: "2026-08-31"
+    weeks: 10
+    a1: [10]
+    a2: [8]
+    a3: [5]
+    a4: [10]
+    deadlines:
+      - date: "2026-09-18"
+        label: "Deadline to submit thesis topic (A0)"
+      - date: "2026-09-07"
+        label: "Final registration date for A3 and A4 assessments"
+      - date: "2026-09-11"
+        label: "Final registration date for A1 Assessment"
+
+  - name: Quarter 2
+    num: 2
+    start: "2026-11-09"
+    weeks: 10
+    a1: [9, 10]
+    a2: [8]
+    a3: [4]
+    a4: [9]
+    deadlines:
+      - date: "2026-11-27"
+        label: "Deadline to submit thesis topic (A0)"
+      - date: "2026-11-16"
+        label: "Final registration date for A3 and A4 assessments"
+      - date: "2026-11-20"
+        label: "Final registration date for A1 Assessment"
+
+  - name: Quarter 3
+    num: 3
+    start: "2027-02-01"
+    weeks: 10
+    a1: [10]
+    a2: [8, 9]
+    a3: [5]
+    a4: [10]
+    deadlines:
+      - date: "2027-02-26"
+        label: "Deadline to submit thesis topic (A0)"
+      - date: "2027-02-15"
+        label: "Final registration date for A3 and A4 assessments"
+      - date: "2027-02-19"
+        label: "Final registration date for A1 Assessment"
+
+  - name: Quarter 4
+    num: 4
+    start: "2027-04-19"
+    weeks: 10
+    a1: [10]
+    a2: [8]
+    a3: [4, 5]
+    a4: [9, 10]
+    deadlines:
+      - date: "2027-05-07"
+        label: "Deadline to submit thesis topic (A0)"
+      - date: "2027-04-26"
+        label: "Final registration date for A3 and A4 assessments"
+      - date: "2027-04-30"
+        label: "Final registration date for A1 Assessment"
+
+summer:
+  start: "2027-06-28"
+  weeks: 9
+
+holidays:
+  - name: Christmas period
+    from: "2026-12-21"
+    to: "2027-01-01"
+    break: true
+  - name: Spring break
+    from: "2027-02-01"
+    to: "2027-02-05"
+    break: true
+  - name: Good Friday
+    date: "2027-03-26"
+  - name: Easter
+    from: "2027-03-28"
+    to: "2027-03-29"
+  - name: King's Day
+    date: "2027-04-27"
+  - name: Liberation Day
+    date: "2027-05-05"
+  - name: Ascension Day
+    date: "2027-05-06"
+  - name: Free day
+    date: "2027-05-07"
+  - name: Whit Monday
+    date: "2027-05-17"
