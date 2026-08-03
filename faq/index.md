@@ -20,11 +20,10 @@ permalink: /faq/
 
 #### Which Graduation Manual applies to me?
 
-You have to follow the rules of the year when you started your graducation work.
+You have to follow the [rules]({{ "/rules/" | prepend: site.baseurl }}) (graduation guide) of the year when you started your graducation work.
 Even if it takes you 2+ years to complete, the rules that applied when you started are the rules that apply during your whole graduation process.
 
-The [graduation guide]({{ "/rules/" | prepend: site.baseurl }}), and thus the rules, change almost every year.
-The differences are usually small, but if you started before the 2025-2026 academic year, the differences are big and you should be looking at the <a href="https://3d.bk.tudelft.nl/courses/geo2020/">GEO2020 website</a> instead.
+However, note that the old graduation system (Ps, geo2020) is no longer available.
 
 - - -
 
@@ -40,8 +39,7 @@ Also, note that at least one of the two mentors should hold a PhD degree.
 
 #### Is there a template for the final thesis?
 
-Officially no.
-But we provide a [LaTeX one]({{ "/templates/" | prepend: site.baseurl }}) to help you start.
+See [here]({{ "/templates/" | prepend: site.baseurl }}).
 
 - - -
 
