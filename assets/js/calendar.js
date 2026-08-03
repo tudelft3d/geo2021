@@ -112,14 +112,22 @@
     }
   });
 
-  function primaryPhase(week) {
-    if (week.holiday) return 'no-education';
-    var best = null, bp = -1;
-    week.phases.forEach(function (p) {
-      var pr = PRIORITY[p] || 0;
-      if (pr > bp) { bp = pr; best = p; }
-    });
-    return best || 'education';
+  function visiblePhases(phases) {
+    return (phases || [])
+      .filter(function (p) { return !root.classList.contains('hide-' + p); })
+      .sort(function (a, b) { return PRIORITY[b] - PRIORITY[a]; });
+  }
+
+  function splitGradient(ids) {
+    var n = ids.length;
+    if (n < 2) return null;
+    var stops = [];
+    for (var i = 0; i < n; i++) {
+      var from = (i * 100 / n).toFixed(3) + '%';
+      var to = ((i + 1) * 100 / n).toFixed(3) + '%';
+      stops.push('var(--cal-' + ids[i] + ') ' + from + ' ' + to);
+    }
+    return 'linear-gradient(135deg, ' + stops.join(', ') + ')';
   }
 
   function phaseLabel(id) { return phaseById[id] ? phaseById[id].label : id; }
@@ -206,21 +214,20 @@
         }
 
         var holidayOverride = holidayDayByDate[key];
-        var ph = holidayOverride ? 'no-education' : primaryPhase(week);
-        cell.classList.add('phase-' + ph);
-        if (key === todayKey) cell.classList.add('cal-today');
-
-        var strips = holidayOverride ? [] : week.phases.filter(function (p) { return p !== ph; });
-        if (strips.length) {
-          var stripBox = document.createElement('div');
-          stripBox.className = 'cal-strips';
-          strips.forEach(function (p) {
-            var s = document.createElement('span');
-            s.className = 'strip strip-' + p;
-            stripBox.appendChild(s);
-          });
-          cell.appendChild(stripBox);
+        if (week.holiday || holidayOverride) {
+          cell.classList.add('phase-no-education');
+        } else {
+          var vis = visiblePhases(week.phases);
+          if (vis.length === 1) {
+            cell.classList.add('phase-' + vis[0]);
+          } else if (vis.length > 1) {
+            vis.forEach(function (p) { cell.classList.add('phase-' + p); });
+            cell.style.background = splitGradient(vis);
+          } else {
+            cell.classList.add('phase-education');
+          }
         }
+        if (key === todayKey) cell.classList.add('cal-today');
 
         cell.appendChild(dnum(date));
 
@@ -257,37 +264,45 @@
     return sec;
   }
 
-  var startMonth = new Date(first.getFullYear(), first.getMonth(), 1);
-  var endMonth = new Date(last.getFullYear(), last.getMonth(), 1);
-  for (var y = startMonth.getFullYear(), m = startMonth.getMonth(); ; ) {
-    root.appendChild(buildMonth(y, m));
-    if (y === endMonth.getFullYear() && m === endMonth.getMonth()) break;
-    m++;
-    if (m > 11) { m = 0; y++; }
-  }
-
-  var legend = document.createElement('div');
-  legend.className = 'cal-legend';
-  (data.phases || []).forEach(function (p) {
-    var chip = document.createElement('button');
-    chip.type = 'button';
-    chip.className = 'cal-chip phase-' + p.id;
-    chip.setAttribute('data-phase', p.id);
-    var sw = document.createElement('span');
-    sw.className = 'swatch';
-    chip.appendChild(sw);
-    chip.appendChild(document.createTextNode(p.label));
-    chip.addEventListener('click', function () {
-      var off = chip.classList.toggle('off');
-      root.classList.toggle('hide-' + p.id, off);
-    });
-    legend.appendChild(chip);
-  });
-  root.appendChild(legend);
-
   var tipEl = document.createElement('div');
   tipEl.className = 'cal-tooltip';
-  root.appendChild(tipEl);
+
+  function buildAll() {
+    while (root.firstChild) root.removeChild(root.firstChild);
+
+    var startMonth = new Date(first.getFullYear(), first.getMonth(), 1);
+    var endMonth = new Date(last.getFullYear(), last.getMonth(), 1);
+    for (var y = startMonth.getFullYear(), m = startMonth.getMonth(); ; ) {
+      root.appendChild(buildMonth(y, m));
+      if (y === endMonth.getFullYear() && m === endMonth.getMonth()) break;
+      m++;
+      if (m > 11) { m = 0; y++; }
+    }
+
+    var legend = document.createElement('div');
+    legend.className = 'cal-legend';
+    (data.phases || []).forEach(function (p) {
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'cal-chip phase-' + p.id;
+      chip.setAttribute('data-phase', p.id);
+      if (root.classList.contains('hide-' + p.id)) chip.classList.add('off');
+      var sw = document.createElement('span');
+      sw.className = 'swatch';
+      chip.appendChild(sw);
+      chip.appendChild(document.createTextNode(p.label));
+      chip.addEventListener('click', function () {
+        var off = chip.classList.toggle('off');
+        root.classList.toggle('hide-' + p.id, off);
+        buildAll();
+      });
+      legend.appendChild(chip);
+    });
+    root.appendChild(legend);
+    root.appendChild(tipEl);
+  }
+
+  buildAll();
 
   function showTip(cell) {
     var parts = [];

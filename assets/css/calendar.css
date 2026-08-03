@@ -81,9 +81,6 @@ html.dark-mode .calendar {
   white-space: nowrap;
 }
 
-.cal-strips { display: flex; gap: 2px; height: 4px; margin-bottom: 2px; }
-.strip { flex: 1; border-radius: 2px; }
-
 .cal-badges { display: flex; gap: 3px; margin-top: 2px; }
 .cal-badge {
   width: 8px;
@@ -104,22 +101,12 @@ html.dark-mode .calendar {
 .cal-day.phase-a3 { background: var(--cal-a3); }
 .cal-day.phase-a4 { background: var(--cal-a4); }
 
-.strip-a1 { background: var(--cal-a1-strong); }
-.strip-a2 { background: var(--cal-a2-strong); }
-.strip-a3 { background: var(--cal-a3-strong); }
-.strip-a4 { background: var(--cal-a4-strong); }
-
 .calendar.hide-education .cal-day.phase-education,
 .calendar.hide-no-education .cal-day.phase-no-education,
 .calendar.hide-a1 .cal-day.phase-a1,
 .calendar.hide-a2 .cal-day.phase-a2,
 .calendar.hide-a3 .cal-day.phase-a3,
 .calendar.hide-a4 .cal-day.phase-a4 { background: var(--cal-day-bg); }
-
-.calendar.hide-a1 .strip-a1,
-.calendar.hide-a2 .strip-a2,
-.calendar.hide-a3 .strip-a3,
-.calendar.hide-a4 .strip-a4 { background: var(--cal-day-bg); }
 
 .cal-legend {
   display: flex;

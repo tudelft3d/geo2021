@@ -6,13 +6,13 @@ phases:
   - id: no-education
     label: No education
   - id: a1
-    label: A1 Kick-off
+    label: Kick-off (A1)
   - id: a2
-    label: A2 midterm
+    label: Midterm (A2)
   - id: a3
-    label: A3 Green light
+    label: Green light (A3)
   - id: a4
-    label: A4 Finalisation & public presentations
+    label: Finalisation (A4)
 
 quarters:
   - name: Quarter 1
