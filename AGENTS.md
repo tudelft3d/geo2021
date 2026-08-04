@@ -2,7 +2,7 @@
 
 ## What this is
 
-Jekyll static site for TU Delft MSc Geomatics graduation thesis info (GEO2021–2022).  
+Jekyll static site for TU Delft MSc Geomatics graduation thesis info (GEO2022).  
 Hosted at `https://geomatics.bk.tudelft.nl/geo2022/`.
 
 ## Commands

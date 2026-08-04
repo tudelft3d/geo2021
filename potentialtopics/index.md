@@ -26,7 +26,7 @@ permalink: /potentialtopics/
       </li>
       <li>If your topic is in collaboration with an external party, keep in mind that several staff follow the <a href="../openscience/">requirements for open science</a></li>
       <li>Only the 1st supervisor is relevant at this point, the 2nd can be added later</li>
-      <li>Questions? you can ask in the Discord channel <a href="https://discord.gg/3nr9N4BE">#geo2021-geo2022</a> or <a href="https://geomatics.bk.tudelft.nl/geo2022/coordinator/">contact the thesis coordinator</a></li>
+      <li>Questions? you can ask in the Discord channel <a href="https://discord.gg/3nr9N4BE">#geo2022</a> or <a href="https://geomatics.bk.tudelft.nl/geo2022/coordinator/">contact the thesis coordinator</a></li>
     </ul>  
   </div>
 </article>
