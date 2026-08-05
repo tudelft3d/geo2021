@@ -1,0 +1,106 @@
+<div class="rubric-page">
+  <div class="header">
+    <h1>MSc Geomatics for the Built Environment — MSc thesis assessment</h1>
+    <img src="{{ site.baseurl }}/assets/img/tud-logo.svg" alt="TU Delft" />
+  </div>
+
+  <div class="student-info">
+    <label
+      >Student name
+      <input type="text" id="studentName" placeholder="e.g. Jane Doe"
+    /></label>
+    <label
+      >Student number
+      <input type="text" id="studentNumber" placeholder="e.g. 1234567"
+    /></label>
+    <label
+      >Thesis title
+      <input type="text" id="thesisTitle" placeholder="e.g. Automated mapping of building footprints"
+    /></label>
+    <label
+      >Date <input type="date" id="assessmentDate" style="max-width: 180px"
+    /></label>
+    <label
+      >Responsible supervisor
+      <input type="text" id="respSupervisor" placeholder="e.g. B. Jones"
+    /></label>
+    <label
+      >Second supervisor
+      <input type="text" id="secondSupervisor" placeholder="e.g. C. Brown"
+    /></label>
+    <label
+      >Co-reader
+      <input type="text" id="coreader" placeholder="e.g. D. Wilson"
+    /></label>
+    <label
+      >Delegate of BoE
+      <input type="text" id="delegateBoE" placeholder="e.g. A. Smith"
+    /></label>
+  </div>
+
+  <div class="controls">
+    <button class="btn btn-secondary" onclick="resetAll()">
+      Clear all grades
+    </button>
+    <button class="btn btn-print" onclick="generatePDF()">
+      Download as PDF
+    </button>
+  </div>
+
+  <div class="summary">
+    <h2>Grade Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Weight</th>
+          <th>Average</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Research</td>
+          <td>50%</td>
+          <td id="sumResearchAvg">—</td>
+        </tr>
+        <tr>
+          <td>Process</td>
+          <td>20%</td>
+          <td id="sumProcessAvg">—</td>
+        </tr>
+        <tr>
+          <td>Communication — Report</td>
+          <td>18%</td>
+          <td id="sumReportAvg">—</td>
+        </tr>
+        <tr>
+          <td>Communication — Presentation</td>
+          <td>12%</td>
+          <td id="sumPresAvg">—</td>
+        </tr>
+        <tr class="final-row">
+          <td>Final Grade</td>
+          <td>100%</td>
+          <td id="sumFinal" style="font-size: 18px">—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="rubric-sections" id="rubricContainer"></div>
+
+  <div class="general-comments">
+    <label for="generalComments"
+      >Additional comments / feedback for the student</label
+    >
+    <textarea
+      id="generalComments"
+      placeholder="General feedback, strengths, areas for improvement…"
+    ></textarea>
+  </div>
+</div>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/rubric.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/rubric.js"></script>

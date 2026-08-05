@@ -1,0 +1,399 @@
+/* Interactive thesis assessment rubric
+   Page-specific styles, loaded only on the /rubric/ page.
+   Neutral surfaces use Bulma variables so the tool follows the site's
+   light/dark theme; green accents match the original tool design.
+   All selectors are scoped under .rubric-page so they win over the
+   Bulma `.content` table/heading rules used by the page layout. */
+
+.rubric-page {
+	--green-dark: #2b5421;
+	--green-dark-hover: #1e3d15;
+	--green-light: #a8baa5;
+	--border: var(--bulma-border-weak);
+	--bg-alt: #f2f6f1;
+	--text: var(--bulma-text);
+	--text-muted: var(--bulma-text-weak);
+	--select-bg: #e6f0e4;
+	--select-border: #2b5421;
+	--thead-bg: #e8ede6;
+	--thead-text: #2b5421;
+}
+
+/* ── Header bar with logo ── */
+.rubric-page .header {
+	background: var(--green-dark);
+	color: #fff;
+	padding: 16px 24px;
+	display: flex;
+	gap: 24px;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 6px 6px 0 0;
+}
+.rubric-page .header h1 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.3;
+	flex: 1;
+	min-width: 200px;
+	color: #fff;
+}
+.rubric-page .header img {
+	height: 40px;
+	width: auto;
+	margin: 0;
+}
+
+.rubric-page .student-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 12px 20px;
+	padding: 16px 0;
+	border-bottom: 2px solid var(--border);
+}
+.rubric-page .student-info label {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 13px;
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+.rubric-page .student-info input {
+	border: 1px solid var(--border);
+	background: var(--bulma-scheme-main);
+	color: var(--text);
+	padding: 6px 10px;
+	font-size: 13px;
+	border-radius: 4px;
+	font-family: inherit;
+	flex: 1;
+	min-width: 120px;
+}
+
+.rubric-page .controls {
+	padding: 12px 0;
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	border-bottom: 1px solid var(--border);
+}
+.rubric-page .btn {
+	padding: 8px 18px;
+	font-size: 13px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: 500;
+}
+.rubric-page .btn-secondary {
+	background: transparent;
+	color: var(--green-dark);
+	border: 1px solid var(--green-dark);
+}
+.rubric-page .btn-secondary:hover {
+	background: var(--bg-alt);
+}
+.rubric-page .btn-print {
+	background: var(--green-dark);
+	color: #fff;
+}
+.rubric-page .btn-print:hover {
+	background: var(--green-dark-hover);
+}
+
+.rubric-page .summary {
+	padding: 16px 0;
+	border-bottom: 1px solid var(--border);
+}
+.rubric-page .summary h2 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: var(--green-dark);
+}
+.rubric-page .summary table {
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 720px;
+	margin-bottom: 0;
+}
+.rubric-page .summary th,
+.rubric-page .summary td {
+	padding: 6px 12px;
+	text-align: left;
+	font-size: 13px;
+	border-bottom: 1px solid var(--border);
+	vertical-align: top;
+}
+.rubric-page .summary table thead th {
+	background: var(--green-dark);
+	color: #fff;
+	font-weight: 500;
+	border: none;
+}
+.rubric-page .summary .final-row {
+	font-weight: 700;
+	background: var(--bg-alt);
+}
+
+.rubric-page .rubric-sections {
+	padding: 8px 0 40px;
+}
+.rubric-page .section {
+	margin-top: 20px;
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	overflow: hidden;
+}
+.rubric-page .section-header {
+	background: var(--green-dark);
+	color: #fff;
+	padding: 10px 16px;
+	font-size: 15px;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.rubric-page .section-header .weight {
+	font-size: 12px;
+	opacity: 0.85;
+	font-weight: 400;
+}
+.rubric-page .section-body {
+	padding: 12px 16px;
+}
+
+.rubric-page .criteria-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.rubric-page .criteria-table thead th {
+	background: var(--thead-bg);
+	color: var(--thead-text);
+	font-weight: 600;
+	padding: 6px 4px;
+	text-align: center;
+	border-bottom: 2px solid var(--border);
+}
+.rubric-page .criteria-table tbody td {
+	padding: 2px 4px;
+	text-align: center;
+	border-bottom: 1px solid var(--border);
+	vertical-align: middle;
+}
+.rubric-page .criteria-table tbody td:first-child {
+	text-align: left;
+	padding: 6px 12px;
+	font-weight: 500;
+	font-size: 13px;
+	min-width: 200px;
+}
+.rubric-page .criteria-table tbody tr:nth-child(even) {
+	background: var(--bg-alt);
+}
+
+.rubric-page .grade-cell {
+	padding: 3px 2px !important;
+	width: 62px;
+}
+.rubric-page .grade-cell input[type="radio"] {
+	display: none;
+}
+.rubric-page .grade-cell label {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 32px;
+	padding: 3px 2px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 11px;
+	color: var(--text-muted);
+	border: 2px solid transparent;
+	transition: all 0.12s;
+	user-select: none;
+	background: var(--bulma-scheme-main);
+}
+.rubric-page .grade-cell label:hover {
+	border-color: var(--green-light);
+	background: #eaf5e8;
+}
+.rubric-page .grade-cell input:checked + label {
+	background: var(--select-bg);
+	border-color: var(--select-border);
+	color: var(--green-dark);
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.rubric-page .comments-row td {
+	padding: 6px 12px !important;
+	text-align: left !important;
+}
+.rubric-page .comments-row textarea {
+	width: 100%;
+	padding: 6px 8px;
+	font-size: 12px;
+	font-family: inherit;
+	border: 1px solid var(--border);
+	border-radius: 3px;
+	resize: vertical;
+	min-height: 40px;
+	background: var(--bulma-scheme-main);
+	color: var(--text);
+}
+
+.rubric-page .ref-toggle {
+	font-size: 12px;
+	color: var(--green-dark);
+	cursor: pointer;
+	border: none;
+	background: none;
+	text-decoration: underline;
+	padding: 8px 0 0;
+	margin-bottom: 0;
+	display: inline-block;
+}
+.rubric-page .ref-detail {
+	display: none;
+	margin-top: 8px;
+}
+.rubric-page .ref-detail.open {
+	display: block;
+}
+.rubric-page .ref-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+.rubric-page .ref-table th,
+.rubric-page .ref-table td {
+	padding: 4px 6px;
+	border: 1px solid var(--border);
+	vertical-align: top;
+	text-align: left;
+}
+.rubric-page .ref-table th {
+	background: var(--thead-bg);
+	color: var(--thead-text);
+	font-weight: 600;
+	text-align: center;
+	white-space: nowrap;
+}
+.rubric-page .ref-table td:first-child {
+	font-weight: 500;
+	white-space: nowrap;
+	min-width: 140px;
+}
+
+.rubric-page .general-comments {
+	margin: 20px 0 40px;
+}
+.rubric-page .general-comments label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 4px;
+	color: var(--green-dark);
+}
+.rubric-page .general-comments textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 13px;
+	font-family: inherit;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	min-height: 100px;
+	resize: vertical;
+	background: var(--bulma-scheme-main);
+	color: var(--text);
+}
+
+/* Dark mode tweaks */
+html.dark-mode .rubric-page {
+	--bg-alt: hsl(100, 20%, 12%);
+	--thead-bg: hsl(100, 15%, 18%);
+	--thead-text: #cfe3c4;
+}
+html.dark-mode .rubric-page .grade-cell label:hover {
+	background: #24401e;
+}
+html.dark-mode .rubric-page .section-header,
+html.dark-mode .rubric-page .summary table thead th {
+	background: #3a6b2d;
+}
+html.dark-mode .rubric-page .btn-print {
+	background: #3a6b2d;
+}
+html.dark-mode .rubric-page .btn-print:hover {
+	background: #2b5421;
+}
+
+@media print {
+	@page {
+		size: A4;
+		margin: 12mm;
+	}
+	.hero,
+	.darkmode-toggle,
+	.rubric-page .controls,
+	.rubric-page .btn {
+		display: none !important;
+	}
+	.rubric-page .header {
+		padding: 8px 0;
+		background: #fff;
+		color: var(--green-dark);
+	}
+	.rubric-page .header h1 {
+		color: var(--green-dark);
+	}
+	.rubric-page .header img {
+		filter: invert(1);
+	}
+	.rubric-page .section {
+		break-inside: avoid;
+		margin-top: 10px;
+	}
+	.rubric-page .section-header,
+	.rubric-page .summary table thead th {
+		background: var(--green-dark) !important;
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	.rubric-page .criteria-table thead th,
+	.rubric-page .ref-table th {
+		background: var(--thead-bg) !important;
+	}
+	.rubric-page .grade-cell input:checked + label {
+		background: var(--select-bg) !important;
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+	.rubric-page .ref-detail,
+	.rubric-page .ref-toggle {
+		display: none !important;
+	}
+	.rubric-page .student-info input,
+	.rubric-page textarea {
+		border: 1px solid #aaa;
+	}
+}
+
+@media (max-width: 900px) {
+	.rubric-page .criteria-table {
+		font-size: 10px;
+	}
+	.rubric-page .grade-cell {
+		width: 48px;
+	}
+	.rubric-page .grade-cell label {
+		font-size: 9px;
+		min-height: 26px;
+	}
+}
