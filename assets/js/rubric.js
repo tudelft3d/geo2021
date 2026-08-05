@@ -482,11 +482,52 @@
     updateSummary();
   }
 
+  var logoUrl = (function () {
+    var el = document.querySelector(".rubric-page");
+    return el && el.dataset.logo ? el.dataset.logo : "";
+  })();
+  var logoDataUrl = null;
+
+  function loadLogo() {
+    return new Promise(function (resolve) {
+      if (!logoUrl) {
+        resolve();
+        return;
+      }
+      fetch(logoUrl)
+        .then(function (r) {
+          return r.text();
+        })
+        .then(function (svgText) {
+          var blob = new Blob([svgText], { type: "image/svg+xml" });
+          var url = URL.createObjectURL(blob);
+          var img = new Image();
+          img.onload = function () {
+            var canvas = document.createElement("canvas");
+            canvas.width = 425;
+            canvas.height = 121;
+            canvas.getContext("2d").drawImage(img, 0, 0, 425, 121);
+            URL.revokeObjectURL(url);
+            logoDataUrl = canvas.toDataURL("image/png");
+            resolve();
+          };
+          img.onerror = function () {
+            URL.revokeObjectURL(url);
+            resolve();
+          };
+          img.src = url;
+        })
+        .catch(function () {
+          resolve();
+        });
+    });
+  }
+
   window.updateSummary = updateSummary;
   window.resetAll = resetAll;
   window.generatePDF = generatePDF;
 
-  function generatePDF() {
+  async function generatePDF() {
     try {
       var JsPDF = window.jspdf && (window.jspdf.jsPDF || window.jsPDF);
       if (!JsPDF) {
@@ -496,6 +537,7 @@
       if (typeof window.applyPlugin === "function") {
         window.applyPlugin(JsPDF);
       }
+      await loadLogo();
       var doc = new JsPDF("p", "mm", "a4");
       var pageW = doc.internal.pageSize.getWidth();
       var margin = 14;
@@ -514,6 +556,11 @@
           margin,
           9,
         );
+        if (logoDataUrl) {
+          var lh = 8;
+          var lw = lh * (425 / 121);
+          doc.addImage(logoDataUrl, "PNG", pageW - margin - lw, (14 - lh) / 2, lw, lh);
+        }
       };
 
       var newPage = function () {
