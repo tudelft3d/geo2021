@@ -59,6 +59,10 @@
 	html:not(.light-mode) .has-background-link-60 {
 		background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-l)) !important;
 	}
+
+	html:not(.light-mode) {
+		--bulma-link-on-scheme-l: 75%;
+	}
 }
 
 /* Dark mode via manual toggle (same rules, .dark-mode class on <html>) */
@@ -87,6 +91,8 @@ html.dark-mode {
 	--bulma-shadow-h: 0deg;
 	--bulma-shadow-s: 0%;
 	--bulma-shadow-l: 100%;
+	--bulma-link-l: 63%;
+	--bulma-link-on-scheme-l: 75%;
 }
 
 html.dark-mode .has-background-danger-60 {
