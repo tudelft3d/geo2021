@@ -24,7 +24,7 @@ Note that you have to follow the rules of the academic year when you started you
 
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
-<i class="fa-solid fa-triangle-exclamation"></i> The Graduation guide 2026-2027 will be available after the summer.
+<i class="fa-solid fa-triangle-exclamation"></i> The Graduation guide 2026-2027 will be available after the summer. The rules below are based on the 2025-2026 guide.
    
 
 ## A0 (Preparation)
