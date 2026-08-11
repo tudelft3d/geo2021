@@ -26,9 +26,9 @@ quarters:
     deadlines:
       - date: "2026-09-18"
         label: "Deadline to submit thesis topic (A0)"
-      - date: "2026-09-07"
+      - date: "2026-09-14"
         label: "Final registration date for A3 and A4 assessments"
-      - date: "2026-09-11"
+      - date: "2026-10-19"
         label: "Final registration date for A1 Assessment"
 
   - name: Quarter 2
@@ -44,7 +44,7 @@ quarters:
         label: "Deadline to submit thesis topic (A0)"
       - date: "2026-11-16"
         label: "Final registration date for A3 and A4 assessments"
-      - date: "2026-11-20"
+      - date: "2027-01-04"
         label: "Final registration date for A1 Assessment"
 
   - name: Quarter 3
@@ -58,9 +58,9 @@ quarters:
     deadlines:
       - date: "2027-02-26"
         label: "Deadline to submit thesis topic (A0)"
-      - date: "2027-02-15"
+      - date: "2027-02-22"
         label: "Final registration date for A3 and A4 assessments"
-      - date: "2027-02-19"
+      - date: "2027-03-29"
         label: "Final registration date for A1 Assessment"
 
   - name: Quarter 4
@@ -76,7 +76,7 @@ quarters:
         label: "Deadline to submit thesis topic (A0)"
       - date: "2027-04-26"
         label: "Final registration date for A3 and A4 assessments"
-      - date: "2027-04-30"
+      - date: "2027-06-07"
         label: "Final registration date for A1 Assessment"
 
 summer:
