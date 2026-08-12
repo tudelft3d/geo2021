@@ -210,7 +210,14 @@
   display: inline-block;
 }
 
-/* --- Print: hide the toolbar --- */
+/* --- Print: hide the toolbar and keep background colours --- */
 @media print {
   .bk-print-controls { display: none; }
+  .bk-table th,
+  .bk-table td,
+  .bk-panel,
+  .bk-swatch {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
