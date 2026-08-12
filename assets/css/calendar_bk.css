@@ -66,7 +66,7 @@
 }
 
 .bk-table {
-  width: 100%;
+  width: auto;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -86,6 +86,10 @@
   font-weight: 700;
   font-size: 6.6pt;
   background: #f0f0f0;
+}
+
+.bk-table .bk-cal-week {
+  width: 2.2rem;
 }
 
 .bk-table .bk-corner {
@@ -121,6 +125,10 @@
 .bk-day.deadline-a0 { background: #ff7b6b; }
 .bk-day.deadline-a34 { background: #ff33cc; color: #fff; }
 .bk-day.deadline-a1 { background: #ffff00; }
+
+.bk-swatch.deadline-a0 { background: #ff7b6b; }
+.bk-swatch.deadline-a34 { background: #ff33cc; }
+.bk-swatch.deadline-a1 { background: #ffff00; }
 
 /* --- Panels: holidays + legends --- */
 .bk-panels {
