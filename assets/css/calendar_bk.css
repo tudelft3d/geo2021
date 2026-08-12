@@ -1,0 +1,179 @@
+/* Print-oriented graduation calendar that mimics the BK (faculty)
+   academic calendar format. Used by /dates/print/. */
+
+@page {
+  size: A4 landscape;
+  margin: 12mm;
+}
+
+.bk-print-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.bk-print-controls a,
+.bk-print-controls button {
+  font: inherit;
+  font-size: 0.9rem;
+  color: #005b9c;
+  background: #eef4fa;
+  border: 1px solid #c6d8e8;
+  border-radius: 4px;
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bk-calendar {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #111;
+  width: 100%;
+}
+
+.bk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 2px solid #111;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.3rem;
+}
+
+.bk-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.bk-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bk-section {
+  margin-bottom: 0.9rem;
+}
+
+.bk-section-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.25rem;
+  color: #333;
+}
+
+.bk-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.bk-table th,
+.bk-table td {
+  border: 0.5px solid #8a8a8a;
+  padding: 0;
+  text-align: center;
+  font-size: 7.2pt;
+  line-height: 1.25;
+  height: 13px;
+  overflow: hidden;
+}
+
+.bk-table th {
+  font-weight: 700;
+  font-size: 6.6pt;
+  background: #f0f0f0;
+}
+
+.bk-table .bk-corner {
+  width: 58px;
+  background: #f0f0f0;
+  text-align: left;
+  padding: 0 4px;
+}
+
+.bk-table .bk-teaching {
+  background: #ff99cc;
+  font-weight: 700;
+  color: #333;
+}
+
+.bk-table .bk-month {
+  background: #fff;
+  font-weight: 700;
+  color: #666;
+}
+
+/* --- Week phase colours (matching the BK calendars) --- */
+.education { background: #d9d9d9; }
+.no-education { background: #9a9a9a; }
+.a1 { background: #66ccff; }
+.a1a4 { background: #ffff99; }
+.a2 { background: #cfb5fc; }
+.a2a3 { background: #edc7e6; }
+.a3 { background: #91d14f; }
+.a4 { background: #ffbf00; }
+
+/* --- Day colours (deadlines) --- */
+.bk-day.deadline-a0 { background: #ff7b6b; }
+.bk-day.deadline-a34 { background: #ff33cc; color: #fff; }
+.bk-day.deadline-a1 { background: #ffff00; }
+
+/* --- Panels: holidays + legends --- */
+.bk-panels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.6rem;
+}
+
+.bk-panel {
+  border: 0.5px solid #8a8a8a;
+  padding: 0.4rem 0.7rem 0.55rem;
+  font-size: 7.6pt;
+  background: #fafafa;
+}
+
+.bk-panel h3 {
+  margin: 0 0 0.3rem;
+  font-size: 8pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+
+.bk-panel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bk-panel li {
+  margin: 0.15rem 0;
+}
+
+.bk-panel .bk-hname { font-weight: 600; }
+.bk-panel .bk-hwhen { color: #333; }
+
+.bk-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.bk-swatch {
+  flex: 0 0 auto;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.5px solid #777;
+  display: inline-block;
+}
+
+/* --- Print: hide the toolbar --- */
+@media print {
+  .bk-print-controls { display: none; }
+}

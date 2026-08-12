@@ -10,6 +10,8 @@ permalink: /dates/
 
 {% include calendar.html %}
 
+A [print version of the calendar](print/) is also available, e.g. to embed in the graduation guide.
+
 Archive:
 - [2025-2026](2025-2026.pdf)
 - [2024-2025](2024-2025.pdf) 

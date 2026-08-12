@@ -1,0 +1,76 @@
+{% assign cal = site.data.calendar_print %}
+
+<div class="bk-print-controls">
+  <a href="{{ site.baseurl }}/dates/">&#8592; Back to interactive calendar</a>
+  <button type="button" onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<div class="bk-calendar">
+  <header class="bk-header">
+    <div class="bk-title">Academic Calendar {{ cal.year }}</div>
+    <div class="bk-subtitle">Graduation</div>
+  </header>
+
+  {% for section in cal.sections %}
+  <section class="bk-section">
+    <h2 class="bk-section-title">{{ section.name }}</h2>
+    <table class="bk-table">
+      <thead>
+        <tr>
+          <th class="bk-corner">Calendar Week</th>
+          {% for w in section.cal_weeks %}<th class="bk-cal-week">{{ w }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="bk-corner">{{ section.teaching_label }}</th>
+          {% for c in section.teaching_cells %}
+          <td class="bk-teaching {{ c.phase }}" colspan="{{ c.span }}">{{ c.text }}</td>
+          {% endfor %}
+        </tr>
+        <tr>
+          <th class="bk-corner"></th>
+          {% for m in section.month_spans %}
+          <td class="bk-month" colspan="{{ m.span }}">{{ m.name }}</td>
+          {% endfor %}
+        </tr>
+        {% for row in section.day_rows %}
+        <tr>
+          <th class="bk-corner">{{ row.label }}</th>
+          {% for c in row.cells %}
+          <td class="bk-day {{ c.phase }}{% if c.deadline %} {{ c.deadline }}{% endif %}">{{ c.num }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endfor %}
+
+  <div class="bk-panels">
+    <section class="bk-panel">
+      <h3>Public Holidays</h3>
+      <ul>
+        {% for h in cal.holidays %}
+        <li><span class="bk-hname">{{ h.name }}</span> <span class="bk-hwhen">{{ h.when }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="bk-panel">
+      <h3>Day colours legend</h3>
+      <ul class="bk-legend">
+        {% for d in cal.day_legend %}
+        <li><span class="bk-swatch {{ d.colour }}"></span> {{ d.label }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="bk-panel">
+      <h3>Week colours legend</h3>
+      <ul class="bk-legend">
+        {% for w in cal.week_legend %}
+        <li><span class="bk-swatch {{ w.colour }}"></span> {{ w.label }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
