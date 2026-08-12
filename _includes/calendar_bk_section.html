@@ -15,7 +15,7 @@
         {% endfor %}
       </tr>
       <tr>
-        <th class="bk-corner"></th>
+        <th class="bk-corner bk-month-corner"></th>
         {% for m in include.section.month_spans %}
         <td class="bk-month{% if m.mb_l %} mb-l{% endif %}" colspan="{{ m.span }}">{{ m.name }}</td>
         {% endfor %}

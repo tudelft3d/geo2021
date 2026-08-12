@@ -89,6 +89,7 @@
 
 /* Separator between the header rows and the month/day grid */
 .bk-table .bk-month { border-top: 1.5px solid #111; }
+.bk-table .bk-month-corner { border-top: 1.5px solid #111; }
 
 .bk-table th {
   font-weight: 700;
@@ -106,6 +107,7 @@
   text-align: left;
   padding: 0 4px;
   white-space: nowrap;
+  border-right: 1.5px solid #111;
 }
 
 .bk-teaching {
