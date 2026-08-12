@@ -60,7 +60,7 @@ quarters:
         label: "Deadline to submit thesis topic (A0)"
       - date: "2027-02-22"
         label: "Final registration date for A3 and A4 assessments"
-      - date: "2027-03-29"
+      - date: "2027-03-25"
         label: "Final registration date for A1 Assessment"
 
   - name: Quarter 4
@@ -72,7 +72,7 @@ quarters:
     a3: [4, 5]
     a4: [9, 10]
     deadlines:
-      - date: "2027-05-07"
+      - date: "2027-05-04"
         label: "Deadline to submit thesis topic (A0)"
       - date: "2027-04-26"
         label: "Final registration date for A3 and A4 assessments"
