@@ -108,8 +108,7 @@
   white-space: nowrap;
 }
 
-.bk-table .bk-teaching {
-  background: #ff99cc;
+.bk-teaching {
   font-weight: 700;
   color: #333;
 }
@@ -124,16 +123,32 @@
 .education { background: #d9d9d9; }
 .no-education { background: #9a9a9a; }
 .a1 { background: #66ccff; }
-.a1a4 { background: #ffff99; }
+.a1a4 { background: linear-gradient(135deg, #ffbf00 0 50%, #66ccff 50% 100%); }
 .a2 { background: #cfb5fc; }
-.a2a3 { background: #edc7e6; }
+.a2a3 { background: linear-gradient(135deg, #91d14f 0 50%, #cfb5fc 50% 100%); }
 .a3 { background: #91d14f; }
 .a4 { background: #ffbf00; }
 
-/* --- Day colours (deadlines) --- */
-.bk-day.deadline-a0 { background: #ff7b6b; }
-.bk-day.deadline-a34 { background: #ff33cc; color: #fff; }
-.bk-day.deadline-a1 { background: #ffff00; }
+/* --- Deadlines: small triangle marker on top of the phase colour,
+       instead of a special colour covering the phase (like the interactive
+       calendar, where days with several things happening keep all of them
+       visible). --- */
+.bk-day { position: relative; }
+.bk-day.deadline-a0::after,
+.bk-day.deadline-a34::after,
+.bk-day.deadline-a1::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.bk-day.deadline-a0::after { border-bottom-color: #ff7b6b; }
+.bk-day.deadline-a34::after { border-bottom-color: #ff33cc; }
+.bk-day.deadline-a1::after { border-bottom-color: #ffff00; }
 
 /* --- Individual public holidays: darker gray like the BK calendars --- */
 .bk-day.holiday { background: #9a9a9a; }

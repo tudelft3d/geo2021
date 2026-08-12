@@ -230,9 +230,7 @@ module CalendarBk
       { 'colour' => 'education', 'label' => 'Education' },
       { 'colour' => 'no-education', 'label' => 'No education' },
       { 'colour' => 'a1', 'label' => 'A1 Kick-off assessments' },
-      { 'colour' => 'a1a4', 'label' => 'Both A1 Kick off assessment + A4 Finalisation' },
       { 'colour' => 'a2', 'label' => 'A2 midterm assessments' },
-      { 'colour' => 'a2a3', 'label' => 'Both A2 midterm assessments + A3 Green Light assessment' },
       { 'colour' => 'a3', 'label' => 'A3 Green light assessment' },
       { 'colour' => 'a4', 'label' => 'A4 Finalisation' }
     ]
