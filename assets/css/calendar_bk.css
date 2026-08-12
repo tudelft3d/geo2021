@@ -38,8 +38,8 @@
   justify-content: space-between;
   align-items: baseline;
   border-bottom: 2px solid #111;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.25rem;
 }
 
 .bk-title {
@@ -53,7 +53,7 @@
 }
 
 .bk-section {
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.6rem;
 }
 
 .bk-section-title {
@@ -69,6 +69,7 @@
   width: auto;
   border-collapse: collapse;
   table-layout: fixed;
+  border: 1.5px solid #111;
 }
 
 .bk-table th,
@@ -78,9 +79,16 @@
   text-align: center;
   font-size: 7.2pt;
   line-height: 1.25;
-  height: 13px;
+  height: 12px;
   overflow: hidden;
 }
+
+/* --- Month boundaries (thicker lines, matching the BK calendars) --- */
+.bk-table .mb-l { border-left: 1.5px solid #111; }
+.bk-table .mb-t { border-top: 1.5px solid #111; }
+
+/* Separator between the header rows and the month/day grid */
+.bk-table .bk-month { border-top: 1.5px solid #111; }
 
 .bk-table th {
   font-weight: 700;
@@ -93,10 +101,11 @@
 }
 
 .bk-table .bk-corner {
-  width: 58px;
+  width: 74px;
   background: #f0f0f0;
   text-align: left;
   padding: 0 4px;
+  white-space: nowrap;
 }
 
 .bk-table .bk-teaching {
@@ -126,6 +135,9 @@
 .bk-day.deadline-a34 { background: #ff33cc; color: #fff; }
 .bk-day.deadline-a1 { background: #ffff00; }
 
+/* --- Individual public holidays: darker gray like the BK calendars --- */
+.bk-day.holiday { background: #9a9a9a; }
+
 .bk-swatch.deadline-a0 { background: #ff7b6b; }
 .bk-swatch.deadline-a34 { background: #ff33cc; }
 .bk-swatch.deadline-a1 { background: #ffff00; }
@@ -135,7 +147,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .bk-panel {

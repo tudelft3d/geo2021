@@ -12,39 +12,7 @@
   </header>
 
   {% for section in cal.sections %}
-  <section class="bk-section">
-    <h2 class="bk-section-title">{{ section.name }}</h2>
-    <table class="bk-table">
-      <thead>
-        <tr>
-          <th class="bk-corner">Calendar Week</th>
-          {% for w in section.cal_weeks %}<th class="bk-cal-week">{{ w }}</th>{% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th class="bk-corner">{{ section.teaching_label }}</th>
-          {% for c in section.teaching_cells %}
-          <td class="bk-teaching {{ c.phase }}" colspan="{{ c.span }}">{{ c.text }}</td>
-          {% endfor %}
-        </tr>
-        <tr>
-          <th class="bk-corner"></th>
-          {% for m in section.month_spans %}
-          <td class="bk-month" colspan="{{ m.span }}">{{ m.name }}</td>
-          {% endfor %}
-        </tr>
-        {% for row in section.day_rows %}
-        <tr>
-          <th class="bk-corner">{{ row.label }}</th>
-          {% for c in row.cells %}
-          <td class="bk-day {{ c.phase }}{% if c.deadline %} {{ c.deadline }}{% endif %}">{{ c.num }}</td>
-          {% endfor %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </section>
+  {% include calendar_bk_section.html section=section %}
   {% endfor %}
 
   <div class="bk-panels">

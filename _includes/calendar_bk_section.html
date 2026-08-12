@@ -1,0 +1,33 @@
+<section class="bk-section">
+  <h2 class="bk-section-title">{{ include.section.name }}</h2>
+  <table class="bk-table">
+    <thead>
+      <tr>
+        <th class="bk-corner">Calendar Week</th>
+        {% for w in include.section.cal_weeks %}<th class="bk-cal-week">{{ w }}</th>{% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="bk-corner">{{ include.section.teaching_label }}</th>
+        {% for c in include.section.teaching_cells %}
+        <td class="bk-teaching {{ c.phase }}" colspan="{{ c.span }}">{{ c.text }}</td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <th class="bk-corner"></th>
+        {% for m in include.section.month_spans %}
+        <td class="bk-month{% if m.mb_l %} mb-l{% endif %}" colspan="{{ m.span }}">{{ m.name }}</td>
+        {% endfor %}
+      </tr>
+      {% for row in include.section.day_rows %}
+      <tr>
+        <th class="bk-corner">{{ row.label }}</th>
+        {% for c in row.cells %}
+        <td class="bk-day {{ c.phase }}{% if c.holiday %} holiday{% endif %}{% if c.deadline %} {{ c.deadline }}{% endif %}{% if c.mb_l %} mb-l{% endif %}{% if c.mb_t %} mb-t{% endif %}">{{ c.num }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>

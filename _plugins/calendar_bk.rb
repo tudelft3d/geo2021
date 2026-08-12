@@ -22,6 +22,12 @@ module CalendarBk
     quarters = (cal['quarters'] || []).sort_by { |q| q['num'].to_i }
     holidays = (cal['holidays'] || []).map { |h| parse_holiday(h) }
 
+    day_holidays = {}
+    holidays.each do |h|
+      next if h['break']
+      (h['from']..h['to']).each { |d| day_holidays[d] = true }
+    end
+
     deadline_map = {}
     quarters.each do |q|
       (q['deadlines'] || []).each do |d|
@@ -34,12 +40,12 @@ module CalendarBk
       quarters.each_slice(2).each do |pair|
         first = pair.first['num'].to_i
         name = first <= 2 ? 'Autumn semester' : 'Spring semester'
-        weeks = pair.flat_map { |q| quarter_weeks(q, holidays, deadline_map) }
+        weeks = pair.flat_map { |q| quarter_weeks(q, holidays, day_holidays, deadline_map) }
         sections << decorate(name, 'Teaching week', weeks)
       end
     end
     if cal['summer']
-      weeks = summer_weeks(cal['summer'], deadline_map)
+      weeks = summer_weeks(cal['summer'], day_holidays, deadline_map)
       sections << decorate('Summer period', 'Summer period', weeks)
     end
 
@@ -94,14 +100,14 @@ module CalendarBk
     end
   end
 
-  def self.quarter_weeks(q, holidays, deadline_map)
+  def self.quarter_weeks(q, holidays, day_holidays, deadline_map)
     start = Date.parse(q['start'])
     weeks = []
     produced = 0
     while produced < q['weeks'].to_i
       hol = holiday_for_week(start, holidays)
       if hol
-        weeks << make_week(start, hol, 'no-education', deadline_map, true)
+        weeks << make_week(start, hol, 'no-education', day_holidays, deadline_map, true)
       else
         produced += 1
         phases = []
@@ -109,28 +115,28 @@ module CalendarBk
         phases << 'a2' if contains?(q['a2'], produced)
         phases << 'a3' if contains?(q['a3'], produced)
         phases << 'a4' if contains?(q['a4'], produced)
-        weeks << make_week(start, "#{q['num']}.#{produced}", phase_key(phases), deadline_map)
+        weeks << make_week(start, "#{q['num']}.#{produced}", phase_key(phases), day_holidays, deadline_map)
       end
       start += 7
     end
     weeks
   end
 
-  def self.summer_weeks(sum, deadline_map)
+  def self.summer_weeks(sum, day_holidays, deadline_map)
     start = Date.parse(sum['start'])
     weeks = []
     sum['weeks'].to_i.times do |i|
-      weeks << make_week(start, "5.#{i + 1}", 'no-education', deadline_map)
+      weeks << make_week(start, "5.#{i + 1}", 'no-education', day_holidays, deadline_map)
       start += 7
     end
     weeks
   end
 
-  def self.make_week(monday, teaching, phase, deadline_map, holiday = false)
+  def self.make_week(monday, teaching, phase, day_holidays, deadline_map, holiday = false)
     days = (0..4).map do |i|
       d = monday + i
       dl = deadline_map[d.strftime('%Y-%m-%d')]
-      { 'num' => d.day, 'phase' => phase, 'deadline' => dl }
+      { 'num' => d.day, 'phase' => phase, 'deadline' => dl, 'holiday' => day_holidays[d], 'm' => d.year * 12 + d.month }
     end
     {
       'cal_week' => monday.cweek,
@@ -138,6 +144,7 @@ module CalendarBk
       'phase' => phase,
       'holiday' => holiday,
       'month' => MONTH_ABBR[monday.month - 1],
+      'm' => monday.year * 12 + monday.month,
       'days' => days
     }
   end
@@ -166,7 +173,19 @@ module CalendarBk
     end
 
     day_rows = (0..4).map do |i|
-      { 'label' => WEEKDAY_LABELS[i], 'cells' => weeks.map { |w| w['days'][i] } }
+      {
+        'label' => WEEKDAY_LABELS[i],
+        'cells' => weeks.each_index.map do |c|
+          cell = weeks[c]['days'][i]
+          cell['mb_l'] = (c > 0 && weeks[c]['days'][i]['m'] != weeks[c - 1]['days'][i]['m'])
+          cell['mb_t'] = (i > 0 && weeks[c]['days'][i]['m'] != weeks[c]['days'][i - 1]['m'])
+          cell
+        end
+      }
+    end
+
+    month_spans.each_with_index do |span, idx|
+      span['mb_l'] = idx > 0
     end
 
     {
