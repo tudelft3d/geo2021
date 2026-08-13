@@ -132,6 +132,14 @@
 
   function phaseLabel(id) { return phaseById[id] ? phaseById[id].label : id; }
 
+  function deadlineBadgeClass(label) {
+    var l = String(label);
+    if (l.indexOf('A0') !== -1) return 'badge-deadline-a0';
+    if (l.indexOf('A3 and A4') !== -1) return 'badge-deadline-a34';
+    if (l.indexOf('A1') !== -1) return 'badge-deadline-a1';
+    return 'badge-deadline';
+  }
+
   function dnum(date) {
     var s = document.createElement('span');
     s.className = 'cal-dnum';
@@ -232,7 +240,9 @@
         cell.appendChild(dnum(date));
 
         var badges = [];
-        if (deadlineByDate[key]) badges.push({ cls: 'badge-deadline', text: deadlineByDate[key].join(' \u2014 ') });
+        if (deadlineByDate[key]) deadlineByDate[key].forEach(function (label) {
+          badges.push({ cls: 'badge-deadline ' + deadlineBadgeClass(label), text: label });
+        });
         if (badges.length) {
           var box = document.createElement('div');
           box.className = 'cal-badges';

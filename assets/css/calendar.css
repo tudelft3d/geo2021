@@ -91,6 +91,9 @@ html.dark-mode .calendar {
   overflow: hidden;
 }
 .badge-deadline { background: var(--cal-deadline); }
+.badge-deadline-a0 { background: var(--cal-deadline); }
+.badge-deadline-a1 { background: var(--cal-a1-strong); }
+.badge-deadline-a34 { background: var(--cal-a3-strong); }
 
 .cal-today { outline: 2px solid var(--bulma-link); outline-offset: 1px; }
 
