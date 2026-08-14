@@ -112,7 +112,12 @@
       var s = parseDate(data.summer.start);
       for (var k = 0; k < data.summer.weeks; k++) {
         var m = addDays(s, k * 7);
-        indexWeek({ monday: m, qnum: null, teaching: null, phases: [], holiday: 'Summer period' });
+        var phases = [];
+        if (contains(data.summer.a1, k + 1)) phases.push('a1');
+        if (contains(data.summer.a2, k + 1)) phases.push('a2');
+        if (contains(data.summer.a3, k + 1)) phases.push('a3');
+        if (contains(data.summer.a4, k + 1)) phases.push('a4');
+        indexWeek({ monday: m, qnum: 5, teaching: k + 1, phases: phases, holiday: phases.length ? null : 'Summer period' });
       }
     }
 
@@ -181,7 +186,7 @@
         var wk = dayToWeek[fmt(w)];
         var twCell = document.createElement('div');
         twCell.className = 'cal-tw';
-        if (wk && !wk.holiday && wk.teaching != null) {
+        if (wk && wk.teaching != null) {
           twCell.textContent = wk.qnum + '.' + wk.teaching;
         }
         grid.appendChild(twCell);

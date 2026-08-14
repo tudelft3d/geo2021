@@ -1,14 +1,15 @@
 year: "2026-2027"
 
-# Nominal (on-time) trajectory: the quarter in which students doing their
+# Nominal (on-time) trajectory: the quarter(s) in which students doing their
 # thesis in one academic year reach each milestone. Used to build the
-# "Nominal calendar" (Kick-off in Q2, Midterm in Q3, Green light and
-# Finalisation in Q4).
+# "Nominal calendar" (Kick-off in Q2, Midterm in Q3, Green light in Q4, and
+# Finalisation in Q4 weeks 9-10 and Q5 week 1). A list of quarter numbers
+# means the milestone is nominal in each of those quarters.
 nominal:
   a1: 2
   a2: 3
   a3: 4
-  a4: 4
+  a4: [4, 5]
 
 phases:
   - id: education
@@ -95,6 +96,7 @@ quarters:
 summer:
   start: "2027-06-28"
   weeks: 9
+  a4: [1]
 
 holidays:
   - name: Christmas period

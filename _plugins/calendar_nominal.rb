@@ -2,7 +2,8 @@
 #
 # The nominal calendar shows only the milestones and deadlines that apply to
 # students who do their thesis in a single academic year and graduate on time:
-# Kick-off in Q2, Midterm in Q3, Green light and Finalisation in Q4.
+# Kick-off in Q2, Midterm in Q3, Green light in Q4, and Finalisation in Q4
+# weeks 9-10 and Q5 week 1.
 #
 # Exposes two computed structures to Liquid:
 #   site.data['calendar_nominal']        - filtered copy for the interactive
@@ -12,6 +13,7 @@
 #                                          same logic as the complete calendar
 module CalendarNominal
   PHASES = %w[a1 a2 a3 a4]
+  SUMMER_QUARTER = 5
 
   class Generator < Jekyll::Generator
     def generate(site)
@@ -31,14 +33,24 @@ module CalendarNominal
     (result['quarters'] || []).each do |q|
       qnum = q['num'].to_i
       PHASES.each do |phase|
-        target = nominal[phase]
-        q[phase] = (target && target.to_i == qnum) ? q[phase] : nil
+        q[phase] = nominal_quarters?(nominal[phase], qnum) ? q[phase] : nil
       end
       nominal_deadlines = (q['deadlines'] || []).select { |d| d['nominal'] }
       nominal_deadlines.each { |d| d.delete('nominal') }
       q['deadlines'] = nominal_deadlines
     end
+    if result['summer'].is_a?(Hash)
+      PHASES.each do |phase|
+        result['summer'][phase] = nominal_quarters?(nominal[phase], SUMMER_QUARTER) ? result['summer'][phase] : nil
+      end
+    end
     result
+  end
+
+  def self.nominal_quarters?(value, qnum)
+    return false if value.nil?
+    value = [value] unless value.is_a?(Array)
+    value.map { |v| v.to_i }.include?(qnum)
   end
 
   def self.deep_dup(obj)

@@ -126,7 +126,14 @@ module CalendarBk
     start = Date.parse(sum['start'])
     weeks = []
     sum['weeks'].to_i.times do |i|
-      weeks << make_week(start, "5.#{i + 1}", 'no-education', day_holidays, deadline_map)
+      produced = i + 1
+      phases = []
+      phases << 'a1' if contains?(sum['a1'], produced)
+      phases << 'a2' if contains?(sum['a2'], produced)
+      phases << 'a3' if contains?(sum['a3'], produced)
+      phases << 'a4' if contains?(sum['a4'], produced)
+      phase = phases.any? ? phase_key(phases) : 'no-education'
+      weeks << make_week(start, "5.#{produced}", phase, day_holidays, deadline_map)
       start += 7
     end
     weeks
