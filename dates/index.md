@@ -8,9 +8,25 @@ permalink: /dates/
 
 <i class="fa-solid fa-triangle-exclamation"></i> This calendar is a draft. The final calendar will be available with the Geomatics graduation guide, so use it for rough planning only.
 
-{% include calendar.html %}
+<div class="cal-tabs" role="tablist">
+  <button type="button" class="cal-tab is-active" data-target="cal-nominal">Nominal</button>
+  <button type="button" class="cal-tab" data-target="cal-complete">Complete</button>
+</div>
 
-A [print version of the calendar](print/) is also available, e.g. to embed in the graduation guide.
+<div class="cal-tab-pane is-active" id="cal-nominal">
+  <p>For students who start their thesis in Quarter 2 and graduate on time: Kick-off in Q2, Midterm in Q3, Green light and Finalisation in Q4.</p>
+  {% include calendar.html data="calendar_nominal" uid="nominal" %}
+</div>
+
+<div class="cal-tab-pane" id="cal-complete">
+  <p>All assessment periods and registration deadlines across all quarters.</p>
+  {% include calendar.html data="calendar" uid="complete" %}
+</div>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/calendar.css">
+<script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
+
+A [print version of the nominal calendar](print-nominal/) and a [print version of the complete calendar](print/) are also available, e.g. to embed in the graduation guide.
 
 Archive:
 - [2025-2026](2025-2026.pdf)

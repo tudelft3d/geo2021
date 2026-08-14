@@ -1,4 +1,4 @@
-<div id="graduation-calendar" class="calendar" data-year="{{ site.data.calendar.year }}"></div>
-<script type="application/json" id="calendar-data">{{ site.data.calendar | jsonify }}</script>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/calendar.css">
-<script src="{{ site.baseurl }}/assets/js/calendar.js"></script>
+{% assign _cal_data = include.data | default: "calendar" %}
+{% assign _cal_uid = include.uid | default: "calendar" %}
+<div id="graduation-calendar-{{ _cal_uid }}" class="calendar" data-year="{{ site.data[_cal_data].year }}"></div>
+<script type="application/json" class="calendar-data" data-root="graduation-calendar-{{ _cal_uid }}">{{ site.data[_cal_data] | jsonify }}</script>

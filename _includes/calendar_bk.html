@@ -1,4 +1,4 @@
-{% assign cal = site.data.calendar_print %}
+{% assign cal = include.cal | default: site.data.calendar_print %}
 
 <div class="bk-print-controls">
   <a href="{{ site.baseurl }}/dates/">&#8592; Back to interactive calendar</a>

@@ -1,5 +1,15 @@
 year: "2026-2027"
 
+# Nominal (on-time) trajectory: the quarter in which students doing their
+# thesis in one academic year reach each milestone. Used to build the
+# "Nominal calendar" (Kick-off in Q2, Midterm in Q3, Green light and
+# Finalisation in Q4).
+nominal:
+  a1: 2
+  a2: 3
+  a3: 4
+  a4: 4
+
 phases:
   - id: education
     label: Education
@@ -42,10 +52,12 @@ quarters:
     deadlines:
       - date: "2026-11-27"
         label: "Deadline to submit thesis topic"
+        nominal: true
       - date: "2026-11-16"
         label: "Final registration date for Green light and Finalisation assessments"
       - date: "2027-01-04"
         label: "Final registration date for Kick-off assessments"
+        nominal: true
 
   - name: Quarter 3
     num: 3
@@ -76,6 +88,7 @@ quarters:
         label: "Deadline to submit thesis topic"
       - date: "2027-04-26"
         label: "Final registration date for Green light and Finalisation assessments"
+        nominal: true
       - date: "2027-06-07"
         label: "Final registration date for Kick-off assessments"
 

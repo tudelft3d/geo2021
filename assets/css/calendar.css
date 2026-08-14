@@ -170,7 +170,36 @@ html.dark-mode .calendar {
 .cal-tooltip .tt-holiday { margin-top: 0.2rem; color: var(--bulma-danger); }
 .cal-tooltip .tt-dl { margin-top: 0.2rem; color: var(--bulma-danger); }
 
+.cal-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.75rem;
+}
+
+.cal-tab {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--bulma-border);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.cal-tab:hover { border-color: var(--bulma-text-weak); }
+
+.cal-tab.is-active {
+  background: var(--bulma-link, #005b9c);
+  border-color: var(--bulma-link, #005b9c);
+  color: #fff;
+}
+
+.cal-tab-pane { display: none; }
+.cal-tab-pane.is-active { display: block; }
+
 @media print {
   .calendar { display: block; margin: 0; }
-  .cal-tooltip, .cal-legend, .cal-badges { display: none !important; }
+  .cal-tooltip, .cal-legend, .cal-badges, .cal-tabs { display: none !important; }
 }
