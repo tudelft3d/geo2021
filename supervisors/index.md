@@ -59,18 +59,19 @@ Read p.21 of the [Graduation guide 2025-2026](https://github.com/tudelftgeomatic
 - Between the Kick-off and the Green light, there should one meeting with both supervisors to discuss the progress of the student.
 - Feedback must be given with tips to improve.
 - After the student has uploaded a document in MyCase (eg updated proposal, thesis as it stands or the slides used for a Midterm presentation), the 1st supervisor must mark the Midterm as done in the system by selecting Continue to Green Light phase. <i class="fa-solid fa-triangle-exclamation"></i> If this is not done, BK admin won't schedule the Green light. If you feel the work is not sufficient for the Midterm yet, you can select the Continue in Midterm option, but this also means that the Green light meeting might not be scheduled.
-- If not done already, together with the student choose a co-reader.
+- If not done already, together with the student choose a co-reader. The co-reader must be defined before the Finalisation, and is preferably chosen already at the registration phase.
 
 ### Green light
 
 - The 1st supervisor has to assess if the work is original, and thus you need to go to the [Brightspace Plagiarism Scan](https://brightspace.tudelft.nl/d2l/lms/dropbox/admin/folders_manage.d2l?ou=47493) and check the report. If the link doesn't work, search for Plagiarism scan MSc thesis - BK in Brightspace.
-- Both supervisors and the co-reader must read the final thesis, attend the Green light meeting and ask questions.
-  - If it's a go (continue to Finalisation), both supervisors should also decide the preliminary mark of the student with [the rubric](../rubric/). Note that the final mark at the Finalisation might only be within 0.5 points of the preliminary one. Note also that whether the student is cum laude is decided based on this mark, not on the final one. <i class="fa-solid fa-triangle-exclamation"></i> In order to have the preliminary mark available at the Finalisation, it's a good idea to put it in the MyCase notes (which are not visible to the student).
-  - If it's a no-go (retake), both supervisors, co-reader, student and delegate should decide on new Green light and Finalisation dates from the slots available in SuperSaaS and enter them in the system.
+- A delegate of the Board of Examiners is appointed before the Green light and chairs the Green light and Finalisation sessions. If both supervisors are from the same department, the delegate must be from a different one.
+- Both supervisors must read the final thesis, attend the Green light meeting and ask questions.
+  - If it's a go (continue to Finalisation), the student must do the Finalisation at least 4 weeks later. The final mark will be decided at the Finalisation by the two supervisors and the co-reader with [the rubric](../rubric/): the supervisors assess the research, process and communication criteria, while the co-reader assesses the research and communication criteria only.
+  - If it's a no-go (retake), both supervisors, student and delegate should decide on new Green light and Finalisation dates from the slots available in SuperSaaS and enter them in the system.
 
 ### Finalisation
 
-- Both supervisors must attend the Finalisation meeting and ask questions.
-- Both supervisors decide the final mark of the student.
+- The two supervisors and the co-reader must attend the Finalisation meeting and ask questions. The delegate of the Board of Examiners chairs the session.
+- The two supervisors and the co-reader decide the final mark of the student: the supervisors assess the research, process and communication criteria, while the co-reader assesses the research and communication criteria only.
 - The 1st supervisor makes a speech in front of family and friends. Smile a lot while doing this.
 - The 1st supervisor must put the final grade in the system.

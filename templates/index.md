@@ -32,6 +32,8 @@ It should show that you clearly know the problem you plan to solve, and that you
 We expect you to present the methodology you will use to solve your scientific problem(s), and to present preliminary results.
 Also, this is a scientific proposal, so references are mandatory (even if there is no specific section in the template).
 
+If you use AI tools or large language models (LLMs) in any part of the work behind the plan, the plan must also include an AI disclosure statement (see the [rules]({{ "/rules/" | prepend: site.baseurl }}) for details).
+
 As an example, here's a [good project plan from a previous year]({{ "/pdfs/example_gradplan_mulder.pdf" | prepend: site.baseurl }}).
 It contains:
 
@@ -56,6 +58,8 @@ It looks like this:
 Download the [full LaTeX source in one ZIP](https://github.com/tudelftgeomatics/thesis_template/archive/master.zip).
 
 *It is not an official template and it is not mandatory to use it.*
+
+If you use AI tools or large language models (LLMs) at any point in your project, your report must also include a detailed AI disclosure statement (see the [rules]({{ "/rules/" | prepend: site.baseurl }}) for details). The template includes an appendix to help you write it.
 
 Notice that the TU Delft has a [generic LaTeX template for report](https://www.overleaf.com/latex/templates/tu-delft-report-slash-thesis-template/swythjmksywm), that can also be used, but don't forget to add the parts necessary (table of content, table of figures, appendices, etc.).
 

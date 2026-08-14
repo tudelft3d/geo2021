@@ -27,13 +27,11 @@ However, note that the old graduation system (Ps, geo2020) is no longer availabl
 
 - - -
 
-#### Can I pick as First Mentor someone from another faculty?
+#### Can I pick as responsible supervisor someone from another faculty?
 
-No. Your first mentor, who also acts as your daily supervisor, must be a staff from one of the groups involved in Geomatics education. They also need to have completed the UTQ (teaching qualification for staff).
+No. Your responsible supervisor, who is your main supervisor, must be a staff member of the MSc Geomatics for the Built Environment programme. They also need to have completed the UTQ (teaching qualification for staff).
 
-Your second mentor can however be any staff of the TU Delft.
-
-Also, note that at least one of the two mentors should hold a PhD degree.
+Your second supervisor can be a scientific staff member from TU Delft whose expertise complements that of the responsible supervisor. They must be confirmed before the Kick-off.
 
 - - -
 
@@ -194,5 +192,5 @@ _7. Appendices_
 
 #### Withdrawing from Green light
 
-- inform your supervisors, the co-reader and the delegate
+- inform your supervisors and the delegate
 - send an email to graduation-bk@tudelft.nl stating your name and student number, and declare that you withdraw from Green light.
