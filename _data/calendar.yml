@@ -6,13 +6,13 @@ phases:
   - id: no-education
     label: No education
   - id: a1
-    label: Kick-off (A1)
+    label: Kick-off
   - id: a2
-    label: Midterm (A2)
+    label: Midterm
   - id: a3
-    label: Green light (A3)
+    label: Green light
   - id: a4
-    label: Finalisation (A4)
+    label: Finalisation
 
 quarters:
   - name: Quarter 1
@@ -25,11 +25,11 @@ quarters:
     a4: [10]
     deadlines:
       - date: "2026-09-18"
-        label: "Deadline to submit thesis topic (A0)"
+        label: "Deadline to submit thesis topic"
       - date: "2026-09-14"
-        label: "Final registration date for A3 and A4 assessments"
+        label: "Final registration date for Green light and Finalisation assessments"
       - date: "2026-10-19"
-        label: "Final registration date for A1 Assessment"
+        label: "Final registration date for Kick-off assessments"
 
   - name: Quarter 2
     num: 2
@@ -41,11 +41,11 @@ quarters:
     a4: [9]
     deadlines:
       - date: "2026-11-27"
-        label: "Deadline to submit thesis topic (A0)"
+        label: "Deadline to submit thesis topic"
       - date: "2026-11-16"
-        label: "Final registration date for A3 and A4 assessments"
+        label: "Final registration date for Green light and Finalisation assessments"
       - date: "2027-01-04"
-        label: "Final registration date for A1 Assessment"
+        label: "Final registration date for Kick-off assessments"
 
   - name: Quarter 3
     num: 3
@@ -57,11 +57,11 @@ quarters:
     a4: [10]
     deadlines:
       - date: "2027-02-26"
-        label: "Deadline to submit thesis topic (A0)"
+        label: "Deadline to submit thesis topic"
       - date: "2027-02-22"
-        label: "Final registration date for A3 and A4 assessments"
+        label: "Final registration date for Green light and Finalisation assessments"
       - date: "2027-03-25"
-        label: "Final registration date for A1 Assessment"
+        label: "Final registration date for Kick-off assessments"
 
   - name: Quarter 4
     num: 4
@@ -73,11 +73,11 @@ quarters:
     a4: [9, 10]
     deadlines:
       - date: "2027-05-04"
-        label: "Deadline to submit thesis topic (A0)"
+        label: "Deadline to submit thesis topic"
       - date: "2027-04-26"
-        label: "Final registration date for A3 and A4 assessments"
+        label: "Final registration date for Green light and Finalisation assessments"
       - date: "2027-06-07"
-        label: "Final registration date for A1 Assessment"
+        label: "Final registration date for Kick-off assessments"
 
 summer:
   start: "2027-06-28"

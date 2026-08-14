@@ -45,7 +45,7 @@ See [here]({{ "/templates/" | prepend: site.baseurl }}).
 
 #### How to upload your final thesis to the TUD repository
 
-You must upload your final thesis + presentation slides after your A4.
+You must upload your final thesis + presentation slides after your Finalisation.
 This is important. If you forget, you will not get your diploma supplement (transcript)!
 
 [=> Instructions to upload your thesis](https://repository.tudelft.nl/content/education-upload-tips)
@@ -127,7 +127,7 @@ If you get (threatening) emails from the administration at BK asking for it: rep
 
 #### Can my thesis be written in Dutch?
 
-No, it must be in English. And your presentations (A1, A3 and A4) must also all be made in English.
+No, it must be in English. And your presentations (Kick-off, Green light and Finalisation) must also all be made in English.
 
 - - -
 
@@ -186,13 +186,13 @@ _7. Appendices_
 
 - - -
 
-#### Withdrawing from A1
+#### Withdrawing from Kick-off
 
-- Ask your responsible supervisor to withdraw your A1 registration in MyCase.
+- Ask your responsible supervisor to withdraw your Kick-off registration in MyCase.
 
 - - -
 
-#### Withdrawing from A3
+#### Withdrawing from Green light
 
 - inform your supervisors, the co-reader and the delegate
-- send an email to graduation-bk@tudelft.nl stating your name and student number, and declare that you withdraw from A3.
+- send an email to graduation-bk@tudelft.nl stating your name and student number, and declare that you withdraw from Green light.

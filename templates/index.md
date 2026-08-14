@@ -20,7 +20,7 @@ permalink: /templates/
 </section>
 ## Proposal template
 
-The document for A1 is a project proposal that must contain all the elements listed in the template available in the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }}) (Section 3.2).
+The document for the Kick-off is a project proposal that must contain all the elements listed in the template available in the [Graduation Guide]({{ "/rules/" | prepend: site.baseurl }}) (Section 3.2).
 
 *Ignore* any other template you might get from the central BK system if different, they send these emails without realising that Geomatics doesn't have the same criteria.
 
@@ -68,7 +68,7 @@ But we do not offer a template, although the TU Delft (kinda) does, you can foll
 ## Thesis template when a scientific paper is the core
 
 We offer the possibility that a scientific article forms the core of your MSc thesis report.
-**Watch out: this has to be decided after careful discussion with your responsible supervisor during or before A2.**
+**Watch out: this has to be decided after careful discussion with your responsible supervisor during or before the Midterm.**
 
 This scientific article summarises your work in about 8000 words (instead of a standard thesis, which has no real maximum).
 It will allow you to 

@@ -134,9 +134,9 @@
 
   function deadlineBadgeClass(label) {
     var l = String(label);
-    if (l.indexOf('A0') !== -1) return 'badge-deadline-a0';
-    if (l.indexOf('A3 and A4') !== -1) return 'badge-deadline-a34';
-    if (l.indexOf('A1') !== -1) return 'badge-deadline-a1';
+    if (l.indexOf('thesis topic') !== -1) return 'badge-deadline-a0';
+    if (l.indexOf('Green light and Finalisation') !== -1) return 'badge-deadline-a34';
+    if (l.indexOf('Kick-off') !== -1) return 'badge-deadline-a1';
     return 'badge-deadline';
   }
 
