@@ -190,6 +190,13 @@ html.dark-mode .calendar {
 
 .cal-tab:hover { border-color: var(--bulma-text-weak); }
 
+.cal-tab .cal-tab-hint {
+  margin-left: 0.3rem;
+  font-size: 0.78em;
+  opacity: 0.75;
+}
+.cal-tab.is-active .cal-tab-hint { opacity: 0.85; }
+
 .cal-tab.is-active {
   background: var(--bulma-link, #005b9c);
   border-color: var(--bulma-link, #005b9c);

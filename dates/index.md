@@ -8,18 +8,25 @@ permalink: /dates/
 
 <i class="fa-solid fa-triangle-exclamation"></i> This calendar is a draft. The final calendar will be available with the Geomatics graduation guide, so use it for rough planning only.
 
+<p>The <strong>on-time path</strong> shows the milestones and deadlines for students who start their thesis in Quarter 2 and graduate on time. <strong>All dates</strong> also shows assessment periods and registration deadlines that don't apply to the on-time path.</p>
+
 <div class="cal-tabs" role="tablist">
-  <button type="button" class="cal-tab is-active" data-target="cal-nominal">Nominal</button>
-  <button type="button" class="cal-tab" data-target="cal-complete">Complete</button>
+  <button type="button" class="cal-tab is-active" data-target="cal-nominal">On-time path <span class="cal-tab-hint">Q2&ndash;Q4</span></button>
+  <button type="button" class="cal-tab" data-target="cal-complete">All dates</button>
 </div>
 
 <div class="cal-tab-pane is-active" id="cal-nominal">
-  <p>For students who start their thesis in Quarter 2 and graduate on time: Kick-off in Q2, Midterm in Q3, Green light and Finalisation in Q4.</p>
+  <p>Milestones on the on-time path:</p>
+  <ul>
+    <li>Kick-off in Quarter 2</li>
+    <li>Midterm in Quarter 3</li>
+    <li>Green light and Finalisation in Quarter 4</li>
+  </ul>
   {% include calendar.html data="calendar_nominal" uid="nominal" %}
 </div>
 
 <div class="cal-tab-pane" id="cal-complete">
-  <p>All assessment periods and registration deadlines across all quarters.</p>
+  <p>Assessment periods and registration deadlines across all quarters, including those for other trajectories.</p>
   {% include calendar.html data="calendar" uid="complete" %}
 </div>
 

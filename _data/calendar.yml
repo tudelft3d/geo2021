@@ -37,6 +37,7 @@ quarters:
     deadlines:
       - date: "2026-09-18"
         label: "Deadline to submit thesis topic"
+        nominal: true
       - date: "2026-09-14"
         label: "Final registration date for Green light and Finalisation assessments"
       - date: "2026-10-19"
@@ -53,7 +54,6 @@ quarters:
     deadlines:
       - date: "2026-11-27"
         label: "Deadline to submit thesis topic"
-        nominal: true
       - date: "2026-11-16"
         label: "Final registration date for Green light and Finalisation assessments"
       - date: "2027-01-04"
