@@ -1,3 +1,21 @@
+/* Violet tile colour (distinct from the other homepage tiles) */
+:root {
+	--bulma-violet-h: 270;
+	--bulma-violet-s: 100%;
+	--bulma-violet-60-l: 60%;
+	--bulma-violet-60-invert-l: 100%;
+	--bulma-violet-30-l: 30%;
+	--bulma-violet-30-invert-l: 100%;
+}
+
+.has-background-violet-60 {
+	background-color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-60-l)) !important;
+}
+
+.has-text-violet-60-invert {
+	color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-60-invert-l)) !important;
+}
+
 /* Dark mode via OS preference (unless user explicitly chose light) */
 @media (prefers-color-scheme: dark) {
 	html:not(.light-mode) .has-background-danger-60 {
@@ -62,6 +80,14 @@
 
 	html:not(.light-mode) {
 		--bulma-link-on-scheme-l: 75%;
+	}
+
+	html:not(.light-mode) .has-background-violet-60 {
+		background-color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-30-l)) !important;
+	}
+
+	html:not(.light-mode) .has-text-violet-60-invert {
+		color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-30-invert-l)) !important;
 	}
 }
 
@@ -153,6 +179,14 @@ html.dark-mode .has-text-white-invert {
 
 html.dark-mode .has-background-link-60 {
 	background-color: hsl(var(--bulma-link-h), var(--bulma-link-s), var(--bulma-link-30-l)) !important;
+}
+
+html.dark-mode .has-background-violet-60 {
+	background-color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-30-l)) !important;
+}
+
+html.dark-mode .has-text-violet-60-invert {
+	color: hsl(var(--bulma-violet-h), var(--bulma-violet-s), var(--bulma-violet-30-invert-l)) !important;
 }
 
 /* Light mode override (when user toggles to light on a dark OS) */

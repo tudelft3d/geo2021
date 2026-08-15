@@ -2,7 +2,7 @@
 layout: page
 title: "Rubric"
 permalink: /rubric/
-color: success-60
+color: primary-60
 logo: fa-table
 ---
 

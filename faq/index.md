@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ & tips
-color: primary-60
+color: violet-60
 logo: fa-question
 permalink: /faq/
 redirect_from:
