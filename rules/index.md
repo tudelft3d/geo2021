@@ -2,7 +2,7 @@
 layout: page
 title: "Info about the graduation phases"
 color: danger-60
-logo: fa-a
+logo: fa-route
 permalink: /rules/
 ---
 
