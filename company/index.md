@@ -16,45 +16,42 @@ permalink: /company/
 
 - - -
 
+## What a company-based thesis project is
 
-## Can I do my thesis work at a company?
+You can carry out your MSc thesis (GEO2022) in collaboration with a company or a government organisation.
+This has real advantages: you work on a practical problem, you get to know a potential employer, and they get to know you.
 
-Yes and no. That is, you are allowed to pick a topic that is/was proposed by a company.
-However, the main mentor of the project has to be a staff of the university and the project has to be a scientific one.
+It is important, however, to understand what such a project is — and what it is not:
 
-Working in collaboration with a company has many advantages (you get to know them, they get to know you) but it can also be problematic because more people need to agree on the topic (and finding one that is both scientific and useful for the company can be tricky).
-That being said, in the past years several students have done their graduation work in collaboration with a company and it went fine.
-Just keep in mind that the topic you choose to tackle has to have a clear scientific objective, just like other topics done at the university.
+- **It is a scientific project, first and foremost.** Just like any other thesis done at the university, your project must have a clear scientific objective, research questions, a theoretical justification, a sound methodology, and results that can be evaluated by academic standards. "Useful for the company" alone is not enough.
+- **It follows exactly the same rules as any other thesis.** The project goes through the same phases ([Kick-off](../rules/#kick-off), [Midterm](../rules/#midterm), [Green light](../rules/#green-light) and [Finalisation](../rules/#finalisation)), meets the same requirements regarding open science — including full reproducibility of your work — and is assessed with the same [rubric](../rubric/).
+- **It is supervised and assessed by TU Delft.** Your main mentor must be a member of the Geomatics staff and you still need a second supervisor from TU Delft. The company may suggest a subject, but the student retains full responsibility for the structure of the research: the objective, questions, theory, data acquisition and analysis are all part of the academic project.
+- **It is *not* an internship.** Your work should not be the regular work process of the company (attending meetings, carrying out operational tasks, etc.), and you should not use the graduation project simply to gain work experience — that is the purpose of the course [Geomatics in Practice](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49112).
 
-In the [potential topics]({{ "/potentialtopics/" | prepend: site.baseurl }}) we propose, there are a few where a company (or a public administration department) is involved.
-You can also propose yours if you have already contact.
+The official [Rules and guidelines for graduating at a company](O&S_rules_guidelines_graduating_company.pdf) from Education and Student Affairs apply on top of the [general graduation rules](../rules/).
 
-However, please do not contact directly companies that are not listed here, unless you already know someone there.
-The best way to graduate in collaboration with a company is to do it through a staff of Geomatics, they often have contacts with industry.
-Thus speak to a staff and ask if they have a good project with a company.
+## How to arrange a project with a company
 
-[This document explains the rules and guidelines.](O&S_rules_guidelines_graduating_company.pdf)
+1. **Start from a scientific topic.** Some of the topics in [the list of potential topics](../potentialtopics/) involve a company or a government organisation. You can also propose your own if you already have contact with an organisation — but the topic still needs to be approved by a Geomatics staff member who will act as your supervisor.
+2. **Go through a Geomatics staff member.** Please do not contact companies that are not listed on the potential topics page unless you already know someone there. Staff often have contacts in industry and can match you with a good project, so speak to them first.
+3. **Register the project early.** Mention that your thesis involves an external party when registering: there are additional pages to fill in [in MyCase](https://mycase.tudelft.nl) when submitting your graduation plan (see [Appendix VI of the Graduation Guide](../rules/#gradmanual)).
+4. **Sign the paperwork before you start.**
 
-- - -
+Keep in mind that more people need to agree on the topic — finding one that is both scientifically sound *and* useful for the company can be tricky. That said, many students have graduated in collaboration with a company successfully in recent years.
 
-## Project in a company == signing some paperwork from the TU Delft
+## Paperwork: the UNL internship agreement
 
-If you have a project with a company, the company, you, and the administration of the faculty need to fill out and sign the UNL Internship Agreement form (even though it is not an internship).
+If you do your graduation project at a company, you, the company and the administration of the faculty need to fill out and sign the UNL Internship Agreement form (even though the project is formally not an internship).
+
 You can find the form [here](https://www.tudelft.nl/en/student/a-be-student-portal/practical-affairs/forms) or [here](https://www.universiteitenvannederland.nl/onderwerpen/onderwijs/gemeenschappelijke-stageovereenkomst-universiteiten).
-This form should be signed by [Mieke Topsom](mailto:m.topsom@tudelft.nl), the manager education and student services at the faculty.
+The form should be signed by [Mieke Topsom](mailto:m.topsom@tudelft.nl), the manager education and student services at the faculty.
 
-- - -
+## Confidentiality, IP and open science
 
-## Is the graduation project an internship?
-
-No. 
-And you shouldn't use the graduation project to gain experience in a company, this is just not the goal. 
-If you want to gain experience in a company then there is the course [Geomatics in Practice](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=49112).
-
-- - - 
+A company-based thesis must remain an open, reproducible piece of academic work. Code and data should preferably be open and the thesis must contain enough detail to allow others to fully reproduce your work. The thesis is also published in the [TU Delft repository](../faq/) right after graduation.
 
 ## Can I be paid?
 
 Yes, if you're from the EU then it's possible.
 If you're not from the EU, then there are rules (maximum hours).
-Contact the Geomatics programme director for this.
+Contact the Geomatics programme director ([Hugo Ledoux](mailto:H.Ledoux@tudelft.nl)) for this.
