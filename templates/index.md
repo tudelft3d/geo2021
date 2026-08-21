@@ -42,7 +42,7 @@ It contains:
   - the research questions are clearly defined, along with the scope (ie what you will *not* be doing); to help you define a "good" research question, read [this document]( {{ '/templates/Research-Questions_WS-handout.pdf' | relative_url }})
   - overview of the methodology to be used;
   - time planning---having a [Gantt chart](https://en.wikipedia.org/wiki/Gantt_chart) is probably a better idea than just a list;
-  - since specific data and tools have to be used, it's good to present these concretely, so that the mentors know that you have a grasp of all aspects of the project;
+  - since specific data and tools have to be used, it's good to present these concretely, so that the supervisors know that you have a grasp of all aspects of the project;
   - the references.
 
 <section id="thesis">
