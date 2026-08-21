@@ -18,14 +18,7 @@ redirect_from:
 
 - - -
 
-- - -
-
-#### Which Graduation Manual applies to me?
-
-You have to follow the [rules]({{ "/rules/" | prepend: site.baseurl }}) (graduation guide) of the year when you started your graducation work.
-Even if it takes you 2+ years to complete, the rules that applied when you started are the rules that apply during your whole graduation process.
-
-However, note that the old graduation system (Ps, geo2020) is no longer available.
+## Process & administration
 
 - - -
 
@@ -37,52 +30,31 @@ Your second supervisor can be a scientific staff member from TU Delft whose expe
 
 - - -
 
-#### Is there a template for the final thesis?
+#### Can my thesis be written in Dutch?
 
-See [here]({{ "/templates/" | prepend: site.baseurl }}).
-
-- - -
-
-#### How to upload your final thesis to the TUD repository
-
-You must upload your final thesis + presentation slides after your Finalisation.
-This is important. If you forget, you will not get your diploma supplement (transcript)!
-
-[=> Instructions to upload your thesis](https://repository.tudelft.nl/content/education-upload-tips)
-
-To ensure that all theses from the MSc Geomatics can be easily found and that there is consistency between them, please follow these guidelines:
-
-![](img/uploadrepo.png){:width="400px"}
-
+No, it must be in English. And your presentations (Kick-off, Green light and Finalisation) must also all be made in English.
 
 - - -
 
-#### Can I put figures I have found in papers/theses/websites?
+#### Why do I need to write and submit a reflection?
 
-Yes. As long as you make it crystal clear that this is *not* your own figure and that you put a clear reference in the caption.
-Notice that if all your figures are taken from other sources, that gives the impression that you didn't develop your own solution.
-Even if you redraw or modify one figure from another paper, it is polite and good practice to cite the original source and explain the relationship to the original figure.
+__You do not need to write a separate reflection section__, this does not apply to the MSc Geomatics thesis, but to other programmes at BK.
 
-![](img/citefig.png)
+However, you are asked to integrate reflection throughout your thesis — for example, in the discussion and conclusion chapters, reflect on how your work relates to the MSc Geomatics programme and what you learned. This is different from a standalone reflection report.
 
-
-- - -
-
-#### Can I cite websites?
-
-Yes. If you want to reference to a piece of software or an article in a newspaper then citing the source with the URL is perfectly fine (add the date that it was last visited).
-Notice that it is however better to cite scientific articles and books since these have generally been peer-reviewed, and thus *should* be of higher quality and not contain errors. 
-This is of course not always the case, but as general rule it's better to cite articles first, and if there is no other sources than a website is okay.
+If you get (threatening) emails from the administration at BK asking for it: reply that it's not required for your study and CC the coordinator of the thesis (Ken Arroyo Ohori).
 
 - - -
 
-#### Am I allowed to "reuse" the work of others? When does it become plagiarism?
+#### How is the final thesis evaluated by the committee?
 
-Complex question to answer here.
-First, read the [TU Delft position about fraud and plagiarism](http://studenten.tudelft.nl/en/students/legal-position/fraud-plagiarism/what-is-fraud/), and if in doubt speak to your daily supervisor.
+The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in the Appendix IV of the Graduation Guide.
 
-There are [serious consequences](http://studenten.tudelft.nl/en/students/legal-position/fraud-plagiarism/consequences/) if you are caught using the work of others.
+[Download the rubric](../rubric/)
 
+- - -
+
+## Thesis content
 
 - - -
 
@@ -111,32 +83,6 @@ This plot shows the average number of pages of MSc theses at the University of M
 Geomatics is not in the list, but the average is clearly under 100, and in many fields a bit above 50.
 
 [![](http://i1.wp.com/flowingdata.com/wp-content/uploads/2015/06/Thesis-lengths.png?fit=620%2C9999)](http://flowingdata.com/2015/06/09/length-of-the-average-masters-thesis/)
-
-- - -
-
-#### Why do I need to write and submit a reflection?
-
-__You do not need to write a separate reflection section__, this does not apply to the MSc Geomatics thesis, but to other programmes at BK.
-
-However, you are asked to integrate reflection throughout your thesis — for example, in the discussion and conclusion chapters, reflect on how your work relates to the MSc Geomatics programme and what you learned. This is different from a standalone reflection report.
-
-If you get (threatening) emails from the administration at BK asking for it: reply that it's not required for your study and CC the coordinator of the thesis (Ken Arroyo Ohori).
-
-
-- - -
-
-#### Can my thesis be written in Dutch?
-
-No, it must be in English. And your presentations (Kick-off, Green light and Finalisation) must also all be made in English.
-
-- - -
-
-#### How is the final thesis evaluated by the committee?
-
-
-The evaluation criteria that will be used by the committee to mark the final thesis, also called a rubric, are available in the Appendix IV of the Graduation Guide.
-
-[Download the rubric](../rubric/)
 
 - - -
 
@@ -186,16 +132,31 @@ _7. Appendices_
 
 - - -
 
-#### Withdrawing from Kick-off
+#### Can I put figures I have found in papers/theses/websites?
 
-- Ask your responsible supervisor to withdraw your Kick-off registration in MyCase.
+Yes. As long as you make it crystal clear that this is *not* your own figure and that you put a clear reference in the caption.
+Notice that if all your figures are taken from other sources, that gives the impression that you didn't develop your own solution.
+Even if you redraw or modify one figure from another paper, it is polite and good practice to cite the original source and explain the relationship to the original figure.
+
+![](img/citefig.png)
+
 
 - - -
 
-#### Withdrawing from Green light
+#### Can I cite websites?
 
-- inform your supervisors and the delegate
-- send an email to graduation-bk@tudelft.nl stating your name and student number, and declare that you withdraw from Green light.
+Yes. If you want to reference to a piece of software or an article in a newspaper then citing the source with the URL is perfectly fine (add the date that it was last visited).
+Notice that it is however better to cite scientific articles and books since these have generally been peer-reviewed, and thus *should* be of higher quality and not contain errors. 
+This is of course not always the case, but as general rule it's better to cite articles first, and if there is no other sources than a website is okay.
+
+- - -
+
+#### Am I allowed to "reuse" the work of others? When does it become plagiarism?
+
+Complex question to answer here.
+First, read the [TU Delft position about fraud and plagiarism](http://studenten.tudelft.nl/en/students/legal-position/fraud-plagiarism/what-is-fraud/), and if in doubt speak to your daily supervisor.
+
+There are [serious consequences](http://studenten.tudelft.nl/en/students/legal-position/fraud-plagiarism/consequences/) if you are caught using the work of others.
 
 - - -
 
@@ -265,7 +226,7 @@ Be honest in reporting, ie highlight where your results are good, but do not for
 
 #### Use LaTeX and/or Overleaf (and not Word)
 
-We offer a [LaTeX template](https://github.com/tudelftgeomatics/thesis_template) and an [Overleaf template](https://www.overleaf.com/latex/templates/tudelft-msc-geomatics-template-for-final-thesis/bmwmzbyjpfvg) to help you start.
+See the [thesis templates](../templates/#thesis) we offer.
 Since you've learned to program in Python, LaTeX should take you no more than 2 days to master.
 These two days are worth it, your thesis most likely will be better structured, will look better, and will contain less errors.
 

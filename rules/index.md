@@ -21,6 +21,8 @@ permalink: /rules/
 ## The official graduation material
 
 Note that you have to follow the rules of the academic year when you started your graduation work.
+These rules apply during your whole graduation process, even if it takes you more than two years.
+Note also that the old graduation system (Ps, geo2020) is no longer available.
 
 - [Graduation guide 2025-2026](https://github.com/tudelftgeomatics/graduationguide/releases/download/2025.2026/gm_gg_2526.pdf)
 
@@ -81,6 +83,9 @@ A delegate of the Board of Examiners is appointed before the Green light. They c
 ## Finalisation
 
 1. At least one week before your Finalisation, upload your final thesis in [MyCase](https://mycase.tudelft.nl) (unless your responsible supervisor agrees otherwise) and perform the plagiarism scan in [Brightspace](https://brightspace.tudelft.nl/d2l/home/47493). Upload your Finalisation presentation in MyCase as well. <i class="fa-solid fa-triangle-exclamation"></i>  Make sure you do the "Ready for finalisation" task in MyCase so that your supervisors can look at your presentation and enter your result in the system.
-2. At least one day before your Finalisation, you have to upload your final thesis to the TU Delft repository, and please [follow these rules](../faq/#how-to-upload-your-final-thesis-to-the-tud-repository).  <i class="fa-solid fa-triangle-exclamation"></i> If you don't do it, you won't receive your diploma supplement.
+2. At least one day before your Finalisation, you have to upload your final thesis (and presentation slides) to the TU Delft repository ([=> instructions](https://repository.tudelft.nl/content/education-upload-tips)).  <i class="fa-solid fa-triangle-exclamation"></i> If you forget, you will not get your diploma supplement (transcript)!
+   To ensure that all theses from the MSc Geomatics can be easily found and that there is consistency between them, please follow these guidelines when filling in the metadata:
+
+   ![](../faq/img/uploadrepo.png){:width="400px"}
 3. At the Finalisation meeting, you will give a 20-minute technical presentation, adapted to an audience of fellow Geomatics students who are technically proficient but have not read your thesis. You will then answer questions from the co-reader, the second supervisor, and the responsible supervisor (in that order). A delegate of the Board of Examiners chairs the session. After the session, the committee deliberates, explains the final grade to you in private, and signs the diploma. Your final mark is decided by the two supervisors and the co-reader according to the [rubric](../rubric/): the supervisors assess the research, process and communication criteria, while the co-reader assesses the research and communication criteria only.
 4. Terminate your enrolment using [Studielink](http://www.studielink.nl/) and fill out the exit survey that was sent to your email by the Education Advice team (`educationadvice-bk@tudelft.nl`).
