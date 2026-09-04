@@ -24,8 +24,11 @@ The document for the Kick-off is a project proposal that must contain all the el
 
 *Ignore* any other template you might get from the central BK system if different, they send these emails without realising that Geomatics doesn't have the same criteria.
 
-You are free to write your project plan with the word processor of your choice (including LaTeX), as long as all the asked parts are present, in the same order.
-You can use that [simple LaTeX template](https://gist.github.com/hugoledoux/d16d5a4d397858ac745e38f9e8561657) as starting point.
+You are free to write your project plan with the word processor of your choice, as long as all the asked parts are present, in the same order.
+We offer two simple templates:
+
+1. Typst: <https://typst.app/project/rxxc6SF4azqbGIOgdoRANf>
+2. LaTeX: <https://gist.github.com/hugoledoux/d16d5a4d397858ac745e38f9e8561657>
 
 We expect a project plan to be around 10-15 pages (maximum).
 It should show that you clearly know the problem you plan to solve, and that you master the related work.
@@ -107,9 +110,8 @@ All other standard parts of an MSc thesis should be present: cover page with com
 ⚠️ WARNING: While this version of the MSc thesis will likely produce a shorter document, it is neither simpler nor faster. 
 We find it's quite the opposite, actually. Being able to summarise in 8000 words a complex topic is more difficult and more time-consuming than not being restricted by a specific word-count (as Blaise Pascal wrote: "[I would have written a shorter letter, but I did not have the time](https://en.wikiquote.org/wiki/Blaise_Pascal)). And deciding what is core and important and what can be left out is also a challenging task.
 
+Examples of MSc theses in Geomatics:
 
-Examples of MSc theses at TU Delft (none in geomatics since we are testing this for the first time in 2026):
-
-1. <https://repository.tudelft.nl/record/uuid:5abed208-efab-41dc-8462-9149c9c797ed>
-2. <https://repository.tudelft.nl/record/uuid:bdabb91d-6a43-4aac-bed7-6a4f4194310d> (notice that Part 2 is significantly longer and can be several chapters)
-3. <https://repository.tudelft.nl/record/uuid:68d3f999-c6f6-45ca-8209-d70a1fa00ef5>
+1. <https://repository.tudelft.nl/record/uuid:2fd2a861-a1f8-4b64-a02e-17a804b04bc6>
+2. <https://repository.tudelft.nl/record/uuid:a3876cb2-8740-4277-9292-d4f113de97b4>
+3. <https://repository.tudelft.nl/record/uuid:7602dac0-1b60-4ccd-bf67-e6d40b3e4da7>
